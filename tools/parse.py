@@ -15,11 +15,15 @@ INNER = re.compile(r"\{\{([^{}]*)\}\}")          # 가장 안쪽 틀
 
 POS = {"Noun", "Verb", "Adjective", "Adverb", "Determiner", "Pronoun", "Numeral",
        "Particle", "Suffix", "Prefix", "Interjection", "Conjunction", "Proper noun",
-       "Counter", "Postposition", "Syllable", "Root", "Phrase", "Affix"}
+       "Counter", "Postposition", "Syllable", "Root", "Phrase", "Affix",
+       # 글자 자체를 다루는 항목들 — 옛 자모와 방점이 여기 들어감
+       "Letter", "Symbol", "Ideophone", "Punctuation mark", "Infix", "Classifier"}
 
 # 그 자체가 뜻풀이 구실을 하는 틀
 REL = {
     "alternative form of": "다른 꼴", "alt form": "다른 꼴", "altform": "다른 꼴",
+    "alt form of": "다른 꼴", "altform of": "다른 꼴", "alternative of": "다른 꼴",
+    "okm-idu form of": "이두 표기", "idu form of": "이두 표기",
     "alternative spelling of": "다른 표기", "honorific alternative form of": "높임말",
     "synonym of": "같은 말", "abbreviation of": "준말", "contraction of": "줄어든 꼴",
     "inflection of": "활용형", "obsolete form of": "옛 표기",
@@ -46,8 +50,22 @@ def one_template(body):
     low = name.lower()
     if low in ("lb", "label", "tlb"):
         return "(" + ", ".join(pos[1:]) + ")" if len(pos) > 1 else ""
-    if low in ("n-g", "non-gloss definition", "ng", "gloss"):
+    if low in ("n-g", "non-gloss definition", "ng", "gloss", "non-gloss", "nongloss"):
         return pos[0] if pos else ""
+    if low == "ko-defn-jamo":                     # 합용병서 등 자모 결합
+        return " + ".join(pos) + " 가 합쳐진 자모" if pos else ""
+    if low == "ipafont":
+        return pos[0] if pos else ""
+    if low in ("okm-hanja form of", "hanja form of"):     # 한자로 적은 표기
+        tgt = pos[0] if pos else ""
+        mean = pos[1] if len(pos) > 1 else ""
+        return f"{tgt}의 한자 표기" + (f" — {mean}" if mean else "")
+    if low == "place":                                     # 지명·나라 이름
+        t = kw.get("t2") or kw.get("t") or ""
+        kind = pos[1] if len(pos) > 1 else ""
+        return (f"{t} ({kind})" if t and kind else t or kind)
+    if low in ("transclude", "tcl"):                        # 다른 문서에서 끌어온 뜻
+        return (pos[1] if len(pos) > 1 else pos[0] if pos else "")
     if low in REL:
         tgt = pos[1] if len(pos) > 1 else (pos[0] if pos else "")
         extra = kw.get("pos") or kw.get("from") or ""

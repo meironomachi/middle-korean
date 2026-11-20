@@ -136,6 +136,23 @@
   ]
  },
  {
+  "headword": "-ᅀᆞᇦ-",
+  "senses": [
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "A verbal suffix honoring the object (either direct or indirect) of the verb."
+    ],
+    "yale": "-zoW-"
+   }
+  ],
+  "modern": [
+   "-으옵-",
+   "-소",
+   "-요"
+  ]
+ },
+ {
   "headword": "-ᅀᆞ오-",
   "senses": [
    {
@@ -232,7 +249,7 @@
    {
     "pos": "Particle",
     "glosses": [
-     "of, -s",
+     "of, -s; [[genitive",
      "Used after another particle, especially the locative particles, to mark it as attributing the subsequent noun."
     ],
     "yale": "-s"
@@ -266,7 +283,7 @@
    {
     "pos": "Suffix",
     "glosses": [
-     "(archaic)"
+     "(archaic) necessity-marking suffix attached to a verb stem, equivalent to English \"it is fitting that...\""
     ],
     "yale": "-ms-"
    }
@@ -1079,7 +1096,7 @@
    {
     "pos": "Verb",
     "glosses": [
-     "(rare)"
+     "(rare) 가ᄌᆞᆯ〮비다〮의 다른 꼴"
     ],
     "written": "ᄀᆞᄌᆞᆯ〮비다〮"
    }
@@ -1242,6 +1259,26 @@
    {
     "work": null,
     "year": 1481
+   }
+  ]
+ },
+ {
+  "headword": "ᄀᆞᆷᄌᆞᆨ",
+  "senses": [
+   {
+    "pos": "Ideophone",
+    "glosses": [
+     "while closing one's eyes",
+     "budgingly; while moving one's body in a single motion",
+     "shockedly; in an emotionally agitated manner"
+    ],
+    "yale": "komcok"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 2010
    }
   ]
  },
@@ -1761,6 +1798,18 @@
   ]
  },
  {
+  "headword": "ᄃᆞ외다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "ᄃᆞᄫᆡ다의 다른 꼴"
+    ],
+    "written": "ᄃᆞ외다〮"
+   }
+  ]
+ },
+ {
   "headword": "ᄆᆞᄅᆞᆷ",
   "senses": [
    {
@@ -2175,7 +2224,7 @@
    {
     "pos": "Noun",
     "glosses": [
-     "(abstract noun) ; act of ...ing"
+     "(abstract noun) refers to the action of the verb itself; act of ...ing"
     ],
     "yale": "so"
    },
@@ -2444,6 +2493,21 @@
   ],
   "modern": [
    "새앙"
+  ]
+ },
+ {
+  "headword": "ᄌᆞᄂᆞᆨᄌᆞᄂᆞᆨ",
+  "senses": [
+   {
+    "pos": "Ideophone",
+    "glosses": [
+     "slowly and gently"
+    ],
+    "yale": "cònòkcònòk"
+   }
+  ],
+  "modern": [
+   "자늑자늑"
   ]
  },
  {
@@ -3579,6 +3643,520 @@
   ]
  },
  {
+  "headword": "ᇣ",
+  "senses": [
+   {
+    "pos": "Letter",
+    "glosses": [
+     "ㅂ + ㄹ 가 합쳐진 자모"
+    ],
+    "yale": "bl"
+   }
+  ]
+ },
+ {
+  "headword": "ᇮ",
+  "senses": [
+   {
+    "pos": "Letter",
+    "glosses": [
+     "A digraph of doubled ㆁ."
+    ],
+    "yale": "ngng"
+   }
+  ]
+ },
+ {
+  "headword": "〮",
+  "senses": [
+   {
+    "pos": "Symbol",
+    "glosses": [
+     "High-tone [◌́] pitch accent on a short vowel."
+    ],
+    "yale": "◌́"
+   }
+  ]
+ },
+ {
+  "headword": "〯",
+  "senses": [
+   {
+    "pos": "Symbol",
+    "glosses": [
+     "Rising-tone [◌̌] pitch accent on what would later become a long vowel."
+    ],
+    "yale": "◌̌"
+   }
+  ]
+ },
+ {
+  "headword": "ㅥ",
+  "senses": [
+   {
+    "pos": "Letter",
+    "glosses": [
+     "A digraph of ㄴ and ㄴ."
+    ],
+    "yale": "nn"
+   }
+  ]
+ },
+ {
+  "headword": "ㅦ",
+  "senses": [
+   {
+    "pos": "Letter",
+    "glosses": [
+     "A digraph of ㄴ and ㄷ."
+    ],
+    "yale": "nt"
+   }
+  ]
+ },
+ {
+  "headword": "ㅧ",
+  "senses": [
+   {
+    "pos": "Letter",
+    "glosses": [
+     "A digraph of ㄴ and ㅅ."
+    ],
+    "yale": "ns"
+   }
+  ]
+ },
+ {
+  "headword": "ㅨ",
+  "senses": [
+   {
+    "pos": "Letter",
+    "glosses": [
+     "A digraph of ㄴ and ㅿ."
+    ],
+    "yale": "nz"
+   }
+  ]
+ },
+ {
+  "headword": "ㅩ",
+  "senses": [
+   {
+    "pos": "Letter",
+    "glosses": [
+     "A trigraph of ㄹ, ㄱ, and ㅅ."
+    ],
+    "yale": "lks"
+   }
+  ]
+ },
+ {
+  "headword": "ㅪ",
+  "senses": [
+   {
+    "pos": "Letter",
+    "glosses": [
+     "A digraph of ㄹ and ㄷ."
+    ],
+    "yale": "lt"
+   }
+  ]
+ },
+ {
+  "headword": "ㅫ",
+  "senses": [
+   {
+    "pos": "Letter",
+    "glosses": [
+     "A trigraph of ㄹ, ㅂ, and ㅅ."
+    ],
+    "yale": "lps"
+   }
+  ]
+ },
+ {
+  "headword": "ㅬ",
+  "senses": [
+   {
+    "pos": "Letter",
+    "glosses": [
+     "A digraph of ㄹ and ㅿ."
+    ],
+    "yale": "lz"
+   }
+  ]
+ },
+ {
+  "headword": "ㅭ",
+  "senses": [
+   {
+    "pos": "Letter",
+    "glosses": [
+     "A digraph of ㄹ and ㆆ."
+    ],
+    "yale": "lq"
+   }
+  ]
+ },
+ {
+  "headword": "ㅮ",
+  "senses": [
+   {
+    "pos": "Letter",
+    "glosses": [
+     "A digraph of ㅁ and ㅂ."
+    ],
+    "yale": "mp"
+   }
+  ]
+ },
+ {
+  "headword": "ㅯ",
+  "senses": [
+   {
+    "pos": "Letter",
+    "glosses": [
+     "A digraph of ㅁ and ㅅ."
+    ],
+    "yale": "ms"
+   }
+  ]
+ },
+ {
+  "headword": "ㅰ",
+  "senses": [
+   {
+    "pos": "Letter",
+    "glosses": [
+     "A digraph of ㅁ and ㅿ."
+    ],
+    "yale": "mz"
+   }
+  ]
+ },
+ {
+  "headword": "ㅱ",
+  "senses": [
+   {
+    "pos": "Letter",
+    "glosses": [
+     "Used solely to transcribe the phoneme in Middle Chinese and Ryukyuan languages; used neither in native Middle Korean nor in Sino-Korean as actually pronounced."
+    ],
+    "yale": "w"
+   }
+  ]
+ },
+ {
+  "headword": "ㅳ",
+  "senses": [
+   {
+    "pos": "Letter",
+    "glosses": [
+     "A digraph of ㅂ and ㄷ."
+    ],
+    "yale": "pt"
+   }
+  ]
+ },
+ {
+  "headword": "ㅴ",
+  "senses": [
+   {
+    "pos": "Letter",
+    "glosses": [
+     "A trigraph of ㅂ, ㅅ, and ㄱ."
+    ],
+    "yale": "psk"
+   }
+  ]
+ },
+ {
+  "headword": "ㅵ",
+  "senses": [
+   {
+    "pos": "Letter",
+    "glosses": [
+     "A trigraph of ㅂ, ㅅ, and ㄷ."
+    ],
+    "yale": "pst"
+   }
+  ]
+ },
+ {
+  "headword": "ㅶ",
+  "senses": [
+   {
+    "pos": "Letter",
+    "glosses": [
+     "A digraph of ㅂ and ㅈ."
+    ],
+    "yale": "pc"
+   }
+  ]
+ },
+ {
+  "headword": "ㅷ",
+  "senses": [
+   {
+    "pos": "Letter",
+    "glosses": [
+     "A digraph of ㅂ and ㅌ."
+    ],
+    "yale": "pth"
+   }
+  ]
+ },
+ {
+  "headword": "ㅸ",
+  "senses": [
+   {
+    "pos": "Letter",
+    "glosses": [
+     "The sound known as , a voiced bilabial fricative; /β/. This vanished around 1480 when /β/ became /w/."
+    ],
+    "yale": "W"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1992
+   }
+  ]
+ },
+ {
+  "headword": "ㅹ",
+  "senses": [
+   {
+    "pos": "Letter",
+    "glosses": [
+     "A digraph intended to transcribe [v~β] in various forms of Chinese."
+    ],
+    "yale": "WW"
+   }
+  ]
+ },
+ {
+  "headword": "ㅺ",
+  "senses": [
+   {
+    "pos": "Letter",
+    "glosses": [
+     "A digraph of ㅅ and ㄱ."
+    ],
+    "yale": "sk"
+   }
+  ]
+ },
+ {
+  "headword": "ㅻ",
+  "senses": [
+   {
+    "pos": "Letter",
+    "glosses": [
+     "A digraph of ㅅ and ㄴ."
+    ],
+    "yale": "sn"
+   }
+  ]
+ },
+ {
+  "headword": "ㅼ",
+  "senses": [
+   {
+    "pos": "Letter",
+    "glosses": [
+     "A digraph of ㅅ and ㄷ."
+    ],
+    "yale": "st"
+   }
+  ]
+ },
+ {
+  "headword": "ㅽ",
+  "senses": [
+   {
+    "pos": "Letter",
+    "glosses": [
+     "A digraph of ㅅ and ㅂ."
+    ],
+    "yale": "sp"
+   }
+  ]
+ },
+ {
+  "headword": "ㆀ",
+  "senses": [
+   {
+    "pos": "Letter",
+    "glosses": [
+     "A digraph of ㅇ and ㅇ."
+    ],
+    "yale": "-"
+   }
+  ]
+ },
+ {
+  "headword": "ㆁ",
+  "senses": [
+   {
+    "pos": "Letter",
+    "glosses": [
+     "A letter representing the velar nasal, . Called 옛이응 in Modern Korean."
+    ],
+    "yale": "ng"
+   }
+  ],
+  "modern": [
+   "ㅇ"
+  ]
+ },
+ {
+  "headword": "ㆂ",
+  "senses": [
+   {
+    "pos": "Letter",
+    "glosses": [
+     "A digraph of ㆁ and ㅅ."
+    ],
+    "yale": "ngs"
+   }
+  ]
+ },
+ {
+  "headword": "ㆃ",
+  "senses": [
+   {
+    "pos": "Letter",
+    "glosses": [
+     "A digraph of ㆁ and ㅿ."
+    ],
+    "yale": "ngz"
+   }
+  ]
+ },
+ {
+  "headword": "ㆄ",
+  "senses": [
+   {
+    "pos": "Letter",
+    "glosses": [
+     "(not used after 1490) The voiceless bilabial fricative, . Used solely in representing the pronunciation of Chinese characters."
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ㆅ",
+  "senses": [
+   {
+    "pos": "Letter",
+    "glosses": [
+     "A digraph of ㅎ and ㅎ."
+    ],
+    "yale": "hh"
+   }
+  ]
+ },
+ {
+  "headword": "ㆆ",
+  "senses": [
+   {
+    "pos": "Letter",
+    "glosses": [
+     "Transcribes [ʔ] in Chinese. This was not a sound in Middle Korean.",
+     "Used to represent an archiphoneme which tenses the subsequent consonant."
+    ],
+    "yale": "q"
+   }
+  ]
+ },
+ {
+  "headword": "ㆇ",
+  "senses": [
+   {
+    "pos": "Letter",
+    "glosses": [
+     "A digraph of ㅛ and ㅑ."
+    ],
+    "yale": "ywa"
+   }
+  ]
+ },
+ {
+  "headword": "ㆈ",
+  "senses": [
+   {
+    "pos": "Letter",
+    "glosses": [
+     "A trigraph of ㅛ, ㅑ, and ㅣ."
+    ],
+    "yale": "yway"
+   }
+  ]
+ },
+ {
+  "headword": "ㆉ",
+  "senses": [
+   {
+    "pos": "Letter",
+    "glosses": [
+     "A digraph of ㅛ and ㅣ."
+    ],
+    "yale": "ywoy"
+   }
+  ]
+ },
+ {
+  "headword": "ㆊ",
+  "senses": [
+   {
+    "pos": "Letter",
+    "glosses": [
+     "A digraph of ㅠ and ㅕ, intended to transcribe certain triphthongs in Chinese without Korean equivalent, e.g. Middle Chinese [iuᴇ], [wiæ]."
+    ],
+    "yale": "ywe"
+   }
+  ]
+ },
+ {
+  "headword": "ㆋ",
+  "senses": [
+   {
+    "pos": "Letter",
+    "glosses": [
+     "A trigraph of ㅠ, ㅕ, and ㅣ, intended to transcribe certain triphthongs in Chinese without Korean equivalent, e.g. Middle Chinese [wei]."
+    ],
+    "yale": "ywey"
+   }
+  ]
+ },
+ {
+  "headword": "ㆌ",
+  "senses": [
+   {
+    "pos": "Letter",
+    "glosses": [
+     "A digraph of ㅠ and ㅣ."
+    ],
+    "yale": "ywuy"
+   }
+  ]
+ },
+ {
+  "headword": "㢱",
+  "senses": [
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "and의 이두 표기 (verbal connective suffix)"
+    ],
+    "yale": "-mye",
+    "written": "며"
+   }
+  ]
+ },
+ {
   "headword": "下直",
   "senses": [
    {
@@ -3603,6 +4181,27 @@
   ]
  },
  {
+  "headword": "中國",
+  "senses": [
+   {
+    "pos": "Proper noun",
+    "glosses": [
+     "China (country)"
+    ],
+    "written": "中(듀ᇰ)國(국〮)"
+   }
+  ],
+  "modern": [
+   "중국"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1459
+   }
+  ]
+ },
+ {
   "headword": "丷",
   "senses": [
    {
@@ -3612,6 +4211,19 @@
     ],
     "yale": "ho-",
     "written": "[[ᄒᆞ다"
+   }
+  ]
+ },
+ {
+  "headword": "乙",
+  "senses": [
+   {
+    "pos": "Particle",
+    "glosses": [
+     "ᄋᆞᆯ의 이두 표기 (accusative case marker)"
+    ],
+    "yale": "-ol",
+    "written": "ᄋᆞᆯ"
    }
   ]
  },
@@ -3654,6 +4266,22 @@
   ]
  },
  {
+  "headword": "天南星",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "tian nan xing"
+    ],
+    "yale": "THYÈN.NÀM.SYÈNG",
+    "written": "天(텬)南(남)星(셔ᇰ)"
+   }
+  ],
+  "modern": [
+   "천남성(天南星)"
+  ]
+ },
+ {
   "headword": "旀",
   "senses": [
    {
@@ -3685,6 +4313,62 @@
   ]
  },
  {
+  "headword": "波獨",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "board game of go의 이두 표기"
+    ],
+    "written": "波(바)獨(독〮)"
+   }
+  ]
+ },
+ {
+  "headword": "爲",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "ᄒᆞ]]의 이두 표기 (also a light verb deriving verbs and adjectives)"
+    ],
+    "yale": "ho-",
+    "written": "[[ᄒᆞ다〮"
+   }
+  ]
+ },
+ {
+  "headword": "舍翁",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "샤〯오ᇰ의 한자 표기 — husband"
+    ],
+    "written": "舍(샤〯)翁(오ᇰ)"
+   }
+  ]
+ },
+ {
+  "headword": "良中",
+  "senses": [
+   {
+    "pos": "Particle",
+    "glosses": [
+     "in; at; on의 이두 표기"
+    ],
+    "yale": "-ay",
+    "written": "애"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 2005
+   }
+  ]
+ },
+ {
   "headword": "赤葛",
   "senses": [
    {
@@ -3703,6 +4387,32 @@
   ]
  },
  {
+  "headword": "這",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "kind, variety의 이두 표기"
+    ],
+    "yale": "kàs",
+    "written": "갓"
+   }
+  ]
+ },
+ {
+  "headword": "遣",
+  "senses": [
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "and의 이두 표기"
+    ],
+    "yale": "-kwo",
+    "written": "고"
+   }
+  ]
+ },
+ {
   "headword": "阿郁",
   "senses": [
    {
@@ -3711,6 +4421,18 @@
      "아옥〮의 다른 표기 (hanja)"
     ],
     "yale": "àwók"
+   }
+  ]
+ },
+ {
+  "headword": "陰卵",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "음란〮의 한자 표기 — testicles"
+    ],
+    "written": "陰(음)卵(란〮)"
    }
   ]
  },
@@ -4339,6 +5061,22 @@
   ],
   "modern": [
    "간수하다"
+  ]
+ },
+ {
+  "headword": "갇",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "gat"
+    ],
+    "yale": "kát",
+    "written": "갇〮"
+   }
+  ],
+  "modern": [
+   "갓"
   ]
  },
  {
@@ -6233,6 +6971,23 @@
   ]
  },
  {
+  "headword": "구믈구믈",
+  "senses": [
+   {
+    "pos": "Ideophone",
+    "glosses": [
+     "moving slowly in succession",
+     "lazily, sluggishly",
+     "very wrigglingly"
+    ],
+    "yale": "kwumulkwumul"
+   }
+  ],
+  "modern": [
+   "구물구물"
+  ]
+ },
+ {
   "headword": "구의ᄒᆞ다",
   "senses": [
    {
@@ -6512,6 +7267,18 @@
   ],
   "modern": [
    "글월"
+  ]
+ },
+ {
+  "headword": "금즉",
+  "senses": [
+   {
+    "pos": "Ideophone",
+    "glosses": [
+     "ᄀᆞᆷᄌᆞᆨ의 다른 꼴, yin-vowel equivalent"
+    ],
+    "yale": "kumcuk"
+   }
   ]
  },
  {
@@ -8011,7 +8778,7 @@
    {
     "pos": "Noun",
     "glosses": [
-     "(hapax)"
+     "(hapax) 도토〮밤〯의 다른 꼴"
     ],
     "written": "도톨〮왐〮"
    }
@@ -8243,6 +9010,21 @@
   ],
   "modern": [
    "두르다"
+  ]
+ },
+ {
+  "headword": "두야머주저기",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "tian nan xing"
+    ],
+    "written": "두야〮머〮주〮저기〮"
+   }
+  ],
+  "modern": [
+   "두여머조자기"
   ]
  },
  {
@@ -8629,6 +9411,18 @@
   "modern": [
    "[[말#word",
    "[[말#unit"
+  ]
+ },
+ {
+  "headword": "말ᄉᆞᆷ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "말ᄊᆞᆷ의 다른 꼴"
+    ],
+    "written": "말〯ᄉᆞᆷ"
+   }
   ]
  },
  {
@@ -13911,6 +14705,24 @@
   ]
  },
  {
+  "headword": "팧",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "파〮의 다른 꼴"
+    ],
+    "written": "팧〮"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1489
+   }
+  ]
+ },
+ {
   "headword": "펴다",
   "senses": [
    {
@@ -14045,6 +14857,19 @@
      "(woodwind instruments) A double reed woodwind instrument with a cylindrical bamboo body, used in the classical and folk music of Korea."
     ],
     "written": "피〮리"
+   }
+  ]
+ },
+ {
+  "headword": "하ᄂᆞᆯ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "하ᄂᆞᆶ〮의 다른 꼴"
+    ],
+    "yale": "hànól",
+    "written": "하ᄂᆞᆯ〮"
    }
   ]
  },
@@ -14263,6 +15088,18 @@
      "to be worn out and torn"
     ],
     "written": "하〮야〮믜〮다〮"
+   }
+  ]
+ },
+ {
+  "headword": "하여ᄒᆞ다",
+  "senses": [
+   {
+    "pos": "Adjective",
+    "glosses": [
+     "하야ᄒᆞ다의 다른 꼴"
+    ],
+    "written": "하〮여〮ᄒᆞ〮다〮"
    }
   ]
  },
@@ -14549,6 +15386,36 @@
   ]
  },
  {
+  "headword": "해야ᄒᆞ다",
+  "senses": [
+   {
+    "pos": "Adjective",
+    "glosses": [
+     "하야ᄒᆞ다의 다른 꼴"
+    ],
+    "written": "해〮야ᄒᆞ〮다〮"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1481
+   }
+  ]
+ },
+ {
+  "headword": "해야로비",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "하야로비의 다른 꼴"
+    ],
+    "written": "해〮야〮로비〮"
+   }
+  ]
+ },
+ {
   "headword": "해자",
   "senses": [
    {
@@ -14749,7 +15616,7 @@
      "to argue, to dispute",
      "(with 숨 as subject) to pant",
      "(in compounds) to repeat (frequentative auxiliary)",
-     "(in compounds)"
+     "(in compounds) auxiliary of unclear meaning attached to verbs related to change of state or location"
     ],
     "yale": "hilhwuta"
    }
