@@ -1,0 +1,892 @@
+{
+  "meta": {
+    "title": "중세 한국어 문법 — 조사와 어미",
+    "scope": "후기 중세국어(15~16세기) 중심. 훈민정음 창제 이후 한글 문헌에 나타나는 형태를 기준으로 함",
+    "note": "rule 은 기계가 판정할 수 있게 적은 조건이고, env 는 같은 내용을 사람이 읽는 말로 적은 것임. 둘은 같은 조건을 가리킴",
+    "rule_keys": {
+      "ends": "앞 체언·어간의 끝. consonant=자음(받침), vowel=모음, vowel_i=ㅣ 모음, vowel_not_i=ㅣ 이외의 모음, l=ㄹ 받침",
+      "harmony": "앞 음절 모음의 모음조화 부류. yang=양성(ㅏ ㅗ ㆍ), yin=음성(ㅓ ㅜ ㅡ), neutral=중성(ㅣ)",
+      "animacy": "animate=유정명사(사람·짐승), inanimate=무정명사",
+      "honorific": "true=높임의 대상"
+    },
+    "sources": [
+      "한국어 위키백과 「중세 한국어」 (CC BY-SA 4.0) — 조사 표와 예문",
+      "표준적인 중세국어 문법 기술 — 어미 체계"
+    ]
+  },
+  "particles": [
+    {
+      "id": "nominative",
+      "name": "주격 조사",
+      "modern": "이/가",
+      "note": "현대어의 '가'는 중세국어에 없었음. 16세기 후반에야 나타남",
+      "forms": [
+        {
+          "form": "이",
+          "env": "자음으로 끝나는 체언 뒤",
+          "rule": {
+            "ends": "consonant"
+          },
+          "examples": [
+            {
+              "mk": "어린 百姓이",
+              "ko": "어리석은 백성이",
+              "src": "훈민정음 언해"
+            }
+          ]
+        },
+        {
+          "form": "ㅣ",
+          "env": "ㅣ 이외의 모음으로 끝난 체언 뒤 (앞 글자에 붙여 적음)",
+          "rule": {
+            "ends": "vowel_not_i"
+          },
+          "examples": [
+            {
+              "mk": "부톄 마조 나아 마ᄌᆞ샤",
+              "ko": "부처가 마주 나와 맞으시어",
+              "note": "부터 + ㅣ → 부톄"
+            },
+            {
+              "mk": "孔子ㅣ ᄆᆞᅀᆞᆯᄒᆡ 겨셔",
+              "ko": "공자가 마을에 계셔"
+            }
+          ]
+        },
+        {
+          "form": "∅",
+          "env": "ㅣ 모음으로 끝난 체언 뒤 — 아무것도 붙지 않음",
+          "rule": {
+            "ends": "vowel_i"
+          },
+          "examples": [
+            {
+              "mk": "불휘 기픈 남ᄀᆞᆫ",
+              "ko": "뿌리 깊은 나무는",
+              "src": "용비어천가 제2장"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "accusative",
+      "name": "목적격 조사",
+      "modern": "을/를",
+      "note": "모음조화와 받침 유무가 함께 작용해 네 형태로 갈림",
+      "forms": [
+        {
+          "form": "ᄋᆞᆯ",
+          "env": "양성 모음 + 자음으로 끝나는 체언 뒤",
+          "rule": {
+            "harmony": "yang",
+            "ends": "consonant"
+          },
+          "examples": [
+            {
+              "mk": "門ᄋᆞᆯ 다 ᄌᆞᄆᆞ고",
+              "ko": "문을 다 잠그고"
+            }
+          ]
+        },
+        {
+          "form": "을",
+          "env": "음성 모음 + 자음으로 끝나는 체언 뒤",
+          "rule": {
+            "harmony": "yin",
+            "ends": "consonant"
+          },
+          "examples": [
+            {
+              "mk": "王業을 여르시니",
+              "ko": "왕업을 여시니"
+            }
+          ]
+        },
+        {
+          "form": "ᄅᆞᆯ",
+          "env": "양성 모음으로 끝나는 체언 뒤",
+          "rule": {
+            "harmony": "yang",
+            "ends": "vowel"
+          },
+          "examples": [
+            {
+              "mk": "大愛道ᄅᆞᆯ 니르시니",
+              "ko": "대애도를 이르시니"
+            }
+          ]
+        },
+        {
+          "form": "를",
+          "env": "음성 모음으로 끝나는 체언 뒤",
+          "rule": {
+            "harmony": "yin",
+            "ends": "vowel"
+          },
+          "examples": [
+            {
+              "mk": "번게를 하ᄂᆞᆯ히 ᄇᆞᆯ기시니",
+              "ko": "번개를 하늘이 밝히시니"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "genitive",
+      "name": "관형격 조사",
+      "modern": "의",
+      "note": "유정/무정과 높임 여부에 따라 갈리는 것이 현대어와 가장 다른 점",
+      "forms": [
+        {
+          "form": "ㅅ",
+          "env": "무정명사 뒤",
+          "rule": {
+            "animacy": "inanimate"
+          },
+          "examples": [
+            {
+              "mk": "나랏 말ᄊᆞ미 中國에 달아",
+              "ko": "나라의 말이 중국과 달라",
+              "src": "훈민정음 언해"
+            }
+          ]
+        },
+        {
+          "form": "ㅅ",
+          "env": "유정명사라도 높여 이르는 대상 뒤",
+          "rule": {
+            "animacy": "animate",
+            "honorific": true
+          },
+          "examples": [
+            {
+              "mk": "님그ᇝ ᄆᆞᅀᆞᄆᆡ 邪ᄒᆞ며",
+              "ko": "임금의 마음이 사하며"
+            }
+          ]
+        },
+        {
+          "form": "ᄋᆡ",
+          "env": "양성 모음의 유정명사 뒤",
+          "rule": {
+            "animacy": "animate",
+            "harmony": "yang"
+          },
+          "examples": [
+            {
+              "mk": "ᄯᅩ 衆生ᄋᆡ 소ᄂᆞᆯ 자바",
+              "ko": "또 중생의 손을 잡아"
+            }
+          ]
+        },
+        {
+          "form": "의",
+          "env": "음성 모음의 유정명사 뒤",
+          "rule": {
+            "animacy": "animate",
+            "harmony": "yin"
+          },
+          "examples": [
+            {
+              "mk": "官員의 겨집 ᄃᆞ외요미ᅀᅡ",
+              "ko": "관원의 아내가 되는 것이야"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocative",
+      "name": "호격 조사",
+      "modern": "아/야/(이)시여",
+      "forms": [
+        {
+          "form": "아",
+          "env": "자음으로 끝나는 체언 뒤 — 예사",
+          "rule": {
+            "ends": "consonant"
+          }
+        },
+        {
+          "form": "야",
+          "env": "모음으로 끝나는 체언 뒤 — 예사",
+          "rule": {
+            "ends": "vowel"
+          }
+        },
+        {
+          "form": "하",
+          "env": "높이는 대상 뒤 — 존칭 호격",
+          "rule": {
+            "honorific": true
+          },
+          "note": "현대어에 대응 형태가 없음. 중세국어의 뚜렷한 특징",
+          "examples": [
+            {
+              "mk": "님금하",
+              "ko": "임금이시여"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "copula",
+      "name": "서술격 조사",
+      "modern": "이다",
+      "forms": [
+        {
+          "form": "이라",
+          "env": "자음으로 끝나는 체언 뒤",
+          "rule": {
+            "ends": "consonant"
+          }
+        },
+        {
+          "form": "ㅣ라",
+          "env": "ㅣ 이외의 모음으로 끝난 체언 뒤",
+          "rule": {
+            "ends": "vowel_not_i"
+          }
+        },
+        {
+          "form": "라",
+          "env": "ㅣ 모음으로 끝난 체언 뒤",
+          "rule": {
+            "ends": "vowel_i"
+          }
+        }
+      ],
+      "note": "서술격 조사 뒤에서는 선어말어미 '-오/우-'가 '-로-'로 바뀜"
+    },
+    {
+      "id": "locative",
+      "name": "부사격 조사 — 처소",
+      "modern": "에/에서",
+      "forms": [
+        {
+          "form": "애",
+          "env": "양성 모음 체언 뒤",
+          "rule": {
+            "harmony": "yang"
+          }
+        },
+        {
+          "form": "에",
+          "env": "음성 모음 체언 뒤",
+          "rule": {
+            "harmony": "yin"
+          }
+        },
+        {
+          "form": "예",
+          "env": "ㅣ 모음으로 끝난 체언 뒤",
+          "rule": {
+            "ends": "vowel_i"
+          }
+        },
+        {
+          "form": "ᄋᆡ",
+          "env": "일부 체언 뒤 — 특이 처소격(양성)",
+          "rule": {
+            "harmony": "yang",
+            "special": true
+          },
+          "examples": [
+            {
+              "mk": "ᄆᆞᅀᆞᆯᄒᆡ",
+              "ko": "마을에"
+            }
+          ]
+        },
+        {
+          "form": "의",
+          "env": "일부 체언 뒤 — 특이 처소격(음성)",
+          "rule": {
+            "harmony": "yin",
+            "special": true
+          }
+        }
+      ],
+      "note": "관형격 'ᄋᆡ/의'와 형태가 같아, 문맥으로 가려야 함"
+    },
+    {
+      "id": "instrumental",
+      "name": "부사격 조사 — 도구·방향",
+      "modern": "(으)로",
+      "forms": [
+        {
+          "form": "ᄋᆞ로",
+          "env": "양성 모음 + 자음으로 끝나는 체언 뒤",
+          "rule": {
+            "harmony": "yang",
+            "ends": "consonant"
+          }
+        },
+        {
+          "form": "으로",
+          "env": "음성 모음 + 자음으로 끝나는 체언 뒤",
+          "rule": {
+            "harmony": "yin",
+            "ends": "consonant"
+          }
+        },
+        {
+          "form": "로",
+          "env": "모음이나 ㄹ로 끝나는 체언 뒤",
+          "rule": {
+            "ends": "vowel_or_l"
+          }
+        }
+      ]
+    },
+    {
+      "id": "comitative",
+      "name": "부사격 조사 — 공동",
+      "modern": "와/과",
+      "forms": [
+        {
+          "form": "과",
+          "env": "자음으로 끝나는 체언 뒤",
+          "rule": {
+            "ends": "consonant"
+          }
+        },
+        {
+          "form": "와",
+          "env": "모음이나 ㄹ로 끝나는 체언 뒤",
+          "rule": {
+            "ends": "vowel_or_l"
+          }
+        }
+      ],
+      "note": "중세국어는 마지막 체언 뒤에도 '와/과'를 붙이는 일이 흔함 (예: 나모와 곳과를)"
+    },
+    {
+      "id": "topic",
+      "name": "보조사 — 주제·대조",
+      "modern": "은/는",
+      "forms": [
+        {
+          "form": "ᄋᆞᆫ",
+          "env": "양성 모음 + 자음으로 끝나는 체언 뒤",
+          "rule": {
+            "harmony": "yang",
+            "ends": "consonant"
+          },
+          "examples": [
+            {
+              "mk": "남ᄀᆞᆫ",
+              "ko": "나무는"
+            }
+          ]
+        },
+        {
+          "form": "은",
+          "env": "음성 모음 + 자음으로 끝나는 체언 뒤",
+          "rule": {
+            "harmony": "yin",
+            "ends": "consonant"
+          }
+        },
+        {
+          "form": "ᄂᆞᆫ",
+          "env": "양성 모음으로 끝나는 체언 뒤",
+          "rule": {
+            "harmony": "yang",
+            "ends": "vowel"
+          }
+        },
+        {
+          "form": "는",
+          "env": "음성 모음으로 끝나는 체언 뒤",
+          "rule": {
+            "harmony": "yin",
+            "ends": "vowel"
+          }
+        }
+      ]
+    }
+  ],
+  "prefinal_endings": {
+    "note": "선어말어미. 어간과 어말어미 사이에 들어가며, 아래 order 의 번호가 작을수록 어간에 가깝게 붙음",
+    "order": [
+      {
+        "slot": 1,
+        "id": "object_honorific",
+        "name": "객체 높임"
+      },
+      {
+        "slot": 2,
+        "id": "subject_honorific",
+        "name": "주체 높임"
+      },
+      {
+        "slot": 3,
+        "id": "tense",
+        "name": "시제·서법"
+      },
+      {
+        "slot": 4,
+        "id": "o_u",
+        "name": "-오/우-"
+      },
+      {
+        "slot": 5,
+        "id": "addressee_honorific",
+        "name": "상대 높임"
+      }
+    ],
+    "items": [
+      {
+        "id": "object_honorific",
+        "name": "객체 높임 선어말어미",
+        "modern": "대응 형태 없음 (현대어에서는 '드리다·뵙다' 같은 어휘로만 남음)",
+        "meaning": "목적어나 부사어로 나타나는 대상이 주어보다 높을 때 씀",
+        "origin": "고대 한국어 白 (*SOLPO-) 에서 온 것으로 봄. '사뢰다'의 옛말 'ᄉᆞᆲ다'와 이어짐",
+        "forms": [
+          {
+            "form": "-ᄉᆞᆸ-",
+            "yale": "-sǒp",
+            "env": "어간이 ㄱ ㅂ ㅅ 으로 끝나고 뒤에 자음이 올 때",
+            "rule": {
+              "stem_ends": [
+                "ㄱ",
+                "ㅂ",
+                "ㅅ"
+              ],
+              "next": "consonant"
+            }
+          },
+          {
+            "form": "-ᄉᆞᇦ-",
+            "yale": "-sòW",
+            "env": "어간이 ㄱ ㅂ ㅅ 으로 끝나고 뒤에 모음이 올 때",
+            "rule": {
+              "stem_ends": [
+                "ㄱ",
+                "ㅂ",
+                "ㅅ"
+              ],
+              "next": "vowel"
+            }
+          },
+          {
+            "form": "-ᄌᆞᆸ-",
+            "yale": "-cǒp",
+            "env": "어간이 ㄷ 으로 끝나고 뒤에 자음이 올 때",
+            "rule": {
+              "stem_ends": [
+                "ㄷ"
+              ],
+              "next": "consonant"
+            }
+          },
+          {
+            "form": "-ᄌᆞᇦ-",
+            "yale": "-còW",
+            "env": "어간이 ㄷ 으로 끝나고 뒤에 모음이 올 때",
+            "rule": {
+              "stem_ends": [
+                "ㄷ"
+              ],
+              "next": "vowel"
+            }
+          },
+          {
+            "form": "-ᄊᆞᆸ-",
+            "yale": "-ssǒp",
+            "env": "어간이 ㅎ 으로 끝나고 뒤에 자음이 올 때",
+            "rule": {
+              "stem_ends": [
+                "ㅎ"
+              ],
+              "next": "consonant"
+            }
+          },
+          {
+            "form": "-ᄊᆞᇦ-",
+            "yale": "-ssòW",
+            "env": "어간이 ㅎ 으로 끝나고 뒤에 모음이 올 때",
+            "rule": {
+              "stem_ends": [
+                "ㅎ"
+              ],
+              "next": "vowel"
+            }
+          },
+          {
+            "form": "-ᅀᆞᆸ-",
+            "yale": "-zǒp",
+            "env": "어간이 울림소리(모음·ㄴ·ㅁ·ㄹ)로 끝나고 뒤에 자음이 올 때",
+            "rule": {
+              "stem_ends": [
+                "vowel",
+                "ㄴ",
+                "ㅁ",
+                "ㄹ"
+              ],
+              "next": "consonant"
+            }
+          },
+          {
+            "form": "-ᅀᆞᇦ-",
+            "yale": "-zòW",
+            "env": "어간이 울림소리로 끝나고 뒤에 모음이 올 때",
+            "rule": {
+              "stem_ends": [
+                "vowel",
+                "ㄴ",
+                "ㅁ",
+                "ㄹ"
+              ],
+              "next": "vowel"
+            }
+          }
+        ],
+        "later_forms": {
+          "note": "15세기 중엽 이후 ㅸ(/β/)가 /w/로 약해지면서 모음 앞 이형태가 아래처럼도 나타남",
+          "forms": [
+            {
+              "form": "-ᄉᆞ오-",
+              "env": "양성 모음 앞",
+              "rule": {
+                "harmony": "yang"
+              }
+            },
+            {
+              "form": "-ᄉᆞ우-",
+              "env": "음성 모음 앞",
+              "rule": {
+                "harmony": "yin"
+              }
+            },
+            {
+              "form": "-ᄌᆞ오-",
+              "env": "양성 모음 앞",
+              "rule": {
+                "harmony": "yang"
+              }
+            },
+            {
+              "form": "-ᄌᆞ우-",
+              "env": "음성 모음 앞",
+              "rule": {
+                "harmony": "yin"
+              }
+            },
+            {
+              "form": "-ᅀᆞ오-",
+              "env": "양성 모음 앞",
+              "rule": {
+                "harmony": "yang"
+              }
+            },
+            {
+              "form": "-ᅀᆞ우-",
+              "env": "음성 모음 앞",
+              "rule": {
+                "harmony": "yin"
+              }
+            }
+          ]
+        },
+        "base_form": "-ᅀᆞᇦ-",
+        "source": "영어 위키낱말사전 '-ᅀᆞᇦ-' 항목의 이형태 표 (CC BY-SA 4.0)"
+      },
+      {
+        "id": "subject_honorific",
+        "name": "주체 높임 선어말어미",
+        "modern": "-시-",
+        "forms": [
+          {
+            "form": "-시-",
+            "env": "자음 앞",
+            "rule": {
+              "next": "consonant"
+            }
+          },
+          {
+            "form": "-샤-",
+            "env": "모음 앞",
+            "rule": {
+              "next": "vowel"
+            },
+            "examples": [
+              {
+                "mk": "마ᄌᆞ샤",
+                "ko": "맞으시어"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "addressee_honorific",
+        "name": "상대 높임 선어말어미",
+        "modern": "-습니다 의 '-ㅂ니-' 쪽으로 이어짐",
+        "forms": [
+          {
+            "form": "-ᅌᅵ-",
+            "env": "평서문에서 — ᄒᆞ쇼셔체",
+            "rule": {
+              "mood": "declarative"
+            }
+          },
+          {
+            "form": "-ᅌᅵᆺ-",
+            "env": "의문문에서 — ᄒᆞ쇼셔체",
+            "rule": {
+              "mood": "interrogative"
+            }
+          }
+        ]
+      },
+      {
+        "id": "tense",
+        "name": "시제·서법 선어말어미",
+        "forms": [
+          {
+            "form": "-ᄂᆞ-",
+            "meaning": "현재",
+            "modern": "-는-",
+            "examples": [
+              {
+                "mk": "ᄒᆞᄂᆞ다",
+                "ko": "한다"
+              }
+            ]
+          },
+          {
+            "form": "-더-",
+            "meaning": "과거 회상",
+            "modern": "-더-"
+          },
+          {
+            "form": "-리-",
+            "meaning": "미래·추측",
+            "modern": "-겠-, -리-"
+          },
+          {
+            "form": "-거-",
+            "meaning": "확인",
+            "note": "자동사·형용사 뒤"
+          },
+          {
+            "form": "-어-/-아-",
+            "meaning": "확인",
+            "note": "타동사 뒤"
+          },
+          {
+            "form": "-니-",
+            "meaning": "원칙·확인"
+          }
+        ]
+      },
+      {
+        "id": "o_u",
+        "name": "선어말어미 -오/우-",
+        "modern": "소멸",
+        "meaning": "화자의 의도를 나타낸다고 보는 견해가 널리 쓰임. 명사형·관형사형과 결합할 때도 나타남",
+        "forms": [
+          {
+            "form": "-오-",
+            "env": "양성 모음 어간 뒤",
+            "rule": {
+              "harmony": "yang"
+            }
+          },
+          {
+            "form": "-우-",
+            "env": "음성 모음 어간 뒤",
+            "rule": {
+              "harmony": "yin"
+            }
+          },
+          {
+            "form": "-로-",
+            "env": "서술격 조사 '이-' 뒤",
+            "rule": {
+              "after": "copula"
+            }
+          }
+        ],
+        "note": "분류를 두고 견해가 갈림. 16세기부터 흔들리다 근대국어에서 사라짐"
+      }
+    ]
+  },
+  "final_endings": {
+    "declarative": [
+      {
+        "form": "-다",
+        "modern": "-다"
+      },
+      {
+        "form": "-라",
+        "env": "선어말어미 -오/우-, -니-, 서술격 조사 뒤",
+        "modern": "-다"
+      }
+    ],
+    "interrogative": {
+      "note": "중세국어는 판정의문(예/아니오)과 설명의문(의문사에 답)을 어미로 구별함. 현대어에 없는 특징",
+      "items": [
+        {
+          "form": "-가",
+          "type": "판정의문",
+          "env": "체언 뒤 — 의문 보조사",
+          "examples": [
+            {
+              "mk": "이ᄂᆞᆫ 엇던 사ᄅᆞ민가"
+            }
+          ]
+        },
+        {
+          "form": "-고",
+          "type": "설명의문",
+          "env": "체언 뒤 — 의문 보조사. 의문사가 있을 때"
+        },
+        {
+          "form": "-녀/-니아",
+          "type": "판정의문",
+          "env": "용언 뒤"
+        },
+        {
+          "form": "-뇨/-니오",
+          "type": "설명의문",
+          "env": "용언 뒤. 의문사가 있을 때"
+        },
+        {
+          "form": "-ㄴ다",
+          "type": "2인칭 의문",
+          "env": "주어가 2인칭일 때",
+          "note": "인칭에 따라 어미가 달라지는 것도 현대어에 없는 특징"
+        }
+      ]
+    },
+    "imperative": [
+      {
+        "form": "-라",
+        "modern": "-아라/-어라"
+      },
+      {
+        "form": "-쇼셔",
+        "modern": "-십시오",
+        "note": "ᄒᆞ쇼셔체"
+      }
+    ],
+    "propositive": [
+      {
+        "form": "-져",
+        "modern": "-자"
+      },
+      {
+        "form": "-사이다",
+        "modern": "-ㅂ시다"
+      }
+    ],
+    "exclamatory": [
+      {
+        "form": "-ㄴ뎌",
+        "modern": "-구나"
+      },
+      {
+        "form": "-ㄹ쎠",
+        "modern": "-구나"
+      }
+    ]
+  },
+  "connective_endings": [
+    {
+      "form": "-고",
+      "meaning": "나열",
+      "modern": "-고"
+    },
+    {
+      "form": "-며",
+      "meaning": "나열",
+      "modern": "-며"
+    },
+    {
+      "form": "-나",
+      "meaning": "대조",
+      "modern": "-나"
+    },
+    {
+      "form": "-아/-어",
+      "meaning": "이어짐",
+      "modern": "-아/-어"
+    },
+    {
+      "form": "-니",
+      "meaning": "원인·조건",
+      "modern": "-니"
+    },
+    {
+      "form": "-ᄆᆞᆫ",
+      "meaning": "양보",
+      "modern": "-건만"
+    },
+    {
+      "form": "-디",
+      "meaning": "부정 앞",
+      "modern": "-지",
+      "examples": [
+        {
+          "mk": "가디 아니ᄒᆞ다",
+          "ko": "가지 아니하다"
+        }
+      ]
+    },
+    {
+      "form": "-ᄃᆡ",
+      "meaning": "설명",
+      "modern": "-되"
+    }
+  ],
+  "transformative_endings": {
+    "nominal": [
+      {
+        "form": "-옴/-움",
+        "modern": "-음",
+        "env": "모음조화에 따라 갈림",
+        "rule": {
+          "harmony": "both"
+        },
+        "note": "중세국어의 명사형은 '-오/우-'를 품고 있어 현대어 '-음'과 모양이 다름"
+      },
+      {
+        "form": "-기",
+        "modern": "-기"
+      },
+      {
+        "form": "-디",
+        "modern": "-기",
+        "note": "'어렵다·슬프다' 같은 말 앞에서"
+      }
+    ],
+    "adnominal": [
+      {
+        "form": "-ㄴ",
+        "meaning": "과거·완료",
+        "modern": "-ㄴ"
+      },
+      {
+        "form": "-ᄂᆞᆫ",
+        "meaning": "현재",
+        "modern": "-는"
+      },
+      {
+        "form": "-ㄹ",
+        "meaning": "미래",
+        "modern": "-ㄹ"
+      },
+      {
+        "form": "-던",
+        "meaning": "회상",
+        "modern": "-던"
+      }
+    ]
+  }
+}

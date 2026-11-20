@@ -1,0 +1,14773 @@
+[
+ {
+  "headword": "-ᄂᆞ-",
+  "senses": [
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "A suffix that indicates present, ongoing action. Commonly referred to as the processive suffix."
+    ]
+   }
+  ],
+  "modern": [
+   "-는-"
+  ]
+ },
+ {
+  "headword": "-ᄃᆞᆶ",
+  "senses": [
+   {
+    "pos": "Particle",
+    "glosses": [
+     "-s (indicating the plural of a noun)"
+    ],
+    "yale": "tólh",
+    "written": "ᄃᆞᆶ〮"
+   }
+  ],
+  "modern": [
+   "들"
+  ]
+ },
+ {
+  "headword": "-ᄅᆞᆯ",
+  "senses": [
+   {
+    "pos": "Particle",
+    "glosses": [
+     "-를〮의 다른 꼴 (accusative case marker, post-vowel allomorph)"
+    ],
+    "written": "-를〮"
+   }
+  ]
+ },
+ {
+  "headword": "-ᄉᆞᆸ-",
+  "senses": [
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "-ᅀᆞᇦ-의 다른 꼴 (object honorific marker for transitive verbs)"
+    ],
+    "yale": "-sǒp",
+    "written": "ᄉᆞᆸ〯"
+   }
+  ]
+ },
+ {
+  "headword": "-ᄋᆞᆯ",
+  "senses": [
+   {
+    "pos": "Particle",
+    "glosses": [
+     "-을〮의 다른 꼴 (Yang-vowel)"
+    ],
+    "written": "-을〮"
+   }
+  ]
+ },
+ {
+  "headword": "-ᄋᆞᆷ",
+  "senses": [
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "-음〮의 다른 꼴 (noun forming suffix)"
+    ],
+    "yale": "-om"
+   }
+  ],
+  "modern": [
+   "사람",
+   "삶"
+  ]
+ },
+ {
+  "headword": "-ᄒᆞ고",
+  "senses": [
+   {
+    "pos": "Particle",
+    "glosses": [
+     "and",
+     "with"
+    ],
+    "yale": "hokwo"
+   }
+  ],
+  "modern": [
+   "하고"
+  ]
+ },
+ {
+  "headword": "-ᄫᅳ-",
+  "senses": [
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "A suffix attaching to verbal stems to derive adjectives."
+    ],
+    "yale": "-Wù-"
+   }
+  ]
+ },
+ {
+  "headword": "-ᄫᆞ-",
+  "senses": [
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "-ᄫᅳ-의 다른 꼴 (adjective-deriving suffix)"
+    ],
+    "yale": "-Wò-"
+   }
+  ]
+ },
+ {
+  "headword": "-ᅀᅩ",
+  "senses": [
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "an adverbial suffix"
+    ],
+    "yale": "-zwò",
+    "written": "—ᅀᅩ"
+   }
+  ]
+ },
+ {
+  "headword": "-ᅀᆞ오-",
+  "senses": [
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "ᅀᆞᇦ의 다른 꼴 (object honorific marker)"
+    ],
+    "yale": "-zòw(ó)",
+    "written": "ᅀᆞ오〮"
+   }
+  ]
+ },
+ {
+  "headword": "-ᅌᅵᆺ가",
+  "senses": [
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "a polite yes-no question suffix."
+    ],
+    "written": "-ᅌᅵᆺ가〮"
+   }
+  ]
+ },
+ {
+  "headword": "-ᅌᅵᆺ고",
+  "senses": [
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "a polite wh-question suffix."
+    ],
+    "written": "-ᅌᅵᆺ고〮"
+   }
+  ]
+ },
+ {
+  "headword": "-ㄴ대",
+  "senses": [
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "When; as soon as"
+    ],
+    "written": "-ㄴ대〮"
+   }
+  ]
+ },
+ {
+  "headword": "-ㄴ뎌",
+  "senses": [
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "suffix used to exclaim or state a fact with certainty and emphasis."
+    ],
+    "written": "-ㄴ뎌〮"
+   }
+  ],
+  "modern": [
+   "-ㄴ저"
+  ]
+ },
+ {
+  "headword": "-ㄹ쎠",
+  "senses": [
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "suffix used to exclaim one's own emotion."
+    ],
+    "written": "-ㄹ쎠〮"
+   }
+  ],
+  "modern": [
+   "-ㄹ사"
+  ]
+ },
+ {
+  "headword": "-ㅂ-",
+  "senses": [
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "-ㅸ-의 다른 표기 (Pre-consonant allophonic)"
+    ],
+    "yale": "-p-"
+   }
+  ]
+ },
+ {
+  "headword": "-ㅅ",
+  "senses": [
+   {
+    "pos": "Particle",
+    "glosses": [
+     "of, -s",
+     "Used after another particle, especially the locative particles, to mark it as attributing the subsequent noun."
+    ],
+    "yale": "-s"
+   }
+  ],
+  "modern": [
+   "-ㅅ-"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 2011
+   }
+  ]
+ },
+ {
+  "headword": "-ㅭ",
+  "senses": [
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "-으ᇙ〮의 다른 꼴 (irrealis gerundive/adnominal suffix)"
+    ],
+    "yale": "-lq"
+   }
+  ]
+ },
+ {
+  "headword": "-ㅯ-",
+  "senses": [
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "(archaic)"
+    ],
+    "yale": "-ms-"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 2010
+   }
+  ]
+ },
+ {
+  "headword": "-ㅸ-",
+  "senses": [
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "-ᄫᅳ-의 다른 꼴 (suffix attaching to verbal stems to derive adjectives)"
+    ],
+    "yale": "-W-"
+   }
+  ]
+ },
+ {
+  "headword": "-거-",
+  "senses": [
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "A very common verbal suffix in fifteenth-century Middle Korean. There are two main competing hypotheses, and it is also possible that both hypotheses were simultaneously true in some capacity"
+    ],
+    "yale": "-ke-"
+   }
+  ]
+ },
+ {
+  "headword": "-거지라",
+  "senses": [
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "I want to ..."
+    ],
+    "written": "-거지〮라〮"
+   }
+  ]
+ },
+ {
+  "headword": "-고나",
+  "senses": [
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "suffix used to exclaim newly-learned information."
+    ],
+    "written": "-고〮나〮"
+   }
+  ],
+  "modern": [
+   "-구나"
+  ]
+ },
+ {
+  "headword": "-고녀",
+  "senses": [
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "suffix used to exclaim newly-learned information."
+    ],
+    "written": "-고〮녀〮"
+   }
+  ]
+ },
+ {
+  "headword": "-고져",
+  "senses": [
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "suffix used to express the subject's desire to do something."
+    ],
+    "written": "-고〮져〮"
+   }
+  ],
+  "modern": [
+   "-고자"
+  ]
+ },
+ {
+  "headword": "-곰",
+  "senses": [
+   {
+    "pos": "Particle",
+    "glosses": [
+     "(after a noun phrase) each by a certain amount or quantity",
+     "(after an adverbial phrase) An emphatic particle."
+    ],
+    "written": "-곰〮"
+   },
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "Expresses [[habitual aspect"
+    ],
+    "written": "-곰〮"
+   }
+  ],
+  "modern": [
+   "-금",
+   "다시금",
+   "-곤"
+  ]
+ },
+ {
+  "headword": "-곳",
+  "senses": [
+   {
+    "pos": "Particle",
+    "glosses": [
+     "(in conditional clauses) as long as (emphasizes that if the conditional holds true, the result is inescapable)",
+     "(outside conditional clauses) Perhaps an emphatic marker, or perhaps a marker limiting the clause; see contrasting analyses below. Typically used with adverbs of limitation, such as 오직."
+    ],
+    "yale": "-kwós",
+    "written": "곳〮"
+   }
+  ]
+ },
+ {
+  "headword": "-과뎌",
+  "senses": [
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "suffix used to express one's desire for another person to do something."
+    ],
+    "written": "-과〮뎌〮"
+   }
+  ]
+ },
+ {
+  "headword": "-기",
+  "senses": [
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "-ing, -ment, -tion; derives nouns from verbs and adjectives."
+    ],
+    "yale": "-kí",
+    "written": "-기〮"
+   }
+  ]
+ },
+ {
+  "headword": "-노소ᅌᅵ다",
+  "senses": [
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "A polite exclamatory sentence-final suffix, referring to ongoing action."
+    ],
+    "written": "-노〮소〮ᅌᅵ다〮"
+   }
+  ]
+ },
+ {
+  "headword": "-놋다",
+  "senses": [
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "An exclamatory sentence-final suffix, referring to an ongoing process."
+    ],
+    "written": "-놋〮다〮"
+   }
+  ],
+  "modern": [
+   "-는도다"
+  ]
+ },
+ {
+  "headword": "-뇨",
+  "senses": [
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "An interrogative suffix."
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "-다",
+  "senses": [
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "declarative mood sentence-final verbal suffix"
+    ],
+    "yale": "tá",
+    "written": "다〮"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1586
+   }
+  ]
+ },
+ {
+  "headword": "-더-",
+  "senses": [
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "A past imperfective aspect marker, denoting an action or state in the past which is perceived as continuous, loosely equivalent to English \"was [...]ing\". When used together with the conjectural suffix , it is loosely equivalent to English \"would be [...]ing\". Sometimes somewhat misleadingly called \"retrospective\" due to conflation with its modern descendant."
+    ],
+    "yale": "-té",
+    "written": "더〮"
+   }
+  ],
+  "modern": [
+   "-더-"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 2002
+   }
+  ]
+ },
+ {
+  "headword": "-도-",
+  "senses": [
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "Alternate form of -돗〮- occuring between a bare verb stem (except the copula) and 다〮."
+    ],
+    "written": "-도〮-"
+   }
+  ]
+ },
+ {
+  "headword": "-도다",
+  "senses": [
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "An exclamatory sentence-final suffix"
+    ],
+    "yale": "twótá",
+    "written": "도〮다〮"
+   }
+  ]
+ },
+ {
+  "headword": "-도소ᅌᅵ다",
+  "senses": [
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "A polite exclamatory sentence-final suffix."
+    ],
+    "written": "-도〮소〮ᅌᅵ다〮"
+   }
+  ]
+ },
+ {
+  "headword": "-돗-",
+  "senses": [
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "A suffix which expresses mirativity; indicates the speaker's surprise or the unpreparedness of their mind upon realizing or learning new information. Commonly called the emotive suffix."
+    ],
+    "written": "-돗〮-"
+   }
+  ]
+ },
+ {
+  "headword": "-로-",
+  "senses": [
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "Alternate form of that occurs following 이라.",
+     "Alternate form of that occurs following 이라, -으〮니〮- or -으〮리〮-, and followed by 다〮."
+    ],
+    "written": "-로〮-"
+   }
+  ]
+ },
+ {
+  "headword": "-롯-",
+  "senses": [
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "Alternate form of -돗〮- that occurs following 이라, -으〮니〮- or -으〮리〮-, and followed by something other than 다〮."
+    ],
+    "written": "-롯〮-"
+   }
+  ]
+ },
+ {
+  "headword": "-를",
+  "senses": [
+   {
+    "pos": "Particle",
+    "glosses": [
+     "-을〮의 다른 꼴 (accusative case marker)"
+    ],
+    "written": "-를〮"
+   }
+  ]
+ },
+ {
+  "headword": "-브-",
+  "senses": [
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "-ᄫᅳ-의 다른 꼴 (adjective-deriving suffix)"
+    ],
+    "yale": "-pù-"
+   }
+  ]
+ },
+ {
+  "headword": "-사ᅌᅵ다",
+  "senses": [
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "A deferential propositive suffix, used to make suggestions to a social superior."
+    ],
+    "yale": "sá.ngìtá",
+    "written": "사〮ᅌᅵ다〮"
+   }
+  ],
+  "modern": [
+   "-읍시다"
+  ]
+ },
+ {
+  "headword": "-식",
+  "senses": [
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "each, apiece, at a time: A suffix most commonly attaching to counters to denote some equal, regular distribution."
+    ],
+    "written": "-식〮"
+   }
+  ],
+  "modern": [
+   "-씩"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1525
+   }
+  ]
+ },
+ {
+  "headword": "-아ᇦ-",
+  "senses": [
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "-어ᇦ-의 다른 꼴 (adjective-deriving suffix)"
+    ],
+    "yale": "-aW-"
+   }
+  ]
+ },
+ {
+  "headword": "-압-",
+  "senses": [
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "-아ᇦ-의 다른 표기 (adjective-deriving suffix), used before consonants"
+    ],
+    "yale": "-ap-"
+   }
+  ]
+ },
+ {
+  "headword": "-앗-",
+  "senses": [
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "-돗〮-의 다른 꼴 (emotive suffix) that occurs following -으시〮-"
+    ],
+    "written": "-앗〮-"
+   }
+  ]
+ },
+ {
+  "headword": "-어ᇦ-",
+  "senses": [
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "A suffix attaching to verbal stems ending in ㅣ or ㄹ to derive adjectives."
+    ],
+    "yale": "-aW-",
+    "written": "-아ᇦ-"
+   }
+  ]
+ },
+ {
+  "headword": "-엄",
+  "senses": [
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "-음〮의 다른 꼴 (noun forming suffix)"
+    ],
+    "yale": "-em"
+   }
+  ],
+  "modern": [
+   "무덤",
+   "묻음",
+   "주검",
+   "죽음"
+  ]
+ },
+ {
+  "headword": "-오",
+  "senses": [
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "-우의 다른 꼴 (adverb-deriving suffix)"
+    ],
+    "yale": "-wo"
+   },
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "-고〮의 다른 꼴 (verbal connective suffix) (in certain voiced environments)"
+    ],
+    "yale": "-Gwó",
+    "written": "오〮"
+   },
+   {
+    "pos": "Particle",
+    "glosses": [
+     "-고〮의 다른 꼴 (non-polar interrogative marker) (in certain voiced environments)"
+    ],
+    "yale": "-(G)wó",
+    "written": "오〮"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 2011
+   }
+  ]
+ },
+ {
+  "headword": "-오-",
+  "senses": [
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "-우〮-의 다른 꼴 (modulator suffix)"
+    ],
+    "yale": "-wó-",
+    "written": "오〮"
+   },
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "-우〮-의 다른 꼴 (causative suffix)"
+    ],
+    "yale": "-(G)wó-",
+    "written": "-오〮-"
+   }
+  ]
+ },
+ {
+  "headword": "-오ᄃᆡ",
+  "senses": [
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "suffix used to connect two clauses with general and specific information.",
+     "suffix used to introduce a quotation."
+    ],
+    "written": "-오〮ᄃᆡ〮"
+   }
+  ],
+  "modern": [
+   "-되"
+  ]
+ },
+ {
+  "headword": "-오마",
+  "senses": [
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "Sentence-ending suffix used to promise to do something to the listener."
+    ],
+    "written": "-오〮마〮"
+   }
+  ],
+  "modern": [
+   "-으마"
+  ]
+ },
+ {
+  "headword": "-옷-",
+  "senses": [
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "Alternative form of -돗〮- that occurs following -ᄂᆞ-, -더〮-, or -거-."
+    ],
+    "written": "-옷〮-"
+   },
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "Optional verbal suffix that indicates that the subject is plural."
+    ],
+    "written": "-옷〮-"
+   }
+  ]
+ },
+ {
+  "headword": "-우",
+  "senses": [
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "An adverb-deriving suffix attached to verb and adjective stems."
+    ],
+    "yale": "-wu"
+   }
+  ]
+ },
+ {
+  "headword": "-우-",
+  "senses": [
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "A very common verbal suffix in fifteenth-century Middle Korean, sometimes called the \"modulator\" in English."
+    ],
+    "yale": "-wú-",
+    "written": "우〮"
+   },
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "A causative-deriving suffix attached to verb and adjective stems."
+    ],
+    "yale": "-Gwú-",
+    "written": "-우"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 2011
+   }
+  ]
+ },
+ {
+  "headword": "-우라",
+  "senses": [
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "A first person subject declarative suffix"
+    ],
+    "written": "우〮라〮"
+   }
+  ]
+ },
+ {
+  "headword": "-으ᅌᅵ-",
+  "senses": [
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "Verbal suffix showing politeness towards the listener."
+    ],
+    "written": "-으〮ᅌᅵ-"
+   }
+  ]
+ },
+ {
+  "headword": "-으ᅌᅵ다",
+  "senses": [
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "a polite declarative mood sentence-final verbal suffix."
+    ],
+    "written": "-으〮ᅌᅵ다〮"
+   }
+  ]
+ },
+ {
+  "headword": "-으쇼셔",
+  "senses": [
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "a polite imperative suffix."
+    ],
+    "written": "-으쇼〮셔〮"
+   }
+  ],
+  "modern": [
+   "-으소서"
+  ]
+ },
+ {
+  "headword": "-으시-",
+  "senses": [
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "A suffix which expresses respect towards the grammatical subject; the subject-honorific suffix"
+    ],
+    "written": "-으시〮-"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1459
+   }
+  ]
+ },
+ {
+  "headword": "-은다",
+  "senses": [
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "Suffix used for asking a question about the listener."
+    ],
+    "written": "-은〮다〮"
+   }
+  ]
+ },
+ {
+  "headword": "-을",
+  "senses": [
+   {
+    "pos": "Particle",
+    "glosses": [
+     "Accusative case marker."
+    ],
+    "written": "-을〮"
+   }
+  ],
+  "modern": [
+   "을"
+  ]
+ },
+ {
+  "headword": "-이-",
+  "senses": [
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "a verbal suffix deriving causative verbs."
+    ],
+    "written": "-이〮-"
+   },
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "a verbal suffix deriving causative verbs."
+    ],
+    "written": "-g이〮-"
+   }
+  ],
+  "modern": [
+   "-이-",
+   "-리-"
+  ]
+ },
+ {
+  "headword": "-이나",
+  "senses": [
+   {
+    "pos": "Particle",
+    "glosses": [
+     "just instead of something else"
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "-즉",
+  "senses": [
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "A suffix deriving ideophonic roots."
+    ],
+    "yale": "-cuk",
+    "written": "—즉"
+   }
+  ]
+ },
+ {
+  "headword": "-하",
+  "senses": [
+   {
+    "pos": "Particle",
+    "glosses": [
+     "(honorific) O honorable..."
+    ],
+    "yale": "-há",
+    "written": "-하〮"
+   }
+  ]
+ },
+ {
+  "headword": "ᄀᆞᄅᆞ",
+  "senses": [
+   {
+    "pos": "Adverb",
+    "glosses": [
+     "across"
+    ]
+   },
+   {
+    "pos": "Adverb",
+    "glosses": [
+     "powder"
+    ],
+    "yale": "kòlò"
+   }
+  ],
+  "modern": [
+   "가로",
+   "가루"
+  ]
+ },
+ {
+  "headword": "ᄀᆞᄅᆞᄫᅵ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "drizzle"
+    ],
+    "yale": "kòlòWí",
+    "written": "ᄀᆞᄅᆞᄫᅵ〮"
+   }
+  ],
+  "modern": [
+   "가랑비"
+  ]
+ },
+ {
+  "headword": "ᄀᆞᄅᆞᆷ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "large freshwater body"
+    ],
+    "written": "ᄀᆞᄅᆞᆷ〮"
+   }
+  ],
+  "modern": [
+   "가람"
+  ]
+ },
+ {
+  "headword": "ᄀᆞᄅᆞ치다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to point towards",
+     "to teach",
+     "to command"
+    ],
+    "yale": "kòlòchítá",
+    "written": "ᄀᆞᄅᆞ치〮다〮"
+   }
+  ],
+  "modern": [
+   "가르치다",
+   "가리키다"
+  ]
+ },
+ {
+  "headword": "ᄀᆞᄌᆞᆯ비다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "(rare)"
+    ],
+    "written": "ᄀᆞᄌᆞᆯ〮비다〮"
+   }
+  ]
+ },
+ {
+  "headword": "ᄀᆞᅀᆞᆯ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "ᄀᆞᅀᆞᆶ의 다른 표기 (isolated form)"
+    ],
+    "yale": "kozol"
+   }
+  ]
+ },
+ {
+  "headword": "ᄀᆞᅀᆞᆶ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "autumn, fall"
+    ]
+   }
+  ],
+  "modern": [
+   "가을"
+  ]
+ },
+ {
+  "headword": "ᄀᆞᅀᆞᆷ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "fabric"
+    ],
+    "yale": "kòzòm"
+   }
+  ],
+  "modern": [
+   "감"
+  ]
+ },
+ {
+  "headword": "ᄀᆞᅀᆞᆷ알다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to manage"
+    ]
+   }
+  ],
+  "modern": [
+   "가말다"
+  ]
+ },
+ {
+  "headword": "ᄀᆞᆫ쟈ᇰ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "soy sauce"
+    ],
+    "written": "ᄀᆞᆫ〮쟈ᇰ〯"
+   }
+  ],
+  "modern": [
+   "간장"
+  ]
+ },
+ {
+  "headword": "ᄀᆞᆮ다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to say"
+    ],
+    "written": "ᄀᆞᆮ다〮"
+   }
+  ],
+  "modern": [
+   "가로다"
+  ]
+ },
+ {
+  "headword": "ᄀᆞᆯ다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to change, to switch"
+    ],
+    "written": "ᄀᆞᆯ다〮"
+   },
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to grind"
+    ],
+    "written": "ᄀᆞᆯ〮다〮"
+   },
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to say"
+    ],
+    "written": "ᄀᆞᆯ다〮"
+   }
+  ],
+  "modern": [
+   "갈다",
+   "가로다"
+  ]
+ },
+ {
+  "headword": "ᄀᆞᆲ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "fold; layer"
+    ],
+    "yale": "kólp",
+    "written": "ᄀᆞᆲ〮"
+   }
+  ],
+  "modern": [
+   "겹"
+  ]
+ },
+ {
+  "headword": "ᄀᆞᆲ다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "(transitive) to equal; to make parallel",
+     "(intransitive) to be equal; to be parallel"
+    ],
+    "yale": "kǒlptá",
+    "written": "ᄀᆞᆲ〯다〮"
+   }
+  ],
+  "modern": [
+   "가루다",
+   "der=1",
+   "scallop",
+   "rib",
+   "fold",
+   "layer",
+   "page"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1481
+   }
+  ]
+ },
+ {
+  "headword": "ᄀᆞᆷ다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to close one's eyes"
+    ],
+    "yale": "komta"
+   },
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to wash oneself; to bathe"
+    ],
+    "yale": "komta"
+   }
+  ],
+  "modern": [
+   "감다"
+  ]
+ },
+ {
+  "headword": "ᄀᆞᆺ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "ᄀᆞᇫ〯의 다른 표기 (isolated form)"
+    ],
+    "yale": "kǒs",
+    "written": "ᄀᆞᆺ〯"
+   }
+  ]
+ },
+ {
+  "headword": "ᄀᆞᆺᄇᆞ다",
+  "senses": [
+   {
+    "pos": "Adjective",
+    "glosses": [
+     "to be short of breath"
+    ],
+    "written": "ᄀᆞᆺᄇᆞ다〮"
+   }
+  ],
+  "modern": [
+   "가쁘다"
+  ]
+ },
+ {
+  "headword": "ᄀᆞᆺ다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to cut"
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ᄀᆞᇫ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "edge; boundary"
+    ],
+    "written": "ᄀᆞᇫ〯"
+   }
+  ],
+  "modern": [
+   "가"
+  ]
+ },
+ {
+  "headword": "ᄀᆞᇫ애",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "scissors"
+    ],
+    "yale": "kòzGáy",
+    "written": "ᄀᆞᇫ애〮"
+   }
+  ],
+  "modern": [
+   "가위"
+  ]
+ },
+ {
+  "headword": "ᄀᆞ올",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "ᄀᆞ옳의 다른 표기 (isolated form)"
+    ],
+    "yale": "kòwòl"
+   }
+  ]
+ },
+ {
+  "headword": "ᄀᆞ옳",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "district"
+    ]
+   }
+  ],
+  "modern": [
+   "고을"
+  ]
+ },
+ {
+  "headword": "ᄀᆞ자ᇰ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "edge, extent"
+    ],
+    "written": "ᄀᆞ자ᇰ〮"
+   },
+   {
+    "pos": "Adverb",
+    "glosses": [
+     "to a great extent; very much",
+     "the most"
+    ],
+    "written": "ᄀᆞ자ᇰ〮"
+   }
+  ],
+  "modern": [
+   "가장",
+   "가장자리",
+   "-껏",
+   "-까지"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1459
+   },
+   {
+    "work": null,
+    "year": 1447
+   },
+   {
+    "work": null,
+    "year": 1518
+   }
+  ]
+ },
+ {
+  "headword": "ᄀᆞ재",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "axle"
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ᄀᆞ티",
+  "senses": [
+   {
+    "pos": "Adverb",
+    "glosses": [
+     "with, together"
+    ],
+    "yale": "kothi"
+   }
+  ],
+  "modern": [
+   "같이"
+  ]
+ },
+ {
+  "headword": "ᄂᆞᄆᆞᆶ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "edible plants; greens; herbs"
+    ],
+    "yale": "nòmòlh"
+   }
+  ],
+  "modern": [
+   "나물"
+  ]
+ },
+ {
+  "headword": "ᄂᆞᆯ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "ᄂᆞᆶ〮의 다른 표기 (isolated form)"
+    ],
+    "yale": "nól",
+    "written": "ᄂᆞᆯ〮"
+   }
+  ]
+ },
+ {
+  "headword": "ᄂᆞᆶ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "blade, edge"
+    ],
+    "written": "ᄂᆞᆶ〮"
+   }
+  ],
+  "modern": [
+   "[[날#blade"
+  ]
+ },
+ {
+  "headword": "ᄂᆞᆺ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "ᄂᆞᆾ의 다른 표기 (isolated form)"
+    ],
+    "yale": "nòs"
+   }
+  ]
+ },
+ {
+  "headword": "ᄂᆞᆺ갑다",
+  "senses": [
+   {
+    "pos": "Adjective",
+    "glosses": [
+     "to be low"
+    ],
+    "written": "ᄂᆞᆺ갑〯-다〮"
+   }
+  ]
+ },
+ {
+  "headword": "ᄂᆞᆾ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "face"
+    ]
+   }
+  ],
+  "modern": [
+   "낯"
+  ]
+ },
+ {
+  "headword": "ᄂᆞ올",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "poison"
+    ],
+    "yale": "nowol"
+   }
+  ]
+ },
+ {
+  "headword": "ᄂᆡ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "smoke",
+     "mist"
+    ],
+    "written": "ᄂᆡ〮"
+   }
+  ],
+  "modern": [
+   "[[내#smoke"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1481
+   }
+  ]
+ },
+ {
+  "headword": "ᄂᆡᅀᅵᆯ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "tomorrow"
+    ],
+    "yale": "noyzil"
+   }
+  ],
+  "modern": [
+   "내일"
+  ]
+ },
+ {
+  "headword": "ᄃᆞᄆᆞ다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to submerge"
+    ],
+    "written": "ᄃᆞᄆᆞ다〮"
+   }
+  ],
+  "modern": [
+   "담그다"
+  ]
+ },
+ {
+  "headword": "ᄃᆞᄫᆡ다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to become"
+    ],
+    "written": "ᄃᆞᄫᆡ다〮"
+   }
+  ],
+  "modern": [
+   "되다"
+  ]
+ },
+ {
+  "headword": "ᄃᆞᆮ니다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to go"
+    ],
+    "written": "ᄃᆞᆮ니〮다〮"
+   }
+  ],
+  "modern": [
+   "다니다"
+  ]
+ },
+ {
+  "headword": "ᄃᆞᆯ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "moon",
+     "month"
+    ],
+    "written": "ᄃᆞᆯ〮"
+   }
+  ],
+  "modern": [
+   "달"
+  ]
+ },
+ {
+  "headword": "ᄃᆞᆯᄋᆡ다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to pull"
+    ],
+    "written": "ᄃᆞᆯᄋᆡ〮다〮"
+   }
+  ],
+  "modern": [
+   "다리다"
+  ]
+ },
+ {
+  "headword": "ᄃᆞᆰ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "chicken"
+    ],
+    "yale": "tòlk"
+   }
+  ],
+  "modern": [
+   "닭"
+  ]
+ },
+ {
+  "headword": "ᄃᆞᆷ다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to be submerged"
+    ],
+    "written": "ᄃᆞᆷ〮다〮"
+   }
+  ],
+  "modern": [
+   "담그다"
+  ]
+ },
+ {
+  "headword": "ᄃᆞᆺᄃᆞᆺᄒᆞ다",
+  "senses": [
+   {
+    "pos": "Adjective",
+    "glosses": [
+     "(to be) warm"
+    ]
+   }
+  ],
+  "modern": [
+   "따뜻하다"
+  ]
+ },
+ {
+  "headword": "ᄃᆞᆺᄒᆞ다",
+  "senses": [
+   {
+    "pos": "Adjective",
+    "glosses": [
+     "to be warm"
+    ],
+    "written": "ᄃᆞᆺᄒᆞ다〮"
+   }
+  ],
+  "modern": [
+   "다스하다",
+   "ᄯᆞᆺᄯᆞᆺᄒᆞ다",
+   "듯듯ᄒᆞ다"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1466
+   }
+  ]
+ },
+ {
+  "headword": "ᄃᆞᆺ다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to love, especially non-romantically or excessively",
+     "to long for"
+    ],
+    "written": "ᄃᆞᆺ〯다〮"
+   }
+  ]
+ },
+ {
+  "headword": "ᄃᆞᇫ오다",
+  "senses": [
+   {
+    "pos": "Adjective",
+    "glosses": [
+     "to be lovable",
+     "to be pitiful, pathetic"
+    ],
+    "yale": "tǒzGwòtá",
+    "written": "ᄃᆞᇫ〯오다〮"
+   }
+  ]
+ },
+ {
+  "headword": "ᄃᆞᇰᄀᆡ다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to pull"
+    ],
+    "written": "ᄃᆞᇰᄀᆡ〮다〮"
+   }
+  ],
+  "modern": [
+   "당기다"
+  ]
+ },
+ {
+  "headword": "ᄃᆞ리다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "(transitive) to bring along, to take with oneself"
+    ],
+    "yale": "tòlítá",
+    "written": "ᄃᆞ리〮다〮"
+   }
+  ],
+  "modern": [
+   "데리다"
+  ]
+ },
+ {
+  "headword": "ᄆᆞᄅᆞᆷ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "supervisor of a tenant farm"
+    ],
+    "written": "ᄆᆞᄅᆞᆷ〮"
+   }
+  ],
+  "modern": [
+   "마름"
+  ]
+ },
+ {
+  "headword": "ᄆᆞᄎᆞᆷ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "the end, the last thing"
+    ]
+   },
+   {
+    "pos": "Noun",
+    "glosses": [
+     "a scroll, a volume"
+    ]
+   }
+  ],
+  "modern": [
+   "마지막"
+  ]
+ },
+ {
+  "headword": "ᄆᆞᅀᆞᆶ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "village"
+    ]
+   }
+  ],
+  "modern": [
+   "마을"
+  ]
+ },
+ {
+  "headword": "ᄆᆞᅀᆞᆷ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "mind, heart emotional state",
+     "heart physical organ"
+    ],
+    "yale": "mòzòm"
+   }
+  ],
+  "modern": [
+   "마음"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1459
+   },
+   {
+    "work": null,
+    "year": 1466
+   },
+   {
+    "work": null,
+    "year": 1527
+   }
+  ]
+ },
+ {
+  "headword": "ᄆᆞᆯ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "horse"
+    ],
+    "yale": "mòl"
+   },
+   {
+    "pos": "Noun",
+    "glosses": [
+     "seaweed"
+    ],
+    "yale": "mól",
+    "written": "ᄆᆞᆯ〮"
+   }
+  ],
+  "modern": [
+   "말"
+  ]
+ },
+ {
+  "headword": "ᄆᆞ니다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to touch (with the hand)"
+    ],
+    "yale": "mònítá",
+    "written": "ᄆᆞ니〮다〮"
+   }
+  ]
+ },
+ {
+  "headword": "ᄆᆡᅀᅵᆯ",
+  "senses": [
+   {
+    "pos": "Adverb",
+    "glosses": [
+     "every day"
+    ],
+    "yale": "moyzil"
+   },
+   {
+    "pos": "Noun",
+    "glosses": [
+     "every day"
+    ],
+    "yale": "moyzil"
+   }
+  ],
+  "modern": [
+   "매일"
+  ]
+ },
+ {
+  "headword": "ᄆᆡᆸ다",
+  "senses": [
+   {
+    "pos": "Adjective",
+    "glosses": [
+     "(to be) spicy, hot",
+     "(to be) fierce"
+    ],
+    "yale": "mòyptá",
+    "written": "ᄆᆡᆸ다〮"
+   }
+  ],
+  "modern": [
+   "맵다"
+  ]
+ },
+ {
+  "headword": "ᄆᆡᇰᄀᆞᆯ다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to make, to create"
+    ],
+    "written": "ᄆᆡᇰᄀᆞᆯ〮다〮"
+   }
+  ],
+  "modern": [
+   "맹글다"
+  ]
+ },
+ {
+  "headword": "ᄇᆞᄅᆞᆷ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "wind, air, draft"
+    ],
+    "yale": "pòlòm"
+   },
+   {
+    "pos": "Noun",
+    "glosses": [
+     "wall, enclosure, surrounding"
+    ],
+    "yale": "pòlòm"
+   }
+  ],
+  "modern": [
+   "바람"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 2015
+   },
+   {
+    "work": null,
+    "year": 2007
+   }
+  ]
+ },
+ {
+  "headword": "ᄇᆞᄅᆞ다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to stick, plaster, apply"
+    ],
+    "written": "ᄇᆞᄅᆞ다〮"
+   }
+  ],
+  "modern": [
+   "바르다"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1447
+   },
+   {
+    "work": null,
+    "year": 1459
+   }
+  ]
+ },
+ {
+  "headword": "ᄇᆞᅀᆞ다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to break",
+     "to crush"
+    ],
+    "written": "ᄇᆞᅀᆞ다〮"
+   }
+  ],
+  "modern": [
+   "빻다",
+   "부수다"
+  ]
+ },
+ {
+  "headword": "ᄇᆞᆯ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "field, plain"
+    ],
+    "written": "ᄇᆞᆯ〮"
+   },
+   {
+    "pos": "Noun",
+    "glosses": [
+     "ᄇᆞᆶ의 다른 표기 (isolated form)"
+    ],
+    "yale": "pòl"
+   }
+  ],
+  "modern": [
+   "[[벌#field"
+  ]
+ },
+ {
+  "headword": "ᄇᆞᆲ다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to step (on)"
+    ],
+    "yale": "pǒlp-tá",
+    "written": "ᄇᆞᆲ〯다〮"
+   }
+  ],
+  "modern": [
+   "밟다"
+  ]
+ },
+ {
+  "headword": "ᄇᆞᆶ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "arm"
+    ]
+   }
+  ],
+  "modern": [
+   "팔"
+  ]
+ },
+ {
+  "headword": "ᄇᆡ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "abdomen, belly"
+    ],
+    "yale": "póy",
+    "written": "ᄇᆡ〮"
+   },
+   {
+    "pos": "Noun",
+    "glosses": [
+     "boat"
+    ],
+    "yale": "póy",
+    "written": "ᄇᆡ〮"
+   },
+   {
+    "pos": "Noun",
+    "glosses": [
+     "pear"
+    ],
+    "yale": "pòy"
+   }
+  ],
+  "modern": [
+   "배"
+  ]
+ },
+ {
+  "headword": "ᄇᆡᄎᆡ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "napa cabbage"
+    ],
+    "yale": "pǒychóy",
+    "written": "ᄇᆡ〯ᄎᆡ〮"
+   }
+  ],
+  "modern": [
+   "배추"
+  ]
+ },
+ {
+  "headword": "ᄇᆡᆨ",
+  "senses": [
+   {
+    "pos": "Numeral",
+    "glosses": [
+     "hundred"
+    ],
+    "yale": "póyk",
+    "written": "ᄇᆡᆨ〮"
+   }
+  ],
+  "modern": [
+   "백"
+  ]
+ },
+ {
+  "headword": "ᄇᆡ얌",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "snake"
+    ]
+   }
+  ],
+  "modern": [
+   "뱀"
+  ]
+ },
+ {
+  "headword": "ᄇᆡ호다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to learn"
+    ],
+    "yale": "poyhwota"
+   }
+  ],
+  "modern": [
+   "배우다"
+  ]
+ },
+ {
+  "headword": "ᄉᆈ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "쇼〮의 활용형"
+    ],
+    "written": "ᄉᆈ〯"
+   }
+  ],
+  "modern": [
+   "쇠-",
+   "cow"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 2016
+   }
+  ]
+ },
+ {
+  "headword": "ᄉᆞ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "(abstract noun) ; act of ...ing"
+    ],
+    "yale": "so"
+   },
+   {
+    "pos": "Numeral",
+    "glosses": [
+     "(Sino-Korean numeral) four"
+    ],
+    "written": "ᄉᆞ〯"
+   }
+  ],
+  "modern": [
+   "-을세라",
+   "-을수록",
+   "-을시",
+   "-을시고",
+   "사"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1447
+   },
+   {
+    "work": null,
+    "year": 1459
+   }
+  ]
+ },
+ {
+  "headword": "ᄉᆞᄆᆡ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "sleeve"
+    ],
+    "written": "ᄉᆞ〮ᄆᆡ〮"
+   }
+  ],
+  "modern": [
+   "소매"
+  ]
+ },
+ {
+  "headword": "ᄉᆞᄌᆞ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "lion"
+    ],
+    "yale": "soco"
+   }
+  ],
+  "modern": [
+   "사자"
+  ]
+ },
+ {
+  "headword": "ᄉᆞᅀᅵ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "space between; gap"
+    ],
+    "written": "ᄉᆞᅀᅵ〮"
+   }
+  ],
+  "modern": [
+   "사이"
+  ]
+ },
+ {
+  "headword": "ᄉᆞᆰ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "leopard cat"
+    ],
+    "yale": "sòlk"
+   }
+  ],
+  "modern": [
+   "삵",
+   "살쾡이"
+  ]
+ },
+ {
+  "headword": "ᄉᆞᆱ다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to boil"
+    ],
+    "yale": "solmta"
+   }
+  ],
+  "modern": [
+   "삶다"
+  ]
+ },
+ {
+  "headword": "ᄉᆞᆶ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "flesh"
+    ],
+    "yale": "sólh",
+    "written": "ᄉᆞᆶ〮"
+   }
+  ],
+  "modern": [
+   "[[살#flesh"
+  ]
+ },
+ {
+  "headword": "ᄉᆞ나희",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "man"
+    ],
+    "yale": "sonahuy"
+   }
+  ],
+  "modern": [
+   "사나이",
+   "사내"
+  ]
+ },
+ {
+  "headword": "ᄉᆞ라ᇰᄒᆞᆸ다",
+  "senses": [
+   {
+    "pos": "Adjective",
+    "glosses": [
+     "(to be) lovely"
+    ],
+    "yale": "sòlàng-hóptá",
+    "written": "ᄉᆞ라ᇰᄒᆞᆸ〮다〮"
+   }
+  ],
+  "modern": [
+   "사랍다"
+  ]
+ },
+ {
+  "headword": "ᄉᆞ라ᇰᄒᆞ다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to think about",
+     "to love"
+    ],
+    "yale": "solang-hota"
+   }
+  ],
+  "modern": [
+   "사랑하다"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1586
+   }
+  ]
+ },
+ {
+  "headword": "ᄉᆞ라기",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "crushed rice"
+    ]
+   }
+  ],
+  "modern": [
+   "싸라기"
+  ]
+ },
+ {
+  "headword": "ᄉᆞ시",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "(Gyeongsang) gap; space between",
+     "(Gyeongsang) relationship"
+    ],
+    "yale": "sosi"
+   }
+  ]
+ },
+ {
+  "headword": "ᄉᆡᆷ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "spring source of water"
+    ],
+    "written": "ᄉᆡᆷ〯"
+   }
+  ],
+  "modern": [
+   "샘"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1447
+   }
+  ]
+ },
+ {
+  "headword": "ᄉᆡᇰ각",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "idea; thought"
+    ],
+    "yale": "sóyngkák",
+    "written": "ᄉᆡᇰ〮각〮"
+   }
+  ],
+  "modern": [
+   "생각"
+  ]
+ },
+ {
+  "headword": "ᄉᆡᇰ각ᄒᆞ다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to think about"
+    ],
+    "yale": "sóyngkák-hòtá",
+    "written": "[[ᄉᆡᇰ〮각〮]][[ᄒᆞ다〮]]"
+   }
+  ],
+  "modern": [
+   "생각하다"
+  ]
+ },
+ {
+  "headword": "ᄉᆡᇰ아ᇰ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "ginger"
+    ],
+    "yale": "soyng.ang"
+   }
+  ],
+  "modern": [
+   "새앙"
+  ]
+ },
+ {
+  "headword": "ᄌᆞᄆᆞ다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to lock"
+    ],
+    "written": "ᄌᆞᄆᆞ다〮"
+   },
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to submerge"
+    ],
+    "written": "ᄌᆞᄆᆞ다〮"
+   }
+  ],
+  "modern": [
+   "잠그다"
+  ]
+ },
+ {
+  "headword": "ᄌᆞᆷ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "sleep"
+    ],
+    "written": "ᄌᆞᆷ〮"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1447
+   }
+  ]
+ },
+ {
+  "headword": "ᄌᆞᆽ다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "(to be) frequent"
+    ],
+    "yale": "còc-tá",
+    "written": "ᄌᆞᆽ다〮"
+   }
+  ],
+  "modern": [
+   "잦다"
+  ]
+ },
+ {
+  "headword": "ᄌᆞ갸",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "you"
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ᄌᆞ셕",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "ᄌᆞ식의 다른 꼴"
+    ],
+    "yale": "cosyek"
+   }
+  ],
+  "modern": [
+   "자석"
+  ]
+ },
+ {
+  "headword": "ᄌᆞ조",
+  "senses": [
+   {
+    "pos": "Adverb",
+    "glosses": [
+     "often"
+    ],
+    "yale": "còcwó",
+    "written": "ᄌᆞ조〮"
+   }
+  ],
+  "modern": [
+   "자주"
+  ]
+ },
+ {
+  "headword": "ᄌᆡ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "ash"
+    ],
+    "yale": "coy"
+   }
+  ],
+  "modern": [
+   "재"
+  ]
+ },
+ {
+  "headword": "ᄌᆡ조",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "talent; skill",
+     "trick; way"
+    ],
+    "yale": "coycwo"
+   }
+  ],
+  "modern": [
+   "재주"
+  ]
+ },
+ {
+  "headword": "ᄍᆞᆼ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "ᄌᆞ(字)의 다른 꼴 (orthodox reading)"
+    ],
+    "yale": "ccó",
+    "written": "ᄍᆞᆼ〮"
+   }
+  ]
+ },
+ {
+  "headword": "ᄎᆞᄆᆡ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "the Korean melon, ( Makuwa Group) or its fruit."
+    ],
+    "yale": "chomoy"
+   }
+  ],
+  "modern": [
+   "참외"
+  ]
+ },
+ {
+  "headword": "ᄎᆞᆷ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "truth"
+    ],
+    "yale": "chom"
+   }
+  ],
+  "modern": [
+   "참"
+  ]
+ },
+ {
+  "headword": "ᄎᆞᆷ새",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "sparrow"
+    ],
+    "written": "ᄎᆞᆷ〮새〯"
+   }
+  ],
+  "modern": [
+   "참새"
+  ]
+ },
+ {
+  "headword": "ᄎᆡᆨ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "book"
+    ]
+   }
+  ],
+  "modern": [
+   "책"
+  ]
+ },
+ {
+  "headword": "ᄑᆞᆯ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "fly (insect)"
+    ],
+    "yale": "phól",
+    "written": "ᄑᆞᆯ〮"
+   }
+  ],
+  "modern": [
+   "파리"
+  ]
+ },
+ {
+  "headword": "ᄑᆞᆾ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "the red bean or azuki bean ()"
+    ],
+    "written": "ᄑᆞᆾ〮"
+   }
+  ],
+  "modern": [
+   "팥"
+  ]
+ },
+ {
+  "headword": "ᄒᆞᄅᆞ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "one day"
+    ],
+    "yale": "hòlò",
+    "written": "ᄒᆞᆯㄹ"
+   }
+  ],
+  "modern": [
+   "하루"
+  ]
+ },
+ {
+  "headword": "ᄒᆞᄅᆞ사리",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "mayfly"
+    ]
+   }
+  ],
+  "modern": [
+   "하루살이"
+  ]
+ },
+ {
+  "headword": "ᄒᆞᄫᆞᅀᅡ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "solitude"
+    ],
+    "yale": "hoWoza"
+   }
+  ],
+  "modern": [
+   "혼자"
+  ]
+ },
+ {
+  "headword": "ᄒᆞᆫᄢᅴ",
+  "senses": [
+   {
+    "pos": "Adverb",
+    "glosses": [
+     "at the same time"
+    ],
+    "yale": "hònpskúy",
+    "written": "ᄒᆞᆫᄢᅴ〮"
+   }
+  ],
+  "modern": [
+   "함께"
+  ]
+ },
+ {
+  "headword": "ᄒᆞᆰ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "dirt, soil"
+    ]
+   }
+  ],
+  "modern": [
+   "흙"
+  ]
+ },
+ {
+  "headword": "ᄒᆞ낳",
+  "senses": [
+   {
+    "pos": "Numeral",
+    "glosses": [
+     "one"
+    ],
+    "yale": "hònàh",
+    "written": "ᄒᆞ나"
+   }
+  ],
+  "modern": [
+   "하나"
+  ]
+ },
+ {
+  "headword": "ᄒᆞ다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to do",
+     "to say",
+     "A light verb attached to various non-verbs to derive verbs and adjectives."
+    ],
+    "written": "ᄒᆞ〮다〮"
+   }
+  ],
+  "modern": [
+   "하다"
+  ]
+ },
+ {
+  "headword": "ᄒᆞ다가",
+  "senses": [
+   {
+    "pos": "Adverb",
+    "glosses": [
+     "if, in the event that."
+    ],
+    "yale": "hotaka"
+   }
+  ]
+ },
+ {
+  "headword": "ᄒᆞ야디다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to become destroyed, to become ruined",
+     "to become harmed, to become injured"
+    ],
+    "yale": "hóyá-tìtá",
+    "written": "ᄒᆞ〮야〮디다〮"
+   }
+  ],
+  "modern": [
+   "해어지다"
+  ]
+ },
+ {
+  "headword": "ᄒᆡ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "sun",
+     "year"
+    ],
+    "written": "ᄒᆡ〮"
+   }
+  ],
+  "modern": [
+   "해"
+  ]
+ },
+ {
+  "headword": "ᄒᆡ골",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "skeleton"
+    ],
+    "yale": "hoykwol"
+   }
+  ],
+  "modern": [
+   "해골"
+  ]
+ },
+ {
+  "headword": "ᄒᆡ다",
+  "senses": [
+   {
+    "pos": "Adjective",
+    "glosses": [
+     "(to be) white, light gray"
+    ],
+    "yale": "hoyta"
+   },
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to make someone do something, to order, to command"
+    ],
+    "yale": "hoyta"
+   }
+  ],
+  "modern": [
+   "희다",
+   "*[[해다]], [[하이다]]"
+  ]
+ },
+ {
+  "headword": "ᄠᅡᆯ기",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "berry (fruit)",
+     "strawberry (fruit)"
+    ],
+    "yale": "ptálkí",
+    "written": "ᄠᅡᆯ〮기〮"
+   }
+  ],
+  "modern": [
+   "딸기"
+  ]
+ },
+ {
+  "headword": "ᄠᅳᆮ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "meaning; sense"
+    ],
+    "yale": "ptut"
+   }
+  ],
+  "modern": [
+   "뜻"
+  ]
+ },
+ {
+  "headword": "ᄠᅳᆮ다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to tear, pick, pluck",
+     "to graze (grass)",
+     "to play (a stringed instrument)",
+     "to disassemble, disintegrate, dismantle",
+     "to extort, levy (fine, penalty, tax, tenth)"
+    ],
+    "yale": "ptut.ta"
+   }
+  ],
+  "modern": [
+   "뜯다"
+  ]
+ },
+ {
+  "headword": "ᄠᅳᆯ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "ᄠᅳᆶ〮의 다른 표기 (isolated form)"
+    ],
+    "yale": "ptúl",
+    "written": "ᄠᅳᆯ〮"
+   }
+  ]
+ },
+ {
+  "headword": "ᄠᅳᆶ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "court, garden"
+    ],
+    "written": "ᄠᅳᆶ〮"
+   }
+  ],
+  "modern": [
+   "뜰"
+  ]
+ },
+ {
+  "headword": "ᄡᅳᆯ게",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "gall bladder"
+    ],
+    "yale": "psulkey"
+   }
+  ],
+  "modern": [
+   "쓸개"
+  ]
+ },
+ {
+  "headword": "ᄡᅵ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "seed, kernel",
+     "semen",
+     "breed, offspring",
+     "gene",
+     "woof, weft",
+     "part of speech"
+    ],
+    "yale": "psí",
+    "written": "ᄡᅵ〮"
+   }
+  ],
+  "modern": [
+   "씨"
+  ]
+ },
+ {
+  "headword": "ᄡᆞᆯ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "rice"
+    ],
+    "written": "ᄡᆞᆯ〮"
+   }
+  ],
+  "modern": [
+   "쌀"
+  ]
+ },
+ {
+  "headword": "ᄡᆞ눈",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "small hail"
+    ],
+    "written": "ᄡᆞ〮눈〯"
+   }
+  ],
+  "modern": [
+   "쌀눈"
+  ]
+ },
+ {
+  "headword": "ᄢᅮᆯ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "honey"
+    ],
+    "written": "ᄢᅮᆯ〮"
+   }
+  ],
+  "modern": [
+   "꿀"
+  ]
+ },
+ {
+  "headword": "ᄢᅳ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "time, moment"
+    ],
+    "written": "ᄢᅳ〮"
+   }
+  ],
+  "modern": [
+   "끼"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1459
+   }
+  ]
+ },
+ {
+  "headword": "ᄢᅵ니",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "meal"
+    ],
+    "yale": "pskini"
+   }
+  ],
+  "modern": [
+   "끼니"
+  ]
+ },
+ {
+  "headword": "ᄢᅵ다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "(transitive, intransitive) to squeeze between",
+     "(transitive, intransitive) to have on the side, to carry"
+    ],
+    "written": "ᄢᅵ〮-다〮"
+   }
+  ],
+  "modern": [
+   "끼다"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1466
+   },
+   {
+    "work": null,
+    "year": 1459
+   }
+  ]
+ },
+ {
+  "headword": "ᄣᅢ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "time"
+    ],
+    "yale": "pstáy",
+    "written": "ᄣᅢ〮"
+   }
+  ],
+  "modern": [
+   "때"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1992
+   },
+   {
+    "work": null,
+    "year": 1517
+   }
+  ]
+ },
+ {
+  "headword": "ᄣᅵ르다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to prick; to stab"
+    ],
+    "yale": "pstiluta"
+   }
+  ],
+  "modern": [
+   "찌르다"
+  ]
+ },
+ {
+  "headword": "ᄭᅩ리",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "tail"
+    ]
+   }
+  ],
+  "modern": [
+   "꼬리"
+  ]
+ },
+ {
+  "headword": "ᄭᅮᆯ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "ᄢᅮᆯ〮의 다른 꼴"
+    ],
+    "yale": "skwúl",
+    "written": "ᄭᅮᆯ〮"
+   }
+  ]
+ },
+ {
+  "headword": "ᄭᅮᆷ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "dream"
+    ],
+    "written": "ᄭᅮᆷ〮"
+   }
+  ],
+  "modern": [
+   "꿈"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1586
+   }
+  ]
+ },
+ {
+  "headword": "ᄭᅯᇰ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "pheasant"
+    ]
+   }
+  ],
+  "modern": [
+   "꿩"
+  ]
+ },
+ {
+  "headword": "ᄭᅵ다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "(intransitive) to envelop",
+     "(intransitive) to cover, to infest",
+     "(intransitive) to have (a skill or a thought)",
+     "(transitive) to wear (a hat or bridle)"
+    ],
+    "written": "ᄭᅵ〮-다〮"
+   }
+  ],
+  "modern": [
+   "끼다"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1464
+   },
+   {
+    "work": null,
+    "year": 1481
+   }
+  ]
+ },
+ {
+  "headword": "ᄭᆞ자ᇰ",
+  "senses": [
+   {
+    "pos": "Particle",
+    "glosses": [
+     "until, up to"
+    ],
+    "yale": "skòcáng",
+    "written": "ᄭᆞ자ᇰ〮"
+   }
+  ],
+  "modern": [
+   "-까지"
+  ]
+ },
+ {
+  "headword": "ᄮᅡᄒᆡ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "ᄉᆞ나희의 다른 꼴"
+    ],
+    "yale": "snahoy"
+   }
+  ]
+ },
+ {
+  "headword": "ᄯᅡ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "ᄯᅡᇂ〮의 다른 표기 (isolated form)"
+    ],
+    "yale": "stá",
+    "written": "ᄯᅡ〮"
+   }
+  ]
+ },
+ {
+  "headword": "ᄯᅡᇂ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "earth; land",
+     "place"
+    ],
+    "written": "ᄯᅡᇂ〮"
+   }
+  ],
+  "modern": [
+   "땅"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1447
+   }
+  ]
+ },
+ {
+  "headword": "ᄯᅥᆨ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "rice cake"
+    ],
+    "yale": "sték",
+    "written": "ᄯᅥᆨ〮"
+   }
+  ],
+  "modern": [
+   "떡"
+  ]
+ },
+ {
+  "headword": "ᄯᅩ",
+  "senses": [
+   {
+    "pos": "Adverb",
+    "glosses": [
+     "again"
+    ],
+    "written": "ᄯᅩ〮"
+   }
+  ],
+  "modern": [
+   "또"
+  ]
+ },
+ {
+  "headword": "ᄯᅩᇰ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "feces"
+    ],
+    "yale": "stwòng"
+   }
+  ],
+  "modern": [
+   "똥"
+  ]
+ },
+ {
+  "headword": "ᄯᅴ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "belt, band"
+    ],
+    "yale": "stúy",
+    "written": "ᄯᅴ〮"
+   }
+  ],
+  "modern": [
+   "띠"
+  ]
+ },
+ {
+  "headword": "ᄯᆞᆯ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "daughter"
+    ],
+    "yale": "stól",
+    "written": "ᄯᆞᆯ〮"
+   }
+  ],
+  "modern": [
+   "딸"
+  ]
+ },
+ {
+  "headword": "ᄲᅡ이다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to remove, to take out"
+    ],
+    "yale": "spa.ita"
+   }
+  ],
+  "modern": [
+   "빼다"
+  ]
+ },
+ {
+  "headword": "ᄲᅢ다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to remove, to take out"
+    ],
+    "yale": "spay.ta"
+   }
+  ],
+  "modern": [
+   "빼다"
+  ]
+ },
+ {
+  "headword": "ᄲᅢ티다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to remove, to take out"
+    ],
+    "yale": "spaythita"
+   }
+  ],
+  "modern": [
+   "빼다"
+  ]
+ },
+ {
+  "headword": "ᄲᅧ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "bone"
+    ],
+    "yale": "spyé",
+    "written": "ᄲᅧ〮"
+   }
+  ],
+  "modern": [
+   "뼈"
+  ]
+ },
+ {
+  "headword": "ᄲᅮᆫ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "only"
+    ]
+   }
+  ],
+  "modern": [
+   "뿐"
+  ]
+ },
+ {
+  "headword": "ᄲᅳᆯ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "horn"
+    ],
+    "written": "ᄲᅳᆯ〮"
+   }
+  ],
+  "modern": [
+   "뿔"
+  ]
+ },
+ {
+  "headword": "ᄲᆞᄅᆞ다",
+  "senses": [
+   {
+    "pos": "Adjective",
+    "glosses": [
+     "(to be) fast, quick, soon, early"
+    ],
+    "yale": "spòlòtá",
+    "written": "ᄲᆞᄅᆞ다〮"
+   }
+  ],
+  "modern": [
+   "빠르다"
+  ]
+ },
+ {
+  "headword": "ᅀᅭᇂ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "bedspread"
+    ],
+    "yale": "zyoh"
+   }
+  ],
+  "modern": [
+   "요"
+  ]
+ },
+ {
+  "headword": "ᅀᅲᆺ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "Yut, a traditional Korean board game.",
+     "4 points (made by a cast of yut sticks)."
+    ],
+    "yale": "zyus"
+   }
+  ],
+  "modern": [
+   "윷"
+  ]
+ },
+ {
+  "headword": "ᅀᅵ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "two"
+    ],
+    "yale": "zǐ",
+    "written": "ᅀᅵ〯"
+   }
+  ],
+  "modern": [
+   "이"
+  ]
+ },
+ {
+  "headword": "ᅀᅵᆫ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "person; people"
+    ],
+    "yale": "zin"
+   }
+  ],
+  "modern": [
+   "인"
+  ]
+ },
+ {
+  "headword": "ᅀᅵᆫ간",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "human world, human society"
+    ],
+    "yale": "zinkan"
+   }
+  ],
+  "modern": [
+   "인간"
+  ]
+ },
+ {
+  "headword": "ᅀᅵᆯ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "day"
+    ],
+    "yale": "zíl",
+    "written": "ᅀᅵᆯ〮"
+   }
+  ]
+ },
+ {
+  "headword": "ᅘᅧ다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to drag, to pull",
+     "to light (a fire)",
+     "to extract silk from a silkworm cocoon",
+     "to play a stringed instrument with a bow",
+     "to saw"
+    ],
+    "written": "ᅘᅧ〮다〮"
+   }
+  ],
+  "modern": [
+   "켜다"
+  ]
+ },
+ {
+  "headword": "下直",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "to bid farewell"
+    ],
+    "written": "下(하〯)直(딕〮)"
+   }
+  ]
+ },
+ {
+  "headword": "下直ᄒᆞ다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to bid farewell"
+    ],
+    "written": "下(하〯)直(딕〮)ᄒᆞ〮다〮"
+   }
+  ]
+ },
+ {
+  "headword": "丷",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "."
+    ],
+    "yale": "ho-",
+    "written": "[[ᄒᆞ다"
+   }
+  ]
+ },
+ {
+  "headword": "亽",
+  "senses": [
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "."
+    ],
+    "yale": "-lá",
+    "written": "-라〮"
+   }
+  ]
+ },
+ {
+  "headword": "兄",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "elder brother"
+    ],
+    "yale": "HYÈNG",
+    "written": "兄(혀ᇰ)"
+   }
+  ]
+ },
+ {
+  "headword": "向ᄒᆞ다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to face, to head toward"
+    ],
+    "written": "向(햐ᇰ〯)ᄒᆞ〮다〮"
+   }
+  ]
+ },
+ {
+  "headword": "旀",
+  "senses": [
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "㢱의 다른 표기"
+    ],
+    "yale": "-mye"
+   }
+  ]
+ },
+ {
+  "headword": "沙門",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "(Buddhism) ascetic monk"
+    ],
+    "yale": "SÀ.MWÙN",
+    "written": "沙(사)門(문)"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1447
+   }
+  ]
+ },
+ {
+  "headword": "赤葛",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "(Korean medicine) (roots of the) tuber fleeceflower ()"
+    ],
+    "written": "赤(젹〮)葛(갈〮)"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1466
+   }
+  ]
+ },
+ {
+  "headword": "阿郁",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "아옥〮의 다른 표기 (hanja)"
+    ],
+    "yale": "àwók"
+   }
+  ]
+ },
+ {
+  "headword": "가ᄀᆞᆨᄒᆞ다",
+  "senses": [
+   {
+    "pos": "Adjective",
+    "glosses": [
+     "to be hasty"
+    ],
+    "written": "가ᄀᆞᆨ〮ᄒᆞ다〮"
+   }
+  ]
+ },
+ {
+  "headword": "가ᄅᆞ다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "(transitive) to split"
+    ],
+    "written": "가ᄅᆞ다〮"
+   }
+  ],
+  "modern": [
+   "가르다"
+  ]
+ },
+ {
+  "headword": "가ᄇᆡ얍다",
+  "senses": [
+   {
+    "pos": "Adjective",
+    "glosses": [
+     "(to be) light (not heavy)"
+    ],
+    "yale": "kàpóyyàptá",
+    "written": "가ᄇᆡ〮얍다〮"
+   }
+  ],
+  "modern": [
+   "가볍다"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1481
+   }
+  ]
+ },
+ {
+  "headword": "가ᄉᆞᆷ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "chest"
+    ],
+    "written": "가ᄉᆞᆷ〮"
+   }
+  ],
+  "modern": [
+   "가슴"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1459
+   }
+  ]
+ },
+ {
+  "headword": "가ᄉᆡ다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "(transitive, intransitive) to change, to get rid of"
+    ],
+    "written": "가ᄉᆡ〮다"
+   }
+  ],
+  "modern": [
+   "가시다"
+  ]
+ },
+ {
+  "headword": "가ᄌᆞᆯ비다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to compare, to liken"
+    ],
+    "written": "가ᄌᆞᆯ〮비다〮"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1560
+   }
+  ]
+ },
+ {
+  "headword": "가ᄫᆞᆫᄃᆡ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "center; the middle"
+    ],
+    "yale": "kàWóntóy",
+    "written": "가ᄫᆞᆫ〮ᄃᆡ〮"
+   }
+  ],
+  "modern": [
+   "가운데"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1459
+   }
+  ]
+ },
+ {
+  "headword": "가ᄭᆞᆯ다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "Variant spelling of 갓ᄀᆞᆯ다."
+    ],
+    "written": "가ᄭᆞᆯ〮다〮"
+   }
+  ]
+ },
+ {
+  "headword": "가ᅀᆞ며다",
+  "senses": [
+   {
+    "pos": "Adjective",
+    "glosses": [
+     "to be rich, to be plentiful"
+    ],
+    "written": "가ᅀᆞ〮며다〮"
+   }
+  ]
+ },
+ {
+  "headword": "가ᅀᆞ멸다",
+  "senses": [
+   {
+    "pos": "Adjective",
+    "glosses": [
+     "to be rich, to be plentiful"
+    ],
+    "written": "가ᅀᆞ〮멸다〮"
+   }
+  ],
+  "modern": [
+   "가멸다"
+  ]
+ },
+ {
+  "headword": "가ᇝ돌다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to circle around"
+    ],
+    "written": "가ᇝ돌〯다〮"
+   }
+  ],
+  "modern": [
+   "감돌다"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1447
+   }
+  ]
+ },
+ {
+  "headword": "가ᇧ다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to cut, trim"
+    ],
+    "written": "가ᇧ다〮"
+   }
+  ],
+  "modern": [
+   "깎다"
+  ]
+ },
+ {
+  "headword": "가ᇰ아지",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "puppy"
+    ],
+    "written": "가ᇰ아지〮"
+   }
+  ],
+  "modern": [
+   "강아지"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1466
+   }
+  ]
+ },
+ {
+  "headword": "가개",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "hut, shack, makeshift house"
+    ],
+    "yale": "kǎkáy",
+    "written": "가〯개〮"
+   }
+  ],
+  "modern": [
+   "가게"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1517
+   }
+  ]
+ },
+ {
+  "headword": "가난ᄒᆞ다",
+  "senses": [
+   {
+    "pos": "Adjective",
+    "glosses": [
+     "to be poor"
+    ],
+    "written": "가난ᄒᆞ다〮"
+   }
+  ],
+  "modern": [
+   "가난하다"
+  ]
+ },
+ {
+  "headword": "가다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "(intransitive) to go (especially somewhere for a certain purpose)",
+     "(auxiliary, with 어〮) Marks a continuous action that either stretches from the present into the future, or involves physical movement away from the speaker."
+    ],
+    "yale": "kàtá",
+    "written": "가다〮"
+   }
+  ],
+  "modern": [
+   "가다"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1517
+   },
+   {
+    "work": null,
+    "year": 1482
+   }
+  ]
+ },
+ {
+  "headword": "가도다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to confine, to lock up"
+    ],
+    "written": "가도〮다〮"
+   }
+  ],
+  "modern": [
+   "가두다"
+  ]
+ },
+ {
+  "headword": "가도이다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to get confined, to get locked up"
+    ],
+    "written": "가도〮이다〮"
+   }
+  ]
+ },
+ {
+  "headword": "가도혀다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to draw back, to fold back"
+    ],
+    "written": "가도〮-혀-다〮"
+   }
+  ]
+ },
+ {
+  "headword": "가라간쟈ᄉᆞ죡ᄇᆡᆨ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "black horse with white fur on its forehead and four hooves"
+    ],
+    "written": "가라〮-간쟈〮-ᄉᆞ〮-죡〮-ᄇᆡᆨ〮"
+   }
+  ]
+ },
+ {
+  "headword": "가락오락ᄒᆞ다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to go to and fro, to go back and forth"
+    ],
+    "written": "가락〮-오락〮-ᄒᆞ〮다〮"
+   }
+  ]
+ },
+ {
+  "headword": "가리다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to get split"
+    ],
+    "written": "가리〮다〮"
+   }
+  ]
+ },
+ {
+  "headword": "가마괴",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "crow, raven"
+    ],
+    "yale": "kàmàkwóy",
+    "written": "가마괴〮"
+   }
+  ],
+  "modern": [
+   "까마귀"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1481
+   }
+  ]
+ },
+ {
+  "headword": "가븨얍다",
+  "senses": [
+   {
+    "pos": "Adjective",
+    "glosses": [
+     "(to be) light (not heavy)"
+    ]
+   }
+  ],
+  "modern": [
+   "가볍다"
+  ]
+ },
+ {
+  "headword": "가져가다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "(transitive) to take, to bring (something somewhere)"
+    ],
+    "written": "가져〮가-다〮"
+   }
+  ],
+  "modern": [
+   "가져가다"
+  ]
+ },
+ {
+  "headword": "가져오다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "(transitive) to take, to bring (something somewhere)"
+    ],
+    "written": "가져〮-오다〮"
+   }
+  ],
+  "modern": [
+   "가져오다"
+  ]
+ },
+ {
+  "headword": "가지다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "(transitive) to bring, to carry, to have on"
+    ],
+    "written": "가지〮다〮"
+   }
+  ],
+  "modern": [
+   "가져오다"
+  ]
+ },
+ {
+  "headword": "가큰도ᇰ",
+  "senses": [
+   {
+    "pos": "Proper noun",
+    "glosses": [
+     "a mountain ford over the Han River in"
+    ],
+    "yale": "Kàkhúntwòng",
+    "written": "가큰〮도ᇰ"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 2006
+   }
+  ]
+ },
+ {
+  "headword": "가티다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to be confined, to be locked up"
+    ],
+    "written": "가티〮다〮"
+   }
+  ],
+  "modern": [
+   "갇히다"
+  ]
+ },
+ {
+  "headword": "가홀오다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to tilt a container"
+    ],
+    "written": "가홀〮g오다〮"
+   }
+  ],
+  "modern": [
+   "거우르다"
+  ]
+ },
+ {
+  "headword": "가히",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "dog"
+    ],
+    "written": "가히〮"
+   }
+  ],
+  "modern": [
+   "개#dog"
+  ]
+ },
+ {
+  "headword": "가히다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to fold up"
+    ],
+    "yale": "kàhítá",
+    "written": "가히〮다〮"
+   }
+  ],
+  "modern": [
+   "개다"
+  ]
+ },
+ {
+  "headword": "각시",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "woman (especially beautiful and young)",
+     "bride",
+     "wife"
+    ],
+    "yale": "kàksí",
+    "written": "각시〮"
+   }
+  ],
+  "modern": [
+   "각시"
+  ]
+ },
+ {
+  "headword": "간ᄉᆞᄒᆞ다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "(transitive) to take care, to safeguard"
+    ],
+    "yale": "kànsòhòtá",
+    "written": "간ᄉᆞᄒᆞ다〮"
+   }
+  ],
+  "modern": [
+   "건사하다"
+  ]
+ },
+ {
+  "headword": "간ᄎᆞ랍다",
+  "senses": [
+   {
+    "pos": "Adjective",
+    "glosses": [
+     "to be plain, simple"
+    ],
+    "written": "간〯ᄎᆞ〮랍다〮"
+   }
+  ]
+ },
+ {
+  "headword": "간곡ᄒᆞ다",
+  "senses": [
+   {
+    "pos": "Adjective",
+    "glosses": [
+     "cunning, sly"
+    ],
+    "written": "간곡〮ᄒᆞ-다〮"
+   }
+  ],
+  "modern": [
+   "간곡(奸曲)하다"
+  ]
+ },
+ {
+  "headword": "간난ᄒᆞ다",
+  "senses": [
+   {
+    "pos": "Adjective",
+    "glosses": [
+     "to be poor"
+    ],
+    "written": "간난ᄒᆞ다〮"
+   }
+  ],
+  "modern": [
+   "가난하다"
+  ]
+ },
+ {
+  "headword": "간답다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "(of wind) to be cool, fresh",
+     "(figurative) (of ideas) to be refreshing"
+    ],
+    "yale": "kántǎptá",
+    "written": "간〮답〯다〮"
+   }
+  ]
+ },
+ {
+  "headword": "간슈ᄒᆞ다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "(transitive) to take care, to safeguard"
+    ],
+    "yale": "kànsywùhòtá",
+    "written": "간슈ᄒᆞ다〮"
+   }
+  ],
+  "modern": [
+   "간수하다"
+  ]
+ },
+ {
+  "headword": "갇다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to collect, to gather"
+    ],
+    "written": "갇다〮"
+   }
+  ]
+ },
+ {
+  "headword": "갈다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to plow"
+    ],
+    "written": "갈〯다〮"
+   }
+  ]
+ },
+ {
+  "headword": "갈두",
+  "senses": [
+   {
+    "pos": "Proper noun",
+    "glosses": [
+     "Various peaks in Korea, notably"
+    ],
+    "yale": "Kàltwú",
+    "written": "갈두〮"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 2006
+   }
+  ]
+ },
+ {
+  "headword": "갈모",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "axle"
+    ],
+    "written": "갈〮모〮"
+   }
+  ]
+ },
+ {
+  "headword": "갈아나다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to grow apart, to get separated"
+    ],
+    "written": "갈->g아〮-나-다〮"
+   }
+  ]
+ },
+ {
+  "headword": "갈아내다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to split, to classify"
+    ],
+    "written": "갈->g아〮-내〯-다〮"
+   }
+  ]
+ },
+ {
+  "headword": "갈아디다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "(intransitive) to split, to get divided"
+    ],
+    "written": "갈->g아〮-디-다〮"
+   }
+  ],
+  "modern": [
+   "갈라지다"
+  ]
+ },
+ {
+  "headword": "갊다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to conceal, to hide, to secrete",
+     "to safeguard; to arrange or put in order, so as to safeguard for the future",
+     "to dress a corpse for burial"
+    ],
+    "yale": "kǎlmtá",
+    "written": "갊〯다〮"
+   }
+  ],
+  "modern": [
+   "갈무리",
+   "가무리다"
+  ]
+ },
+ {
+  "headword": "갏",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "knife, sword"
+    ],
+    "written": "갏〮"
+   }
+  ],
+  "modern": [
+   "칼"
+  ]
+ },
+ {
+  "headword": "감",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "persimmon"
+    ],
+    "yale": "kǎm",
+    "written": "감〯"
+   }
+  ],
+  "modern": [
+   "감"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1489
+   }
+  ]
+ },
+ {
+  "headword": "감ᄑᆞᄅᆞ다",
+  "senses": [
+   {
+    "pos": "Adjective",
+    "glosses": [
+     "blackish blue-green"
+    ],
+    "written": "감〯-ᄑᆞᄅᆞ〮-다〮"
+   }
+  ],
+  "modern": [
+   "감파르다"
+  ]
+ },
+ {
+  "headword": "감ᄯᅩᆯ다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "Variant spelling of 가ᇝ돌〯-다〮."
+    ],
+    "written": "감ᄯᅩᆯ〯다〮"
+   }
+  ]
+ },
+ {
+  "headword": "감기다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "(intransitive) to be wrapped around"
+    ],
+    "written": "감기〮다〮"
+   }
+  ],
+  "modern": [
+   "감기다"
+  ]
+ },
+ {
+  "headword": "감다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "(transitive) to wrap around"
+    ],
+    "written": "감〯다〮"
+   },
+   {
+    "pos": "Adjective",
+    "glosses": [
+     "black"
+    ],
+    "written": "감〯다〮"
+   }
+  ],
+  "modern": [
+   "감다"
+  ]
+ },
+ {
+  "headword": "값없다",
+  "senses": [
+   {
+    "pos": "Adjective",
+    "glosses": [
+     "priceless, extremely valuable"
+    ],
+    "written": "값〮-없〯-다〮"
+   }
+  ],
+  "modern": [
+   "값없다"
+  ]
+ },
+ {
+  "headword": "갓ᄀᆞᆯ다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "(intransitive) to flip upside-down, to get backwards"
+    ],
+    "written": "갓ᄀᆞᆯ〮-다〮"
+   }
+  ]
+ },
+ {
+  "headword": "갓ᄀᆞᆯ오다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "(transitive) to flip upside-down, to turn backwards"
+    ],
+    "written": "갓ᄀᆞᆯ〮g오-다〮"
+   }
+  ]
+ },
+ {
+  "headword": "갓가ᄫᅵ",
+  "senses": [
+   {
+    "pos": "Adverb",
+    "glosses": [
+     "closely; close together"
+    ],
+    "yale": "kàskàWí",
+    "written": "갓가ᄫᅵ〮"
+   }
+  ],
+  "modern": [
+   "가까이"
+  ]
+ },
+ {
+  "headword": "갓갑다",
+  "senses": [
+   {
+    "pos": "Adjective",
+    "glosses": [
+     "to be close, near; (verbally) to become close, near; to approach"
+    ],
+    "yale": "kàskǎptá",
+    "written": "갓갑〯다〮"
+   }
+  ],
+  "modern": [
+   "가깝다"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1447
+   }
+  ]
+ },
+ {
+  "headword": "갚다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to pay back, to repay"
+    ],
+    "written": "갚다〮"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1481
+   }
+  ]
+ },
+ {
+  "headword": "개",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "inlet; estuary"
+    ],
+    "written": "개〮"
+   },
+   {
+    "pos": "Noun",
+    "glosses": [
+     "가히〮의 다른 꼴"
+    ],
+    "written": "개〯"
+   }
+  ],
+  "modern": [
+   "개#inlet",
+   "개#dog"
+  ]
+ },
+ {
+  "headword": "개다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "(intransitive) (of the weather) to clear up"
+    ],
+    "written": "개〯다〮"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1481
+   }
+  ]
+ },
+ {
+  "headword": "개야미",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "ant"
+    ]
+   }
+  ],
+  "modern": [
+   "개미"
+  ]
+ },
+ {
+  "headword": "거ᅀᅴ",
+  "senses": [
+   {
+    "pos": "Adverb",
+    "glosses": [
+     "almost, nearly"
+    ],
+    "written": "거ᅀᅴ〮"
+   }
+  ],
+  "modern": [
+   "거의"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1481
+   }
+  ]
+ },
+ {
+  "headword": "거ᅀᅴ다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to near; to get close to completion",
+     "(with -에) to get close to"
+    ],
+    "written": "거ᅀᅴ〮-다〮"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1459
+   }
+  ]
+ },
+ {
+  "headword": "거ᇫᄫᅡᅀᅵ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "beggar"
+    ],
+    "yale": "kèzWàzí",
+    "written": "거ᇫᄫᅡᅀᅵ〮"
+   }
+  ],
+  "modern": [
+   "거지"
+  ]
+ },
+ {
+  "headword": "거느리다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "(transitive) to lead, to have under one's command",
+     "(transitive) to save"
+    ],
+    "written": "거느〮리다〮"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1573
+   },
+   {
+    "work": null,
+    "year": 1527
+   }
+  ]
+ },
+ {
+  "headword": "거느리치다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to save, rescue"
+    ],
+    "written": "거느〮리치〮다〮"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1519
+   }
+  ]
+ },
+ {
+  "headword": "거도다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to gather, collect"
+    ],
+    "written": "거도〮다〮"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1475
+   }
+  ]
+ },
+ {
+  "headword": "거두다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to gather, collect"
+    ],
+    "written": "거두〮다〮"
+   }
+  ]
+ },
+ {
+  "headword": "거두들다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to lift (one's clothes) up"
+    ],
+    "written": "거두〮들다〮"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1481
+   }
+  ]
+ },
+ {
+  "headword": "거두밀이다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to get mixed up"
+    ],
+    "written": "거두〮-밀g이〮-다〮"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1481
+   }
+  ]
+ },
+ {
+  "headword": "거두잡다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to discipline, to rein in"
+    ],
+    "written": "거두〮잡다〮"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1459
+   },
+   {
+    "work": null,
+    "year": 1588
+   }
+  ]
+ },
+ {
+  "headword": "거두쥐다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to become dry and tighten up"
+    ],
+    "written": "거두〮-쥐〯-다〮"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1459
+   }
+  ]
+ },
+ {
+  "headword": "거두혀다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to retract"
+    ],
+    "written": "거두〮-혀-다〮"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1489
+   }
+  ]
+ },
+ {
+  "headword": "거러가다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to walk (somewhere)"
+    ],
+    "written": "거러〮가다〮"
+   }
+  ],
+  "modern": [
+   "걸어가다"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1459
+   }
+  ]
+ },
+ {
+  "headword": "거러치",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "(hapax) servant, subordinate"
+    ],
+    "written": "거러치〮"
+   }
+  ],
+  "modern": [
+   "가라치"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 2022
+   }
+  ]
+ },
+ {
+  "headword": "거려내다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to scoop (something) out (of water)",
+     "(figurative) to save"
+    ],
+    "written": "거려〮-내〯-다〮"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1489
+   },
+   {
+    "work": null,
+    "year": 1459
+   }
+  ]
+ },
+ {
+  "headword": "거르ᄠᅱ다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to skip (a regular schedule)"
+    ],
+    "written": "거르-ᄠᅱ-다〮"
+   }
+  ],
+  "modern": [
+   "걸러뛰다"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1447
+   }
+  ]
+ },
+ {
+  "headword": "거르다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to filter",
+     "to sift",
+     "to skip (a period of time)"
+    ],
+    "written": "거르다〮"
+   }
+  ],
+  "modern": [
+   "거르다"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1481
+   },
+   {
+    "work": null,
+    "year": 1466
+   },
+   {
+    "work": null,
+    "year": 1573
+   }
+  ]
+ },
+ {
+  "headword": "거리",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "intersection, crossroads",
+     "street"
+    ],
+    "written": "거리〮"
+   },
+   {
+    "pos": "Noun",
+    "glosses": [
+     "residue, solid ingredients (in a soup)"
+    ],
+    "written": "거리〮"
+   }
+  ],
+  "modern": [
+   "거리#street"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1459
+   },
+   {
+    "work": null,
+    "year": 1517
+   },
+   {
+    "work": null,
+    "year": 1485
+   }
+  ]
+ },
+ {
+  "headword": "거리ᄭᅵ다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to interfere, to be a hindrance"
+    ],
+    "written": "거리〮ᄭᅵ〮다〮"
+   }
+  ],
+  "modern": [
+   "거리끼다"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1464
+   }
+  ]
+ },
+ {
+  "headword": "거리다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to filter out",
+     "to scoop, to fish out",
+     "(figurative) to save"
+    ],
+    "written": "거리〮다〮"
+   },
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to be split"
+    ],
+    "written": "거리〮다〮"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1489
+   },
+   {
+    "work": null,
+    "year": 1482
+   },
+   {
+    "work": null,
+    "year": 1464
+   }
+  ]
+ },
+ {
+  "headword": "거리치다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "(figurative) to save, to give help"
+    ],
+    "written": "거리〮치〮다〮"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1447
+   },
+   {
+    "work": null,
+    "year": 1517
+   }
+  ]
+ },
+ {
+  "headword": "거맃다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "(figurative) to save, to give help"
+    ],
+    "written": "거맃〮-다〮"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1463
+   }
+  ]
+ },
+ {
+  "headword": "거머ᄒᆞ다",
+  "senses": [
+   {
+    "pos": "Adjective",
+    "glosses": [
+     "to be black"
+    ],
+    "written": "거머ᄒᆞ다〮"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1482
+   }
+  ]
+ },
+ {
+  "headword": "거믜",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "spider"
+    ],
+    "written": "거믜〮"
+   }
+  ],
+  "modern": [
+   "거미"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1489
+   }
+  ]
+ },
+ {
+  "headword": "거붑",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "tortoise, turtle"
+    ],
+    "written": "거붑〮"
+   }
+  ],
+  "modern": [
+   "거북"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1447
+   }
+  ]
+ },
+ {
+  "headword": "거스리다",
+  "senses": [
+   {
+    "pos": "Adjective",
+    "glosses": [
+     "to go against, to defy"
+    ],
+    "written": "거스〮리-다〮"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1459
+   }
+  ]
+ },
+ {
+  "headword": "거스리왇다",
+  "senses": [
+   {
+    "pos": "Adjective",
+    "glosses": [
+     "to go against, to defy"
+    ],
+    "written": "거스〮리〮왇-다〮"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1463
+   }
+  ]
+ },
+ {
+  "headword": "거슬ᄧᅳ다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to go against, to defy"
+    ],
+    "written": "거슬〮ᄧᅳ〮-다〮"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1481
+   }
+  ]
+ },
+ {
+  "headword": "거슬다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to go against, to defy"
+    ],
+    "written": "거슬〮-다〮"
+   }
+  ],
+  "modern": [
+   "거스르다"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1447
+   }
+  ]
+ },
+ {
+  "headword": "거슯즈다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "Variant spelling of 거슬ᄧᅳ다."
+    ],
+    "written": "거슯〮즈〮다〮"
+   }
+  ]
+ },
+ {
+  "headword": "거엽다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "Variant spelling of 게〯엽다〮."
+    ],
+    "written": "거〯엽다〮"
+   }
+  ]
+ },
+ {
+  "headword": "거우다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to disturb"
+    ],
+    "written": "거우-다〮"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1447
+   },
+   {
+    "work": null,
+    "year": 1536
+   }
+  ]
+ },
+ {
+  "headword": "거우루",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "mirror"
+    ],
+    "yale": "kè(G)wúlwù",
+    "written": "거우〮루"
+   }
+  ],
+  "modern": [
+   "거울"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1459
+   }
+  ]
+ },
+ {
+  "headword": "거유",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "goose"
+    ],
+    "written": "거유〮"
+   }
+  ],
+  "modern": [
+   "거위"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1463
+   }
+  ]
+ },
+ {
+  "headword": "거즛말",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "a lie; a false statement"
+    ],
+    "yale": "kecusmal"
+   }
+  ],
+  "modern": [
+   "거짓말"
+  ]
+ },
+ {
+  "headword": "거츨다",
+  "senses": [
+   {
+    "pos": "Adjective",
+    "glosses": [
+     "to be rough, coarse"
+    ],
+    "written": "거츨〮-다〮"
+   },
+   {
+    "pos": "Adjective",
+    "glosses": [
+     "to be false"
+    ],
+    "written": "거〯츨-다〮"
+   }
+  ],
+  "modern": [
+   "거칠다"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1481
+   },
+   {
+    "work": null,
+    "year": 1447
+   }
+  ]
+ },
+ {
+  "headword": "거티다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to obstruct (the way)",
+     "to walk badly; stumble"
+    ],
+    "written": "거티〮-다〮"
+   },
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to be folded back"
+    ],
+    "written": "거티〮-다〮"
+   }
+  ],
+  "modern": [
+   "거치다",
+   "걷히다"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1459
+   },
+   {
+    "work": null,
+    "year": 1517
+   },
+   {
+    "work": null,
+    "year": 1481
+   }
+  ]
+ },
+ {
+  "headword": "건나가다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to cross"
+    ],
+    "written": "건〯나〮가-다〮"
+   }
+  ],
+  "modern": [
+   "건너가다"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1459
+   }
+  ]
+ },
+ {
+  "headword": "건나다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to cross"
+    ],
+    "written": "건〯나-다〮"
+   }
+  ],
+  "modern": [
+   "건너다"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1459
+   }
+  ]
+ },
+ {
+  "headword": "건내ᄠᅱ다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to leap over, transcend"
+    ],
+    "written": "건〯내〮ᄠᅱ-다〮"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1459
+   }
+  ]
+ },
+ {
+  "headword": "건내다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to make (one) cross"
+    ],
+    "written": "건〯내-다〮"
+   }
+  ],
+  "modern": [
+   "건네다"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1481
+   }
+  ]
+ },
+ {
+  "headword": "건너ᄠᅱ다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to skip over, to jump across"
+    ],
+    "written": "건〯너〮ᄠᅱ-다〮"
+   }
+  ],
+  "modern": [
+   "건너뛰다"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1463
+   }
+  ]
+ },
+ {
+  "headword": "건너가다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to cross, go over"
+    ],
+    "written": "건〯너가-다〮"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1481
+   }
+  ]
+ },
+ {
+  "headword": "건너오다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to come over"
+    ],
+    "written": "건〯너오-다〮"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1481
+   }
+  ]
+ },
+ {
+  "headword": "건니다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to walk leisurely, stroll"
+    ],
+    "written": "건〯니-다〮"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1481
+   }
+  ]
+ },
+ {
+  "headword": "건디다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "(transitive) to strain out, to fish out"
+    ],
+    "written": "건디〮다〮"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1489
+   }
+  ]
+ },
+ {
+  "headword": "건춤",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "phlegm"
+    ],
+    "written": "건〯춤〮"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1466
+   }
+  ]
+ },
+ {
+  "headword": "걷다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to walk"
+    ],
+    "written": "걷〯-다〮"
+   },
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to fold up, roll up, to sweep away"
+    ],
+    "written": "걷-다〮"
+   }
+  ],
+  "modern": [
+   "걷다"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1447
+   },
+   {
+    "work": null,
+    "year": 1481
+   }
+  ]
+ },
+ {
+  "headword": "걸",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "canal, waterway"
+    ],
+    "written": "걸〯"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1464
+   }
+  ]
+ },
+ {
+  "headword": "걸거ᇰ쇠",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "hook"
+    ],
+    "written": "걸거ᇰ〮쇠〮"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1464
+   }
+  ]
+ },
+ {
+  "headword": "것ᄆᆞᄅᆞ죽다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to faint, to lose consciousness"
+    ],
+    "written": "것ᄆᆞᄅᆞ죽-다〮"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1447
+   }
+  ]
+ },
+ {
+  "headword": "겇",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "surface, skin"
+    ]
+   }
+  ],
+  "modern": [
+   "겉"
+  ]
+ },
+ {
+  "headword": "겨ᅀᅳᆯ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "겨ᅀᅳᆶ〮의 다른 표기 (isolated form)"
+    ],
+    "yale": "kyèzúl",
+    "written": "겨ᅀᅳᆯ〮"
+   }
+  ]
+ },
+ {
+  "headword": "겨ᅀᅳᆶ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "winter"
+    ],
+    "written": "겨ᅀᅳᆶ〮"
+   }
+  ],
+  "modern": [
+   "겨울"
+  ]
+ },
+ {
+  "headword": "겨ᅀᆞᆯ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "겨ᅀᅳᆶ의 다른 표기 (rare, unorthodox)"
+    ],
+    "yale": "kyezol"
+   }
+  ]
+ },
+ {
+  "headword": "겨ᇧ다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "(transitive) to suffer, to undergo, to go through",
+     "(transitive) to feed a large number of people"
+    ],
+    "written": "겨ᇧ다〮"
+   }
+  ],
+  "modern": [
+   "겪다"
+  ]
+ },
+ {
+  "headword": "겨시다",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "(honorific) to stay"
+    ],
+    "yale": "kyesita"
+   }
+  ],
+  "modern": [
+   "계시다"
+  ]
+ },
+ {
+  "headword": "겨집",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "woman, girl",
+     "wife"
+    ],
+    "yale": "kyěcìp",
+    "written": "겨〯집"
+   }
+  ],
+  "modern": [
+   "계집"
+  ]
+ },
+ {
+  "headword": "곁",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "vicinity, side"
+    ]
+   }
+  ],
+  "modern": [
+   "곁"
+  ]
+ },
+ {
+  "headword": "계우다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "(transitive) to lose to; to be defeated by; to fail to overcome"
+    ],
+    "yale": "kyèyGwútá",
+    "written": "계우〮다〮"
+   }
+  ],
+  "modern": [
+   "겹다"
+  ]
+ },
+ {
+  "headword": "고ᄋᆞ다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to snore"
+    ],
+    "yale": "kwoota"
+   }
+  ],
+  "modern": [
+   "골다"
+  ]
+ },
+ {
+  "headword": "고기",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "meat; flesh",
+     "fish"
+    ],
+    "yale": "kwòkí",
+    "written": "고기〮"
+   }
+  ],
+  "modern": [
+   "고기"
+  ]
+ },
+ {
+  "headword": "고디식다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to act righteously",
+     "(by extension) to be self-righteous, to be stubborn"
+    ],
+    "yale": "kwòtí sìktá",
+    "written": "고디〮식다〮"
+   }
+  ],
+  "modern": [
+   "고지식하다"
+  ]
+ },
+ {
+  "headword": "고마",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "respect, admiration"
+    ],
+    "yale": "kwŏmá",
+    "written": "고〯마〮"
+   },
+   {
+    "pos": "Noun",
+    "glosses": [
+     "lover, concubine"
+    ],
+    "yale": "kwòmá",
+    "written": "고마〮"
+   }
+  ],
+  "modern": [
+   "고맙다"
+  ]
+ },
+ {
+  "headword": "고마ᄂᆞᄅᆞ",
+  "senses": [
+   {
+    "pos": "Proper noun",
+    "glosses": [
+     "ancient capital town of the kingdom of"
+    ],
+    "yale": "Kwòmánòlò",
+    "written": "고마〮ᄂᆞᄅᆞ"
+   }
+  ]
+ },
+ {
+  "headword": "고마ᄒᆞ다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to respect, to admire"
+    ],
+    "yale": "kwŏmáhòtá",
+    "written": "고〯마〮ᄒᆞ다〮"
+   }
+  ]
+ },
+ {
+  "headword": "고지",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "fat, grease"
+    ],
+    "yale": "kwoci"
+   }
+  ]
+ },
+ {
+  "headword": "고키리",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "(zoology) elephant"
+    ],
+    "written": "고〮키리〮"
+   }
+  ],
+  "modern": [
+   "코끼리"
+  ]
+ },
+ {
+  "headword": "골",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "gorge; vale; valley",
+     "ditch",
+     "cave; hole"
+    ],
+    "yale": "kwǒl",
+    "written": "골〯"
+   }
+  ],
+  "modern": [
+   "[[골#valley"
+  ]
+ },
+ {
+  "headword": "곰ᄇᆡ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "In the highly archaic fifteenth-century song \"Dongdong\", the speaker says that she receives virtue in \"kwompoy\" and fortune in \"limpoy\"."
+    ],
+    "yale": "kwompoy"
+   }
+  ],
+  "modern": [
+   "곰비임비"
+  ]
+ },
+ {
+  "headword": "곶",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "flower; flowering plant"
+    ]
+   },
+   {
+    "pos": "Noun",
+    "glosses": [
+     "skewer",
+     "cape; headland"
+    ],
+    "written": "곶〮"
+   }
+  ],
+  "modern": [
+   "꽃",
+   "곶",
+   "꼬치"
+  ]
+ },
+ {
+  "headword": "곻",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "nose",
+     "tip, end"
+    ],
+    "written": "곻〮"
+   }
+  ],
+  "modern": [
+   "코"
+  ]
+ },
+ {
+  "headword": "과ᇰ대",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "entertainer, performer; clown; acrobat"
+    ],
+    "yale": "kwǎngtáy",
+    "written": "과ᇰ〯대〮"
+   }
+  ],
+  "modern": [
+   "광대"
+  ]
+ },
+ {
+  "headword": "괴",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "a cat"
+    ],
+    "yale": "kwǒy",
+    "written": "괴〯"
+   }
+  ],
+  "modern": [
+   "괴",
+   "고양이"
+  ]
+ },
+ {
+  "headword": "괴다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to love (often but not always romantic)"
+    ],
+    "yale": "kwǒytá",
+    "written": "괴〯다〮"
+   }
+  ],
+  "modern": [
+   "괴다"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1500
+   }
+  ]
+ },
+ {
+  "headword": "괴오다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to support, to prop up"
+    ],
+    "yale": "kwoyGwota"
+   }
+  ],
+  "modern": [
+   "괴다"
+  ]
+ },
+ {
+  "headword": "구겨ᇰ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "a viewing",
+     "a thing worth watching"
+    ],
+    "yale": "kwùkyéng",
+    "written": "구겨ᇰ〮"
+   }
+  ],
+  "modern": [
+   "구경"
+  ]
+ },
+ {
+  "headword": "구레",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "flank side of a person's body"
+    ],
+    "yale": "kwuley"
+   }
+  ],
+  "modern": [
+   "der=1"
+  ]
+ },
+ {
+  "headword": "구룸",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "cloud"
+    ],
+    "yale": "kwúlwùm",
+    "written": "구〮룸"
+   }
+  ],
+  "modern": [
+   "구름"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1459
+   }
+  ]
+ },
+ {
+  "headword": "구무",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "hole"
+    ]
+   }
+  ],
+  "modern": [
+   "구무"
+  ]
+ },
+ {
+  "headword": "구의ᄒᆞ다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to sue"
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "국",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "soup"
+    ],
+    "yale": "kwuk"
+   }
+  ],
+  "modern": [
+   "국"
+  ]
+ },
+ {
+  "headword": "국슈",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "noodle (string or strip of pasta)"
+    ],
+    "yale": "kwuksyu"
+   }
+  ],
+  "modern": [
+   "국수"
+  ]
+ },
+ {
+  "headword": "굴에",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "bridle"
+    ],
+    "yale": "kwùlGéy",
+    "written": "굴에〮"
+   }
+  ],
+  "modern": [
+   "굴레"
+  ]
+ },
+ {
+  "headword": "굴허ᇰ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "depression in land",
+     "alley"
+    ],
+    "written": "굴허ᇰ〮"
+   }
+  ],
+  "modern": [
+   "구렁"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1459
+   },
+   {
+    "work": null,
+    "year": 1481
+   }
+  ]
+ },
+ {
+  "headword": "굵다",
+  "senses": [
+   {
+    "pos": "Adjective",
+    "glosses": [
+     "to be thick"
+    ],
+    "written": "굵〯다〮"
+   }
+  ],
+  "modern": [
+   "굵다"
+  ]
+ },
+ {
+  "headword": "굿",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "shamanic ritual; indigenous religious ceremony"
+    ],
+    "yale": "kwús",
+    "written": "굿〮"
+   }
+  ],
+  "modern": [
+   "굿"
+  ]
+ },
+ {
+  "headword": "귀",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "ear"
+    ],
+    "written": "귀〮"
+   }
+  ],
+  "modern": [
+   "귀"
+  ]
+ },
+ {
+  "headword": "귀믿터리",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "sideburns hair below the ears"
+    ],
+    "yale": "kwìmìtthèlí",
+    "written": "귀믿터리〮"
+   }
+  ],
+  "modern": [
+   "귀밑털"
+  ]
+ },
+ {
+  "headword": "그ᅀᅳ다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to pull, to draw, to drag",
+     "(of people, animals) to lead, to drag"
+    ],
+    "written": "그ᅀᅳ다〮"
+   }
+  ],
+  "modern": [
+   "끌다"
+  ]
+ },
+ {
+  "headword": "그ᅌᅥ긔",
+  "senses": [
+   {
+    "pos": "Pronoun",
+    "glosses": [
+     "there"
+    ],
+    "yale": "kù.ngèkúy",
+    "written": "그ᅌᅥ긔〮"
+   }
+  ],
+  "modern": [
+   "거기"
+  ]
+ },
+ {
+  "headword": "그르메너흐리",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "earwig"
+    ],
+    "written": "그르메〮너흐〮리〮"
+   }
+  ],
+  "modern": [
+   "그리마"
+  ]
+ },
+ {
+  "headword": "그릇벼",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "furniture"
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "그릏",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "trunk, stem, stalk of a plant"
+    ],
+    "yale": "kuluh"
+   }
+  ],
+  "modern": [
+   "그루"
+  ]
+ },
+ {
+  "headword": "그리다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to draw, to paint",
+     "to think about, especially lovingly",
+     "to long for, to yearn for"
+    ],
+    "yale": "kúlìtá",
+    "written": "그〮리다〮"
+   }
+  ],
+  "modern": [
+   "그리다"
+  ]
+ },
+ {
+  "headword": "근원",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "root, cause, source, origin"
+    ],
+    "yale": "kùnwèn"
+   }
+  ],
+  "modern": [
+   "근원(根源)"
+  ]
+ },
+ {
+  "headword": "글",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "writing; a work of writing"
+    ],
+    "written": "글〮"
+   }
+  ],
+  "modern": [
+   "글"
+  ]
+ },
+ {
+  "headword": "글ᄫᅡᆯ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "text",
+     "letter"
+    ],
+    "yale": "kulWal"
+   }
+  ],
+  "modern": [
+   "글월"
+  ]
+ },
+ {
+  "headword": "긋다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "(ergative) to cut or to be cut",
+     "(ergative) to (come to a) stop"
+    ],
+    "yale": "kùstá",
+    "written": "긋다〮"
+   },
+   {
+    "pos": "Verb",
+    "glosses": [
+     "(transitive) to draw a line"
+    ],
+    "written": "그ᅀᅥ"
+   }
+  ],
+  "modern": [
+   "끊다",
+   "긋다"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1447
+   }
+  ]
+ },
+ {
+  "headword": "긑",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "end"
+    ],
+    "written": "긑〮"
+   }
+  ],
+  "modern": [
+   "끝"
+  ]
+ },
+ {
+  "headword": "긔ᄌᆞ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "(dialectal, _, or, _, archaic) king, ruler"
+    ],
+    "yale": "kuyco"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 2011
+   }
+  ]
+ },
+ {
+  "headword": "긔디",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "recall; the faculty of memory"
+    ],
+    "yale": "kuiti"
+   }
+  ]
+ },
+ {
+  "headword": "기ᅀᅳᆷ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "weed"
+    ]
+   }
+  ],
+  "modern": [
+   "김"
+  ]
+ },
+ {
+  "headword": "기ᇧ다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to rejoice"
+    ],
+    "written": "기ᇧ다〮"
+   }
+  ],
+  "modern": [
+   "der=1"
+  ]
+ },
+ {
+  "headword": "기드리다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "(transitive) to wait"
+    ],
+    "yale": "kìtúlìtá",
+    "written": "기드〮리다〮"
+   }
+  ],
+  "modern": [
+   "기다리다"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1447
+   }
+  ]
+ },
+ {
+  "headword": "기름",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "oil"
+    ],
+    "yale": "kìlúm",
+    "written": "기름〮"
+   }
+  ],
+  "modern": [
+   "기름"
+  ]
+ },
+ {
+  "headword": "기름믈",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "broth"
+    ],
+    "yale": "kilummul"
+   }
+  ]
+ },
+ {
+  "headword": "기릐",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "length"
+    ],
+    "yale": "kiluy"
+   }
+  ],
+  "modern": [
+   "길이"
+  ]
+ },
+ {
+  "headword": "기춤",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "a cough"
+    ],
+    "yale": "kichwum"
+   }
+  ],
+  "modern": [
+   "기침"
+  ]
+ },
+ {
+  "headword": "길",
+  "senses": [
+   {
+    "pos": "Counter",
+    "glosses": [
+     "a gil, a traditional Korean unit of length equal to the height of a person; a fathom"
+    ],
+    "written": "길〯"
+   },
+   {
+    "pos": "Noun",
+    "glosses": [
+     "긿〮의 다른 표기 (isolated form)"
+    ],
+    "written": "길〮"
+   }
+  ],
+  "modern": [
+   "[[길#gil"
+  ]
+ },
+ {
+  "headword": "길나다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to depart"
+    ],
+    "yale": "kilnata"
+   }
+  ]
+ },
+ {
+  "headword": "긿",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "road, path"
+    ],
+    "written": "긿〮"
+   }
+  ],
+  "modern": [
+   "[[길#road"
+  ]
+ },
+ {
+  "headword": "깃브다",
+  "senses": [
+   {
+    "pos": "Adjective",
+    "glosses": [
+     "to be happy, glad"
+    ]
+   }
+  ],
+  "modern": [
+   "기쁘다"
+  ]
+ },
+ {
+  "headword": "깇다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to cough"
+    ],
+    "written": "깇다〮"
+   }
+  ],
+  "modern": [
+   "깇다"
+  ]
+ },
+ {
+  "headword": "나",
+  "senses": [
+   {
+    "pos": "Pronoun",
+    "glosses": [
+     "I, the first-person singular pronoun"
+    ]
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1459
+   }
+  ]
+ },
+ {
+  "headword": "나ᄇᆡ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "butterfly"
+    ]
+   }
+  ],
+  "modern": [
+   "나비"
+  ]
+ },
+ {
+  "headword": "나ᄋᆞᆯ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "four days"
+    ],
+    "yale": "nàól"
+   }
+  ],
+  "modern": [
+   "나흘"
+  ]
+ },
+ {
+  "headword": "나ᅀᅵ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "shepherd's purse"
+    ],
+    "yale": "nàzí",
+    "written": "나ᅀᅵ〮"
+   }
+  ],
+  "modern": [
+   "냉이"
+  ]
+ },
+ {
+  "headword": "나ᇚ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "tree"
+    ]
+   }
+  ],
+  "modern": [
+   "나무"
+  ]
+ },
+ {
+  "headword": "나라",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "나랗〮의 다른 표기 (isolated form)"
+    ],
+    "yale": "nàlá",
+    "written": "나라〮"
+   }
+  ]
+ },
+ {
+  "headword": "나랗",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "country, nation, kingdom",
+     "(metonym) king, monarch"
+    ],
+    "written": "나랗〮"
+   }
+  ],
+  "modern": [
+   "나라"
+  ]
+ },
+ {
+  "headword": "나모",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "tree",
+     "wood"
+    ]
+   }
+  ],
+  "modern": [
+   "나무"
+  ],
+  "attested": [
+   {
+    "work": "진단학보",
+    "year": 1962
+   }
+  ]
+ },
+ {
+  "headword": "나조",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "나좋의 다른 표기 (isolated form)"
+    ],
+    "yale": "nàcwò"
+   }
+  ]
+ },
+ {
+  "headword": "나좋",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "evening"
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "나타",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "(of a female) to lay, to give birth to; (of a male) to sire"
+    ],
+    "yale": "nàthá",
+    "written": "나타〮"
+   }
+  ],
+  "modern": [
+   "낳다"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 2011
+   }
+  ]
+ },
+ {
+  "headword": "낛",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "fishing hook, fishing",
+     "hook, gaff. compare",
+     "tax payment"
+    ],
+    "written": "낛〮"
+   }
+  ],
+  "modern": [
+   "낚시",
+   "hook",
+   "fishing",
+   "낚다",
+   "fish"
+  ]
+ },
+ {
+  "headword": "낟다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "(intransitive) to emerge, to appear"
+    ],
+    "yale": "nàttá",
+    "written": "낟다〮"
+   }
+  ],
+  "modern": [
+   "나타나다"
+  ]
+ },
+ {
+  "headword": "날",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "day"
+    ],
+    "written": "날〮"
+   }
+  ],
+  "modern": [
+   "[[날#day"
+  ]
+ },
+ {
+  "headword": "남진",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "man",
+     "husband"
+    ],
+    "yale": "nàmcìn"
+   }
+  ]
+ },
+ {
+  "headword": "낫",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "낮〮의 다른 표기 (isolated form)"
+    ],
+    "yale": "nás",
+    "written": "낫〮"
+   }
+  ]
+ },
+ {
+  "headword": "낮",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "daytime",
+     "noon"
+    ],
+    "written": "낮〮"
+   }
+  ],
+  "modern": [
+   "낮"
+  ]
+ },
+ {
+  "headword": "낳",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "age"
+    ],
+    "yale": "náh",
+    "written": "낳〮"
+   }
+  ],
+  "modern": [
+   "나이"
+  ]
+ },
+ {
+  "headword": "내죠ᇰ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "the next time",
+     "later"
+    ],
+    "yale": "nǎycyòng",
+    "written": "내〯죠ᇰ"
+   }
+  ],
+  "modern": [
+   "나중"
+  ]
+ },
+ {
+  "headword": "냏",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "stream"
+    ],
+    "yale": "nǎyh",
+    "written": "냏〯"
+   }
+  ],
+  "modern": [
+   "내"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1447
+   }
+  ]
+ },
+ {
+  "headword": "너",
+  "senses": [
+   {
+    "pos": "Pronoun",
+    "glosses": [
+     "you"
+    ],
+    "yale": "nè"
+   }
+  ],
+  "modern": [
+   "너"
+  ]
+ },
+ {
+  "headword": "너므다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to make go past, over"
+    ],
+    "written": "너므다〮"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1481
+   },
+   {
+    "work": null,
+    "year": 1459
+   },
+   {
+    "work": null,
+    "year": 1518
+   }
+  ]
+ },
+ {
+  "headword": "넌즈시",
+  "senses": [
+   {
+    "pos": "Adverb",
+    "glosses": [
+     "discreetly, implicitly",
+     "without a care, without concern"
+    ],
+    "yale": "nèncùsì"
+   }
+  ],
+  "modern": [
+   "넌지시"
+  ]
+ },
+ {
+  "headword": "넙다",
+  "senses": [
+   {
+    "pos": "Adjective",
+    "glosses": [
+     "to be wide"
+    ],
+    "yale": "nepta"
+   }
+  ],
+  "modern": [
+   "넓다"
+  ]
+ },
+ {
+  "headword": "넿",
+  "senses": [
+   {
+    "pos": "Numeral",
+    "glosses": [
+     "four"
+    ],
+    "yale": "něyh",
+    "written": "넿〯"
+   }
+  ],
+  "modern": [
+   "넷"
+  ]
+ },
+ {
+  "headword": "녀ᄌᆞ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "woman; girl; lady; female"
+    ],
+    "yale": "nyeco"
+   }
+  ],
+  "modern": [
+   "여자",
+   "녀자"
+  ]
+ },
+ {
+  "headword": "녀나ᄆᆞᆫ",
+  "senses": [
+   {
+    "pos": "Determiner",
+    "glosses": [
+     "another, other, different"
+    ],
+    "written": "녀〮나ᄆᆞᆫ〮"
+   }
+  ],
+  "modern": [
+   "너나문"
+  ]
+ },
+ {
+  "headword": "녀다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to go; to move physically towards another place"
+    ],
+    "yale": "nyètá",
+    "written": "녀다〮"
+   }
+  ],
+  "modern": [
+   "예다"
+  ]
+ },
+ {
+  "headword": "녀름",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "summer",
+     "farming"
+    ],
+    "yale": "nyèlúm",
+    "written": "녀름〮"
+   }
+  ],
+  "modern": [
+   "여름"
+  ]
+ },
+ {
+  "headword": "녀름짓다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to farm, to do farming, farm work"
+    ],
+    "written": "녀름〮짓〯다〮"
+   }
+  ],
+  "modern": [
+   "여름짓다"
+  ]
+ },
+ {
+  "headword": "노",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "gauze, thin cloth"
+    ],
+    "yale": "nwo"
+   }
+  ]
+ },
+ {
+  "headword": "노올",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "parasite"
+    ],
+    "yale": "nwoGwol"
+   }
+  ]
+ },
+ {
+  "headword": "노타",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "(transitive) to put, to place"
+    ],
+    "yale": "nwòthá",
+    "written": "노타〮"
+   }
+  ],
+  "modern": [
+   "놓다"
+  ]
+ },
+ {
+  "headword": "논",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "paddy field"
+    ],
+    "written": "논〮"
+   }
+  ],
+  "modern": [
+   "논"
+  ]
+ },
+ {
+  "headword": "놀애",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "song"
+    ],
+    "yale": "nwòlGáy",
+    "written": "놀애〮"
+   }
+  ],
+  "modern": [
+   "노래"
+  ]
+ },
+ {
+  "headword": "높다",
+  "senses": [
+   {
+    "pos": "Adjective",
+    "glosses": [
+     "to be high"
+    ],
+    "written": "높다〮"
+   }
+  ],
+  "modern": [
+   "높다"
+  ]
+ },
+ {
+  "headword": "누",
+  "senses": [
+   {
+    "pos": "Pronoun",
+    "glosses": [
+     "(interrogative) who?"
+    ],
+    "yale": "nwú",
+    "written": "누〮"
+   }
+  ],
+  "modern": [
+   "누",
+   "der=1"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1459
+   }
+  ]
+ },
+ {
+  "headword": "누ᇈ믈",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "tear"
+    ],
+    "yale": "nwún-z-múl",
+    "written": "누ᇈ〮믈〮"
+   }
+  ],
+  "modern": [
+   "눈물"
+  ]
+ },
+ {
+  "headword": "누리",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "뉘〯의 다른 꼴 (archaic)"
+    ],
+    "yale": "nwùlí",
+    "written": "누리〮"
+   }
+  ],
+  "modern": [
+   "누리"
+  ]
+ },
+ {
+  "headword": "누의",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "sister of a male"
+    ],
+    "yale": "nwùùy"
+   }
+  ],
+  "modern": [
+   "누이",
+   "der=1"
+  ]
+ },
+ {
+  "headword": "눈",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "eye"
+    ],
+    "written": "눈〮"
+   },
+   {
+    "pos": "Noun",
+    "glosses": [
+     "snow"
+    ],
+    "written": "눈〯"
+   }
+  ],
+  "modern": [
+   "[[눈#eye",
+   "[[눈#snow"
+  ]
+ },
+ {
+  "headword": "니르ᅘᅧ다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to raise; to kindle or stir up"
+    ],
+    "written": "니르ᅘᅧ〮다〮"
+   }
+  ],
+  "modern": [
+   "일으키다"
+  ]
+ },
+ {
+  "headword": "니마",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "니맣〮의 다른 표기 (isolated form)"
+    ],
+    "yale": "nìmá",
+    "written": "니마〮"
+   }
+  ]
+ },
+ {
+  "headword": "니맣",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "forehead, brow"
+    ],
+    "written": "니맣〮"
+   }
+  ],
+  "modern": [
+   "이마"
+  ]
+ },
+ {
+  "headword": "닐굽",
+  "senses": [
+   {
+    "pos": "Numeral",
+    "glosses": [
+     "seven"
+    ],
+    "yale": "nìlkwúp",
+    "written": "닐굽〮"
+   }
+  ],
+  "modern": [
+   "일곱"
+  ]
+ },
+ {
+  "headword": "닐웨",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "seven days"
+    ],
+    "yale": "nìlGwéy",
+    "written": "닐웨〮"
+   }
+  ],
+  "modern": [
+   "이레"
+  ]
+ },
+ {
+  "headword": "닐위다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to cause to rise, to cause to emerge, to bring about"
+    ],
+    "yale": "nǐlGwǔytá",
+    "written": "닐〯위〯다〮"
+   }
+  ]
+ },
+ {
+  "headword": "닐흔",
+  "senses": [
+   {
+    "pos": "Numeral",
+    "glosses": [
+     "seventy"
+    ],
+    "yale": "nìlhún",
+    "written": "닐흔〮"
+   }
+  ],
+  "modern": [
+   "일흔"
+  ]
+ },
+ {
+  "headword": "님",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "lord, master",
+     "one's love, the beloved"
+    ],
+    "yale": "nǐm",
+    "written": "님〯"
+   },
+   {
+    "pos": "Suffix",
+    "glosses": [
+     "honored; esteemed; attached to nouns to show respect for the noun"
+    ],
+    "yale": "nǐm",
+    "written": "님〯"
+   }
+  ],
+  "modern": [
+   "님"
+  ]
+ },
+ {
+  "headword": "님금",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "king; monarch"
+    ],
+    "yale": "nǐmkúm",
+    "written": "님〯금〮"
+   }
+  ],
+  "modern": [
+   "임금"
+  ]
+ },
+ {
+  "headword": "닙",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "닢〮의 다른 표기 (isolated form)"
+    ],
+    "yale": "níp",
+    "written": "닙〮"
+   }
+  ]
+ },
+ {
+  "headword": "닙다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to wear; to put on"
+    ],
+    "yale": "nìptá",
+    "written": "닙다〮"
+   }
+  ],
+  "modern": [
+   "입다"
+  ]
+ },
+ {
+  "headword": "닢",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "leaf"
+    ],
+    "written": "닢〮"
+   }
+  ],
+  "modern": [
+   "잎"
+  ]
+ },
+ {
+  "headword": "다",
+  "senses": [
+   {
+    "pos": "Adverb",
+    "glosses": [
+     "everything, all, completely"
+    ],
+    "yale": "tǎ",
+    "written": "다〯"
+   }
+  ],
+  "modern": [
+   "[[다#all"
+  ]
+ },
+ {
+  "headword": "다ᄆᆞᆺ",
+  "senses": [
+   {
+    "pos": "Adverb",
+    "glosses": [
+     "together"
+    ],
+    "written": "다ᄆᆞᆺ〮"
+   }
+  ]
+ },
+ {
+  "headword": "다ᄆᆞᆺᄒᆞ다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to do together"
+    ],
+    "written": "다ᄆᆞᆺ〮ᄒᆞ다〮"
+   }
+  ]
+ },
+ {
+  "headword": "다ᄉᆞᆺ",
+  "senses": [
+   {
+    "pos": "Numeral",
+    "glosses": [
+     "five"
+    ],
+    "yale": "tàsós",
+    "written": "다ᄉᆞᆺ〮"
+   }
+  ],
+  "modern": [
+   "다섯"
+  ]
+ },
+ {
+  "headword": "다대골",
+  "senses": [
+   {
+    "pos": "Proper noun",
+    "glosses": [
+     "a settlement of Tatars or Mongols in modern , North Korea"
+    ],
+    "yale": "Tàtàykwǒl",
+    "written": "다대골〯"
+   }
+  ]
+ },
+ {
+  "headword": "다로ᇰ디리",
+  "senses": [
+   {
+    "pos": "Interjection",
+    "glosses": [
+     "A common vocable in songs and poetry, apparently without any meaning."
+    ],
+    "yale": "talwongtili"
+   }
+  ]
+ },
+ {
+  "headword": "단기다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "(transitive) to tie together, to fix in place"
+    ],
+    "written": "단기〮-다"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1466
+   }
+  ]
+ },
+ {
+  "headword": "달ᄠᅳ다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to become wet",
+     "to indulge in"
+    ],
+    "yale": "talptuta"
+   }
+  ]
+ },
+ {
+  "headword": "달내",
+  "senses": [
+   {
+    "pos": "Proper noun",
+    "glosses": [
+     "Various streams in Korea, notably"
+    ],
+    "yale": "Tálnǎy",
+    "written": "달〮내〯"
+   }
+  ],
+  "modern": [
+   "^달천"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 2006
+   }
+  ]
+ },
+ {
+  "headword": "닷쇄",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "five days"
+    ],
+    "yale": "tassway"
+   }
+  ],
+  "modern": [
+   "닷새"
+  ]
+ },
+ {
+  "headword": "더",
+  "senses": [
+   {
+    "pos": "Adverb",
+    "glosses": [
+     "more, -er to a greater extent"
+    ],
+    "yale": "tè"
+   }
+  ],
+  "modern": [
+   "더"
+  ]
+ },
+ {
+  "headword": "더디다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to throw"
+    ],
+    "yale": "tetita"
+   }
+  ]
+ },
+ {
+  "headword": "더럽다",
+  "senses": [
+   {
+    "pos": "Adjective",
+    "glosses": [
+     "to be dirty"
+    ],
+    "yale": "tělèptá",
+    "written": "더〯럽다〮"
+   }
+  ],
+  "modern": [
+   "더럽다"
+  ]
+ },
+ {
+  "headword": "덥다",
+  "senses": [
+   {
+    "pos": "Adjective",
+    "glosses": [
+     "(to be) hot, warm"
+    ],
+    "yale": "těptá",
+    "written": "덥〯다〮"
+   }
+  ],
+  "modern": [
+   "덥다"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1459
+   }
+  ]
+ },
+ {
+  "headword": "뎔",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "Buddhist monastery / temple"
+    ],
+    "written": "뎔〮"
+   }
+  ],
+  "modern": [
+   "절"
+  ]
+ },
+ {
+  "headword": "도ᄅᆞ다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to turn (something)"
+    ],
+    "written": "도ᄅᆞ다〮"
+   }
+  ]
+ },
+ {
+  "headword": "도ᄌᆞᆨ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "thief, robber",
+     "(metonym) robbery"
+    ],
+    "yale": "twòcòk"
+   }
+  ],
+  "modern": [
+   "도둑"
+  ]
+ },
+ {
+  "headword": "도ᇰᄉᆡᇰ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "younger sibling"
+    ],
+    "yale": "twongsoyng"
+   }
+  ],
+  "modern": [
+   "동생"
+  ]
+ },
+ {
+  "headword": "도ᇰᄒᆡ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "(an earthenware) jar"
+    ]
+   }
+  ],
+  "modern": [
+   "동이"
+  ]
+ },
+ {
+  "headword": "도ᇰ모",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "friend, buddy"
+    ],
+    "yale": "twongmwo"
+   }
+  ],
+  "modern": [
+   "동무"
+  ]
+ },
+ {
+  "headword": "도랒",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "balloon flower"
+    ]
+   }
+  ],
+  "modern": [
+   "도랒",
+   "도라지"
+  ]
+ },
+ {
+  "headword": "도로ᄒᆞ다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to repay, to return (something loaned)"
+    ],
+    "yale": "twolwohota"
+   }
+  ]
+ },
+ {
+  "headword": "도산",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "gift; present"
+    ],
+    "yale": "twosan"
+   }
+  ]
+ },
+ {
+  "headword": "도의",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "reselling, trade, barter"
+    ]
+   }
+  ],
+  "modern": [
+   "도부"
+  ]
+ },
+ {
+  "headword": "도토밤",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "(hapax) acorn"
+    ],
+    "written": "도토〮밤〯"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1481
+   }
+  ]
+ },
+ {
+  "headword": "도톨왐",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "(hapax)"
+    ],
+    "written": "도톨〮왐〮"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1481
+   }
+  ]
+ },
+ {
+  "headword": "독",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "jar; pot"
+    ],
+    "yale": "twòk"
+   },
+   {
+    "pos": "Noun",
+    "glosses": [
+     "poison; venom"
+    ],
+    "yale": "twók",
+    "written": "독〮"
+   }
+  ],
+  "modern": [
+   "[[독#jar",
+   "[[독#毒"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1489
+   }
+  ]
+ },
+ {
+  "headword": "돌숫",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "coal"
+    ],
+    "yale": "twolswus"
+   }
+  ]
+ },
+ {
+  "headword": "돌이다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to turn (something)"
+    ],
+    "written": "돌이〮다〮"
+   }
+  ],
+  "modern": [
+   "돌리다"
+  ]
+ },
+ {
+  "headword": "돓",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "stone"
+    ],
+    "written": "돓〯"
+   }
+  ],
+  "modern": [
+   "돌"
+  ]
+ },
+ {
+  "headword": "돗가비",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "dokkaebi mythical being in Korean folklore or fairy tales"
+    ],
+    "yale": "twóskàpí",
+    "written": "돗〮가비〮"
+   }
+  ],
+  "modern": [
+   "도깨비"
+  ]
+ },
+ {
+  "headword": "돗귀",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "axe"
+    ],
+    "yale": "twǒskwúy"
+   }
+  ],
+  "modern": [
+   "도끼"
+  ]
+ },
+ {
+  "headword": "돝",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "pig, swine"
+    ]
+   }
+  ],
+  "modern": [
+   "돼지"
+  ]
+ },
+ {
+  "headword": "되",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "Jurchen",
+     "Han Chinese",
+     "(generally) barbarian"
+    ],
+    "yale": "twǒy",
+    "written": "되〯"
+   }
+  ],
+  "modern": [
+   "되강",
+   "되놈",
+   "되새",
+   "되지빠귀",
+   "되두부",
+   "되비지"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1517
+   }
+  ]
+ },
+ {
+  "headword": "둏다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "(intransitive) to become (or to be) pleasing; to become (or to be) good",
+     "(intransitive) to become (or to be) of superior quality; to become (or to be) good",
+     "(intransitive) to become (or to be) suitable or good for a specific purpose",
+     "(intransitive) to get better, to be healed, to recover from an illness",
+     "(uncommon, transitive) to be pleased by, to consider as good",
+     "(hapax, transitive) to heal, to cure (possibly awkward literal translation from Chinese)"
+    ],
+    "written": "둏〯다〮"
+   }
+  ],
+  "modern": [
+   "좋다"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1999
+   },
+   {
+    "work": null,
+    "year": 1481
+   },
+   {
+    "work": null,
+    "year": 1517
+   },
+   {
+    "work": null,
+    "year": 1466
+   }
+  ]
+ },
+ {
+  "headword": "두루걷다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to wander"
+    ],
+    "yale": "tuluketta"
+   }
+  ]
+ },
+ {
+  "headword": "두루치",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "shark"
+    ],
+    "yale": "twulwuchi"
+   }
+  ]
+ },
+ {
+  "headword": "두르다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to go around, to surround"
+    ]
+   }
+  ],
+  "modern": [
+   "두르다"
+  ]
+ },
+ {
+  "headword": "둟",
+  "senses": [
+   {
+    "pos": "Numeral",
+    "glosses": [
+     "two"
+    ],
+    "yale": "twǔlh",
+    "written": "둟〯"
+   }
+  ],
+  "modern": [
+   "둘"
+  ]
+ },
+ {
+  "headword": "뒿",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "back",
+     "north"
+    ],
+    "written": "뒿〯"
+   }
+  ],
+  "modern": [
+   "뒤"
+  ]
+ },
+ {
+  "headword": "듀ᇰ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "middle; center; amongst"
+    ],
+    "yale": "tyùng"
+   }
+  ],
+  "modern": [
+   "중"
+  ]
+ },
+ {
+  "headword": "듀ᇰ귁",
+  "senses": [
+   {
+    "pos": "Proper noun",
+    "glosses": [
+     "듀ᇰ국(中國)의 다른 꼴 (orthodox reading)"
+    ],
+    "written": "듀ᇰ귁〮"
+   }
+  ]
+ },
+ {
+  "headword": "드러치다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to tremble"
+    ],
+    "yale": "tùléchìtá",
+    "written": "드러〮치다〮"
+   }
+  ]
+ },
+ {
+  "headword": "드릏",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "meadow"
+    ],
+    "written": "드릏〮"
+   }
+  ],
+  "modern": [
+   "[[들#field"
+  ]
+ },
+ {
+  "headword": "듣글",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "mote, speck"
+    ],
+    "yale": "tùtkùl"
+   }
+  ],
+  "modern": [
+   "티끌"
+  ]
+ },
+ {
+  "headword": "듫",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "드릏〮의 다른 꼴"
+    ],
+    "written": "듫〯"
+   }
+  ],
+  "modern": [
+   "[[들#field"
+  ]
+ },
+ {
+  "headword": "듬바되",
+  "senses": [
+   {
+    "pos": "Proper noun",
+    "glosses": [
+     "A famous crossing over the , now in near the"
+    ],
+    "yale": "Tùmpàtwóy",
+    "written": "듬바되〮"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 2006
+   }
+  ]
+ },
+ {
+  "headword": "디나가다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to go past"
+    ],
+    "written": "디〯나〮가〮다〮"
+   }
+  ],
+  "modern": [
+   "지나가다"
+  ]
+ },
+ {
+  "headword": "디나다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to pass"
+    ],
+    "written": "디〯나다〮"
+   }
+  ],
+  "modern": [
+   "지나다"
+  ]
+ },
+ {
+  "headword": "디히",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "kimchi"
+    ],
+    "written": "디히〮"
+   }
+  ]
+ },
+ {
+  "headword": "딮",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "straw"
+    ],
+    "yale": "tiph"
+   }
+  ],
+  "modern": [
+   "짚"
+  ]
+ },
+ {
+  "headword": "러ᅌᅮᆯ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "raccoon dog"
+    ],
+    "written": "러ᅌᅮᆯ〮"
+   }
+  ],
+  "modern": [
+   "너구리"
+  ]
+ },
+ {
+  "headword": "렴토ᇰ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "heart"
+    ],
+    "yale": "lyemthwong"
+   }
+  ],
+  "modern": [
+   "염통"
+  ]
+ },
+ {
+  "headword": "림ᄇᆡ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "In the highly archaic fifteenth-century song \"Dongdong\", the speaker says that she receives virtue in \"kwompoy\" and fortune in \"limpoy\"."
+    ],
+    "yale": "limpoy"
+   }
+  ],
+  "modern": [
+   "곰비임비"
+  ]
+ },
+ {
+  "headword": "마ᄂᆞᆯ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "garlic"
+    ],
+    "yale": "mànól",
+    "written": "마ᄂᆞᆯ〮"
+   }
+  ],
+  "modern": [
+   "마늘"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1527
+   }
+  ]
+ },
+ {
+  "headword": "마ᅀᆞᆫ",
+  "senses": [
+   {
+    "pos": "Numeral",
+    "glosses": [
+     "forty, 40"
+    ],
+    "yale": "màzón",
+    "written": "마ᅀᆞᆫ〮"
+   }
+  ],
+  "modern": [
+   "마흔"
+  ]
+ },
+ {
+  "headword": "마ᇨ다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to take charge of"
+    ],
+    "written": "마ᇨ다〮"
+   }
+  ],
+  "modern": [
+   "맡다"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1459
+   }
+  ]
+ },
+ {
+  "headword": "마고",
+  "senses": [
+   {
+    "pos": "Adverb",
+    "glosses": [
+     "blocking; stopping up; presenting an obstacle",
+     "seeking to block; in order to block"
+    ],
+    "yale": "màkwó",
+    "written": "마고〮"
+   }
+  ],
+  "modern": [
+   "마구"
+  ]
+ },
+ {
+  "headword": "마시다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to drink"
+    ],
+    "yale": "màsí-tá",
+    "written": "마시〮다〮"
+   }
+  ],
+  "modern": [
+   "마시다"
+  ]
+ },
+ {
+  "headword": "마치",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "hammer"
+    ],
+    "yale": "machi"
+   }
+  ],
+  "modern": [
+   "망치"
+  ]
+ },
+ {
+  "headword": "만ᄒᆞ다",
+  "senses": [
+   {
+    "pos": "Adjective",
+    "glosses": [
+     "(less common) to be many"
+    ],
+    "yale": "mǎn-hòtá",
+    "written": "만〯ᄒᆞ다〮"
+   }
+  ],
+  "modern": [
+   "많다"
+  ]
+ },
+ {
+  "headword": "말",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "word, speech, language"
+    ],
+    "yale": "mǎl",
+    "written": "말〯"
+   },
+   {
+    "pos": "Noun",
+    "glosses": [
+     "a unit of measure (containing about 18 liters or 10 doe ()"
+    ],
+    "yale": "mál",
+    "written": "말〮"
+   }
+  ],
+  "modern": [
+   "[[말#word",
+   "[[말#unit"
+  ]
+ },
+ {
+  "headword": "말ᄊᆞᆷ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "word or speech"
+    ],
+    "yale": "mǎlssòm",
+    "written": "말〯ᄊᆞᆷ"
+   }
+  ],
+  "modern": [
+   "말씀"
+  ]
+ },
+ {
+  "headword": "말ᄒᆞ다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to speak, talk"
+    ],
+    "yale": "mǎl-hòtá",
+    "written": "말〯ᄒᆞ다〮"
+   }
+  ],
+  "modern": [
+   "말하다"
+  ]
+ },
+ {
+  "headword": "말ᄫᅡᆷ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "water chestnut, water caltrop"
+    ],
+    "written": "말ᄫᅡᆷ〯"
+   }
+  ],
+  "modern": [
+   "마름"
+  ]
+ },
+ {
+  "headword": "말하",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "spleen"
+    ],
+    "yale": "màlhá",
+    "written": "말하〮"
+   }
+  ]
+ },
+ {
+  "headword": "맛ᄀᆞᆱ다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to answer, respond"
+    ],
+    "yale": "maskolmta"
+   }
+  ]
+ },
+ {
+  "headword": "맛디다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "(transitive) to entrust (someone) with"
+    ],
+    "written": "맛디〮다〮"
+   }
+  ],
+  "modern": [
+   "맡기다"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1490
+   }
+  ]
+ },
+ {
+  "headword": "맡",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "yard"
+    ]
+   }
+  ],
+  "modern": [
+   "맡",
+   "마당"
+  ]
+ },
+ {
+  "headword": "맣",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "monsoon rains"
+    ],
+    "yale": "màh",
+    "written": "마"
+   }
+  ],
+  "modern": [
+   "장마",
+   "마파람"
+  ]
+ },
+ {
+  "headword": "머섬",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "farmhand"
+    ],
+    "yale": "mesem"
+   }
+  ],
+  "modern": [
+   "머슴"
+  ]
+ },
+ {
+  "headword": "머툰ᄂᆞᄅᆞ",
+  "senses": [
+   {
+    "pos": "Proper noun",
+    "glosses": [
+     "a ford across the lower near Pyongyang"
+    ],
+    "yale": "Mèthúnnòlò",
+    "written": "머툰〮ᄂᆞᄅᆞ"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 2006
+   }
+  ]
+ },
+ {
+  "headword": "멀험",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "stable"
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "멋다",
+  "senses": [
+   {
+    "pos": "Adjective",
+    "glosses": [
+     "to be inauspicious"
+    ],
+    "yale": "mèstá",
+    "written": "멋다〮"
+   }
+  ]
+ },
+ {
+  "headword": "멎",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "cherry fruit"
+    ],
+    "yale": "mèc"
+   }
+  ]
+ },
+ {
+  "headword": "며ᇰ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "a person's name"
+    ],
+    "yale": "myeng"
+   }
+  ]
+ },
+ {
+  "headword": "며주",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "(cooking) block of fermented beans, used to make doenjang"
+    ],
+    "written": "며주〮"
+   }
+  ],
+  "modern": [
+   "메주"
+  ]
+ },
+ {
+  "headword": "모ᄀᆡ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "mosquito"
+    ],
+    "yale": "mwókóy",
+    "written": "모〮ᄀᆡ〮"
+   }
+  ],
+  "modern": [
+   "모기"
+  ]
+ },
+ {
+  "headword": "모ᄃᆞᆫ아ᄃᆞᆯ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "illegitimate son"
+    ]
+   }
+  ],
+  "modern": [
+   "[[모든]][[아들]]"
+  ]
+ },
+ {
+  "headword": "모ᄃᆡ",
+  "senses": [
+   {
+    "pos": "Adverb",
+    "glosses": [
+     "necessarily",
+     "fervently"
+    ],
+    "yale": "mwǒtóy",
+    "written": "모〯ᄃᆡ〮"
+   }
+  ]
+ },
+ {
+  "headword": "모돔잇ᄀᆞᄅᆞᆷ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "generic term, collective name"
+    ]
+   }
+  ],
+  "modern": [
+   "[[모듬]][[있다",
+   "갈음"
+  ]
+ },
+ {
+  "headword": "모딘고기",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "crocodile"
+    ]
+   }
+  ],
+  "modern": [
+   "[[모진고기]]"
+  ]
+ },
+ {
+  "headword": "목",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "neck"
+    ]
+   }
+  ],
+  "modern": [
+   "[[목#neck"
+  ]
+ },
+ {
+  "headword": "몬ᄌᆡ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "dust"
+    ],
+    "yale": "mwòncòy"
+   }
+  ],
+  "modern": [
+   "먼지"
+  ]
+ },
+ {
+  "headword": "몰애",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "sand"
+    ],
+    "yale": "mwòlGáy",
+    "written": "몰애〮"
+   }
+  ],
+  "modern": [
+   "모래"
+  ]
+ },
+ {
+  "headword": "몸",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "body"
+    ],
+    "written": "몸〮"
+   }
+  ],
+  "modern": [
+   "몸"
+  ]
+ },
+ {
+  "headword": "뫼",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "묗〯의 다른 표기 (isolated form)"
+    ],
+    "yale": "mwǒy",
+    "written": "뫼〯"
+   }
+  ]
+ },
+ {
+  "headword": "뫼ᅀᅡ리",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "echo"
+    ],
+    "yale": "mwǒyzàlí",
+    "written": "뫼〯ᅀᅡ리〮"
+   }
+  ],
+  "modern": [
+   "메아리"
+  ]
+ },
+ {
+  "headword": "묏괴",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "leopard cat"
+    ],
+    "yale": "mwǒy-s kwǒy",
+    "written": "묏〯괴〯"
+   }
+  ]
+ },
+ {
+  "headword": "묗",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "mountain"
+    ],
+    "yale": "mwǒyh",
+    "written": "묗〯"
+   }
+  ],
+  "modern": [
+   "뫼"
+  ]
+ },
+ {
+  "headword": "무ᅀᅮ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "Korean radish, a variety of daikon."
+    ],
+    "yale": "mwùzwù",
+    "written": "[[무ᅀᅮ"
+   }
+  ],
+  "modern": [
+   "무우",
+   "무",
+   "무유"
+  ]
+ },
+ {
+  "headword": "무ᇰ긔다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to press together, to crumple up"
+    ],
+    "written": "무ᇰ긔〮다〮"
+   }
+  ],
+  "modern": [
+   "뭉치다"
+  ]
+ },
+ {
+  "headword": "무룹",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "무뤂의 다른 표기 (isolated form)"
+    ],
+    "yale": "mwùlwùp"
+   }
+  ]
+ },
+ {
+  "headword": "무뤂",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "knee"
+    ]
+   }
+  ],
+  "modern": [
+   "무릎"
+  ]
+ },
+ {
+  "headword": "무뤼",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "hail (balls of ice)"
+    ],
+    "yale": "mwúlwúy",
+    "written": "무〮뤼〮"
+   }
+  ]
+ },
+ {
+  "headword": "뭀",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "multitude"
+    ]
+   }
+  ],
+  "modern": [
+   "뭇"
+  ]
+ },
+ {
+  "headword": "뭍",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "(dry) land"
+    ]
+   }
+  ],
+  "modern": [
+   "뭍"
+  ]
+ },
+ {
+  "headword": "뮈다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "(intransitive) to move, to shake"
+    ],
+    "yale": "mwǔytá",
+    "written": "뮈〯다〮"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1447
+   }
+  ]
+ },
+ {
+  "headword": "므스",
+  "senses": [
+   {
+    "pos": "Pronoun",
+    "glosses": [
+     "(interrogative) what"
+    ],
+    "yale": "mùsú",
+    "written": "므스〮"
+   },
+   {
+    "pos": "Determiner",
+    "glosses": [
+     "(interrogative) what"
+    ],
+    "yale": "mùsú",
+    "written": "므스〮"
+   },
+   {
+    "pos": "Adverb",
+    "glosses": [
+     "(interrogative) 므슴의 다른 꼴"
+    ],
+    "yale": "mùsú",
+    "written": "므스〮"
+   }
+  ],
+  "modern": [
+   "무엇"
+  ]
+ },
+ {
+  "headword": "므슥",
+  "senses": [
+   {
+    "pos": "Pronoun",
+    "glosses": [
+     "(interrogative) what"
+    ],
+    "yale": "mùsúk",
+    "written": "므슥〮"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1447
+   }
+  ]
+ },
+ {
+  "headword": "므슴",
+  "senses": [
+   {
+    "pos": "Pronoun",
+    "glosses": [
+     "(interrogative) what"
+    ],
+    "yale": "mùsúm",
+    "written": "므슴〮"
+   },
+   {
+    "pos": "Determiner",
+    "glosses": [
+     "(interrogative, often rhetorical) what"
+    ],
+    "yale": "mùsúm",
+    "written": "므슴〮"
+   },
+   {
+    "pos": "Adverb",
+    "glosses": [
+     "(interrogative, rhetorical) how is it..."
+    ],
+    "yale": "mùsúm",
+    "written": "므슴〮"
+   }
+  ],
+  "modern": [
+   "무슨"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1481
+   }
+  ]
+ },
+ {
+  "headword": "므슷",
+  "senses": [
+   {
+    "pos": "Determiner",
+    "glosses": [
+     "(interrogative) what"
+    ],
+    "yale": "mùsús",
+    "written": "므슷〮"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1481
+   }
+  ]
+ },
+ {
+  "headword": "므즤다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "(of clouds) to gather; to be covered (with clouds)"
+    ],
+    "yale": "mucuyta",
+    "written": "므즤여〮"
+   }
+  ]
+ },
+ {
+  "headword": "믈",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "water",
+     "liquid"
+    ],
+    "written": "믈〮"
+   }
+  ],
+  "modern": [
+   "물"
+  ]
+ },
+ {
+  "headword": "믈뎜",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "waterdrop"
+    ],
+    "yale": "multyem"
+   }
+  ]
+ },
+ {
+  "headword": "믌결",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "wave; tide"
+    ],
+    "yale": "mulskyel"
+   }
+  ],
+  "modern": [
+   "물결"
+  ]
+ },
+ {
+  "headword": "믜",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "sea cucumber"
+    ],
+    "yale": "muy"
+   }
+  ]
+ },
+ {
+  "headword": "믿",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "밑의 다른 표기 (isolated form)"
+    ],
+    "yale": "mìt"
+   }
+  ]
+ },
+ {
+  "headword": "믿나랗",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "home country"
+    ],
+    "yale": "mitnalah"
+   }
+  ],
+  "modern": [
+   "밑나라"
+  ]
+ },
+ {
+  "headword": "믿다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to believe in something; to trust someone"
+    ],
+    "yale": "mitta"
+   }
+  ],
+  "modern": [
+   "믿다"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1586
+   }
+  ]
+ },
+ {
+  "headword": "및다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to reach"
+    ],
+    "written": "및다〮"
+   }
+  ],
+  "modern": [
+   "및다"
+  ]
+ },
+ {
+  "headword": "밑",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "basis, foundation",
+     "bottom, underneath"
+    ]
+   }
+  ],
+  "modern": [
+   "밑"
+  ]
+ },
+ {
+  "headword": "바ᄂᆞᆯ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "needle, pin"
+    ],
+    "written": "바ᄂᆞᆯ〮"
+   }
+  ],
+  "modern": [
+   "바늘"
+  ]
+ },
+ {
+  "headword": "바ᄅᆞᆯ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "sea; ocean"
+    ],
+    "written": "바ᄅᆞᆯ〮"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1447
+   }
+  ]
+ },
+ {
+  "headword": "바ᇧ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "outside"
+    ]
+   }
+  ],
+  "modern": [
+   "밖"
+  ]
+ },
+ {
+  "headword": "바ᇰ올",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "drop"
+    ],
+    "yale": "pangGwol"
+   }
+  ],
+  "modern": [
+   "방울"
+  ]
+ },
+ {
+  "headword": "바다",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "바닿〮의 다른 표기 (isolated form)"
+    ],
+    "yale": "pàtá",
+    "written": "바다〮"
+   }
+  ]
+ },
+ {
+  "headword": "바다ᇰ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "floor, bottom"
+    ]
+   }
+  ],
+  "modern": [
+   "바닥"
+  ]
+ },
+ {
+  "headword": "바닿",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "(less common) sea; ocean"
+    ],
+    "written": "바닿〮"
+   }
+  ],
+  "modern": [
+   "바다"
+  ]
+ },
+ {
+  "headword": "바독",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "the board game of go"
+    ]
+   }
+  ],
+  "modern": [
+   "바둑"
+  ]
+ },
+ {
+  "headword": "바디",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "pants, trousers"
+    ],
+    "yale": "pati"
+   }
+  ],
+  "modern": [
+   "바지"
+  ]
+ },
+ {
+  "headword": "바오달",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "an encampment, such as for a military host or for the royal entourage"
+    ],
+    "yale": "pà(G)wòtál",
+    "written": "바오달〮"
+   }
+  ]
+ },
+ {
+  "headword": "바지",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "a man of skill",
+     "master craftsman, master artisan, blacksmith, smith"
+    ],
+    "yale": "paci"
+   }
+  ]
+ },
+ {
+  "headword": "바톨",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "hero"
+    ],
+    "yale": "pàthwól",
+    "written": "바톨〮"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 2005
+   },
+   {
+    "work": null,
+    "year": 2011
+   }
+  ]
+ },
+ {
+  "headword": "바회",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "rock"
+    ],
+    "yale": "pàhwóy",
+    "written": "바회〮"
+   }
+  ],
+  "modern": [
+   "바위"
+  ]
+ },
+ {
+  "headword": "받",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "밭의 다른 표기 (isolated form)"
+    ],
+    "yale": "pàt"
+   }
+  ]
+ },
+ {
+  "headword": "발",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "foot"
+    ],
+    "written": "발〮"
+   },
+   {
+    "pos": "Noun",
+    "glosses": [
+     "blind, screen, or curtain made with woven bamboo or reed strips"
+    ],
+    "written": "발〯"
+   }
+  ],
+  "modern": [
+   "[[발#foot",
+   "[[발#blind"
+  ]
+ },
+ {
+  "headword": "밤",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "night"
+    ],
+    "written": "밤〮"
+   },
+   {
+    "pos": "Noun",
+    "glosses": [
+     "chestnut"
+    ],
+    "written": "밤〯"
+   }
+  ],
+  "modern": [
+   "[[밤#night",
+   "[[밤#chestnut"
+  ]
+ },
+ {
+  "headword": "밥고리",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "lunchbox"
+    ],
+    "yale": "papkwoli"
+   }
+  ]
+ },
+ {
+  "headword": "밧ᄇᆞ다",
+  "senses": [
+   {
+    "pos": "Adjective",
+    "glosses": [
+     "busy"
+    ]
+   }
+  ],
+  "modern": [
+   "바쁘다"
+  ]
+ },
+ {
+  "headword": "밭",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "dry field"
+    ]
+   }
+  ],
+  "modern": [
+   "밭"
+  ]
+ },
+ {
+  "headword": "버슷",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "mushroom"
+    ],
+    "written": "버슷〮"
+   }
+  ],
+  "modern": [
+   "버섯"
+  ]
+ },
+ {
+  "headword": "버히다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "(transitive) to cut; to slice"
+    ],
+    "written": "버히〮다〮"
+   }
+  ],
+  "modern": [
+   "베다"
+  ]
+ },
+ {
+  "headword": "벋",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "friend; companion"
+    ],
+    "written": "벋〯"
+   }
+  ]
+ },
+ {
+  "headword": "벌",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "bee"
+    ],
+    "yale": "pěl",
+    "written": "벌〯"
+   }
+  ],
+  "modern": [
+   "[[벌#bee"
+  ]
+ },
+ {
+  "headword": "벌에",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "bug, insect any small arthropod such as insects, spiders, etc."
+    ],
+    "yale": "pèlGéy",
+    "written": "벌에〮"
+   }
+  ]
+ },
+ {
+  "headword": "범",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "tiger"
+    ],
+    "yale": "pĕm",
+    "written": "범〯"
+   }
+  ],
+  "modern": [
+   "[[범#tiger"
+  ]
+ },
+ {
+  "headword": "벗다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "(transitive) to take off or remove something from one's self (see usage notes)"
+    ],
+    "written": "벗다〮"
+   }
+  ],
+  "modern": [
+   "벗다"
+  ]
+ },
+ {
+  "headword": "벼기다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to make a vow; to make a promise; to cry out in a vow"
+    ],
+    "yale": "pyekita"
+   }
+  ]
+ },
+ {
+  "headword": "별",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "star"
+    ],
+    "written": "별〯"
+   }
+  ],
+  "modern": [
+   "[[별#star"
+  ]
+ },
+ {
+  "headword": "보ᅀᆞ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "cup"
+    ],
+    "yale": "pwozo"
+   }
+  ],
+  "modern": [
+   "보아",
+   "보",
+   "보시기"
+  ]
+ },
+ {
+  "headword": "보다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to see, to look at, to watch to perceive with the eyes",
+     "(auxiliary, with 어〮) to try, to try out",
+     "(auxiliary, with 어〮) to experience"
+    ],
+    "yale": "pwòtá",
+    "written": "보다〮"
+   }
+  ],
+  "modern": [
+   "보다"
+  ]
+ },
+ {
+  "headword": "보로",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "skirt"
+    ],
+    "yale": "polo"
+   }
+  ]
+ },
+ {
+  "headword": "보믜",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "rust"
+    ],
+    "yale": "pwomuy"
+   }
+  ]
+ },
+ {
+  "headword": "복셔ᇰ화",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "peach"
+    ],
+    "yale": "pwoksyenghwa"
+   }
+  ],
+  "modern": [
+   "복숭아"
+  ]
+ },
+ {
+  "headword": "봄",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "spring"
+    ],
+    "written": "봄〮"
+   }
+  ],
+  "modern": [
+   "봄"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1459
+   }
+  ]
+ },
+ {
+  "headword": "부ᄎᆡ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "garlic chive ()"
+    ],
+    "written": "부〯ᄎᆡ"
+   }
+  ],
+  "modern": [
+   "부추"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1466
+   }
+  ]
+ },
+ {
+  "headword": "부루",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "lettuce"
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "부체",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "fan",
+     "doorleaf"
+    ],
+    "written": "부체〮"
+   }
+  ],
+  "modern": [
+   "부채"
+  ]
+ },
+ {
+  "headword": "부텨",
+  "senses": [
+   {
+    "pos": "Proper noun",
+    "glosses": [
+     "Buddha"
+    ],
+    "yale": "Pwùthyè"
+   }
+  ],
+  "modern": [
+   "부처"
+  ]
+ },
+ {
+  "headword": "부하",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "lung"
+    ],
+    "yale": "pwúhà",
+    "written": "부〮하"
+   }
+  ],
+  "modern": [
+   "부아"
+  ]
+ },
+ {
+  "headword": "부화",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "부〮하의 다른 꼴"
+    ],
+    "yale": "pwúhwà",
+    "written": "부〮화"
+   }
+  ],
+  "modern": [
+   "부아"
+  ]
+ },
+ {
+  "headword": "분별",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "worry, concern"
+    ],
+    "yale": "pwùnpyél",
+    "written": "분별〮"
+   }
+  ]
+ },
+ {
+  "headword": "붇",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "writing brush, painting brush; pen"
+    ]
+   }
+  ],
+  "modern": [
+   "붓"
+  ]
+ },
+ {
+  "headword": "불무",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "bellows"
+    ],
+    "yale": "pwùlmwù",
+    "written": "붊긔〮"
+   }
+  ],
+  "modern": [
+   "풀무"
+  ]
+ },
+ {
+  "headword": "불휘",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "root"
+    ],
+    "yale": "pwùlhwúy",
+    "written": "불휘〮"
+   }
+  ],
+  "modern": [
+   "뿌리"
+  ]
+ },
+ {
+  "headword": "붑",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "붚〮의 다른 표기 (isolated form)"
+    ],
+    "yale": "pwúp",
+    "written": "붑〮"
+   }
+  ]
+ },
+ {
+  "headword": "붚",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "drum"
+    ],
+    "written": "붚〮"
+   }
+  ],
+  "modern": [
+   "북"
+  ]
+ },
+ {
+  "headword": "뷔",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "broom"
+    ],
+    "yale": "pwuy"
+   }
+  ],
+  "modern": [
+   "비"
+  ]
+ },
+ {
+  "headword": "브ᅀᅥᆸ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "kitchen"
+    ],
+    "yale": "pùzèp",
+    "written": "브ᅀᅥ베〮"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 2011
+   },
+   {
+    "work": "진단학보",
+    "year": 2018
+   }
+  ]
+ },
+ {
+  "headword": "브릇그다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to cling"
+    ],
+    "yale": "pùlùskútá",
+    "written": "브릇그〮다〮"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1459
+   }
+  ]
+ },
+ {
+  "headword": "븓잡다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to seize; to grab"
+    ],
+    "yale": "putcapta"
+   }
+  ],
+  "modern": [
+   "붙잡다"
+  ]
+ },
+ {
+  "headword": "블",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "fire"
+    ],
+    "written": "블〮"
+   }
+  ],
+  "modern": [
+   "불"
+  ]
+ },
+ {
+  "headword": "븕다",
+  "senses": [
+   {
+    "pos": "Adjective",
+    "glosses": [
+     "(to be) red"
+    ],
+    "yale": "pulkta"
+   }
+  ],
+  "modern": [
+   "붉다"
+  ]
+ },
+ {
+  "headword": "븨피",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "a piece of lean meat (with bones or fat)"
+    ],
+    "yale": "puyphi"
+   }
+  ]
+ },
+ {
+  "headword": "비",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "rain"
+    ],
+    "written": "비〮"
+   }
+  ],
+  "modern": [
+   "[[비#rain"
+  ]
+ },
+ {
+  "headword": "비ᅀᅳ다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to adorn",
+     "to adorn oneself",
+     "to become splendid; (adjectivally) to be splendid"
+    ],
+    "yale": "pìzùtá",
+    "written": "비ᅀᅳ다〮"
+   }
+  ],
+  "modern": [
+   "설빔"
+  ]
+ },
+ {
+  "headword": "비노",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "soap"
+    ]
+   }
+  ],
+  "modern": [
+   "비누"
+  ]
+ },
+ {
+  "headword": "비단",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "silk (fiber)"
+    ],
+    "written": "비〯단〮"
+   }
+  ]
+ },
+ {
+  "headword": "빈혀",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "hairpin (often decorative)"
+    ],
+    "yale": "pìnhyè"
+   }
+  ],
+  "modern": [
+   "비녀"
+  ]
+ },
+ {
+  "headword": "빋",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "price"
+    ],
+    "yale": "pìt"
+   }
+  ],
+  "modern": [
+   "빚"
+  ]
+ },
+ {
+  "headword": "빛",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "light"
+    ],
+    "written": "빛〮"
+   }
+  ],
+  "modern": [
+   "빛"
+  ]
+ },
+ {
+  "headword": "빟다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to sprinkle, to scatter"
+    ],
+    "yale": "pìthá",
+    "written": "빟다〮"
+   }
+  ]
+ },
+ {
+  "headword": "사ᄅᆞᆷ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "person"
+    ],
+    "written": "사〯ᄅᆞᆷ"
+   }
+  ]
+ },
+ {
+  "headword": "사ᄉᆞᆷ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "deer"
+    ],
+    "yale": "sàsóm",
+    "written": "사ᄉᆞᆷ〮"
+   }
+  ],
+  "modern": [
+   "사슴"
+  ]
+ },
+ {
+  "headword": "사ᄫᅵ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "shrimp, prawn"
+    ],
+    "yale": "sàWí",
+    "written": "사ᄫᅵ〮"
+   }
+  ],
+  "modern": [
+   "새우"
+  ]
+ },
+ {
+  "headword": "사ᇰ화",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "dumplings"
+    ],
+    "yale": "sanghwa"
+   }
+  ]
+ },
+ {
+  "headword": "사회",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "son-in-law"
+    ],
+    "yale": "sàhwóy",
+    "written": "사회〮"
+   }
+  ],
+  "modern": [
+   "사위"
+  ]
+ },
+ {
+  "headword": "산ᄒᆡᇰ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "hunting",
+     "(literal) going to the mountains"
+    ],
+    "yale": "sànhòyng"
+   }
+  ],
+  "modern": [
+   "사냥",
+   "산행(山行)"
+  ]
+ },
+ {
+  "headword": "살",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "arrow",
+     "spoke on a wheel"
+    ],
+    "yale": "sál",
+    "written": "살〮"
+   }
+  ],
+  "modern": [
+   "[[살#arrow"
+  ]
+ },
+ {
+  "headword": "삼기다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "(transitive) to cause (one) to have, to give (Usually takes 하ᄂᆞᆶ as the subject, signalling it is out of human control.)",
+     "(intransitive) to conceive, to have a baby"
+    ],
+    "written": "삼기〮다〮"
+   }
+  ],
+  "modern": [
+   "생기다"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1518
+   }
+  ]
+ },
+ {
+  "headword": "삿기",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "a young animal"
+    ],
+    "yale": "sàskí",
+    "written": "삿기〮"
+   }
+  ],
+  "modern": [
+   "새끼"
+  ]
+ },
+ {
+  "headword": "새",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "bird (in general)"
+    ],
+    "written": "새〯"
+   },
+   {
+    "pos": "Noun",
+    "glosses": [
+     "something new"
+    ],
+    "yale": "sáy",
+    "written": "새〮"
+   },
+   {
+    "pos": "Adverb",
+    "glosses": [
+     "newly"
+    ],
+    "yale": "sáy",
+    "written": "새〮"
+   },
+   {
+    "pos": "Determiner",
+    "glosses": [
+     "new"
+    ],
+    "yale": "sáy",
+    "written": "새〮"
+   }
+  ],
+  "modern": [
+   "[[새#bird",
+   "[[새#new"
+  ]
+ },
+ {
+  "headword": "새로",
+  "senses": [
+   {
+    "pos": "Adverb",
+    "glosses": [
+     "anew, newly, for the first time"
+    ],
+    "yale": "sáy-lwó",
+    "written": "새〮로〮"
+   }
+  ],
+  "modern": [
+   "새로"
+  ]
+ },
+ {
+  "headword": "새배",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "dawn; daybreak"
+    ],
+    "yale": "saypay"
+   }
+  ],
+  "modern": [
+   "새벽"
+  ]
+ },
+ {
+  "headword": "샤ᇰᄌᆞ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "box; case"
+    ]
+   }
+  ],
+  "modern": [
+   "상자"
+  ]
+ },
+ {
+  "headword": "샤님",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "husband"
+    ],
+    "yale": "syǎnǐm",
+    "written": "샤〯님〯"
+   }
+  ]
+ },
+ {
+  "headword": "샤오ᇰ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "husband"
+    ],
+    "yale": "syǎwòng",
+    "written": "샤〯오ᇰ"
+   }
+  ]
+ },
+ {
+  "headword": "서르",
+  "senses": [
+   {
+    "pos": "Adverb",
+    "glosses": [
+     "mutually, with each other, with one another"
+    ],
+    "yale": "sèlù"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1459
+   }
+  ]
+ },
+ {
+  "headword": "서흐레",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "stairs"
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "설",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "year of age",
+     "New Year"
+    ],
+    "written": "설〯"
+   }
+  ],
+  "modern": [
+   "[[설#seolnal",
+   "New Year",
+   "살#age",
+   "year",
+   "age"
+  ]
+ },
+ {
+  "headword": "설믜",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "(rare) wisdom"
+    ],
+    "yale": "selmuy"
+   }
+  ],
+  "modern": [
+   "눈썰미"
+  ]
+ },
+ {
+  "headword": "설엊다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to clear up"
+    ],
+    "written": "설g엊-다〮"
+   }
+  ]
+ },
+ {
+  "headword": "섬",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "stairstep"
+    ],
+    "yale": "sém",
+    "written": "섬〮"
+   }
+  ],
+  "modern": [
+   "섬"
+  ]
+ },
+ {
+  "headword": "셓",
+  "senses": [
+   {
+    "pos": "Numeral",
+    "glosses": [
+     "three"
+    ],
+    "yale": "sěyh",
+    "written": "셓〯"
+   }
+  ],
+  "modern": [
+   "셋"
+  ]
+ },
+ {
+  "headword": "셔",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "rafters"
+    ]
+   }
+  ],
+  "modern": [
+   "서까래"
+  ]
+ },
+ {
+  "headword": "셔ᄫᅳᆯ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "capital city"
+    ],
+    "yale": "syěWùl",
+    "written": "셔〯ᄫᅳᆯ"
+   }
+  ]
+ },
+ {
+  "headword": "셔ᇰ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "anger, rage, wrath, offense"
+    ]
+   }
+  ],
+  "modern": [
+   "성"
+  ]
+ },
+ {
+  "headword": "셔다",
+  "senses": [
+   {
+    "pos": "Adjective",
+    "glosses": [
+     "to stand"
+    ],
+    "written": "셔다〮"
+   }
+  ],
+  "modern": [
+   "서다"
+  ]
+ },
+ {
+  "headword": "셗",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "rein"
+    ],
+    "yale": "syéks",
+    "written": "셗〮"
+   },
+   {
+    "pos": "Noun",
+    "glosses": [
+     "duty; role"
+    ],
+    "yale": "syèks"
+   }
+  ]
+ },
+ {
+  "headword": "션ᄇᆡ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "classical scholar"
+    ],
+    "yale": "syenpoy"
+   }
+  ],
+  "modern": [
+   "선비"
+  ]
+ },
+ {
+  "headword": "션ᄉᆡᇰ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "teacher"
+    ]
+   }
+  ],
+  "modern": [
+   "선생"
+  ]
+ },
+ {
+  "headword": "셜흔",
+  "senses": [
+   {
+    "pos": "Numeral",
+    "glosses": [
+     "thirty"
+    ],
+    "yale": "syèlhún",
+    "written": "셜흔〮"
+   }
+  ],
+  "modern": [
+   "서른"
+  ]
+ },
+ {
+  "headword": "셤",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "island"
+    ],
+    "yale": "syěm",
+    "written": "셤〯"
+   },
+   {
+    "pos": "Counter",
+    "glosses": [
+     "a seom, a unit of volume"
+    ],
+    "yale": "syém",
+    "written": "셤〮"
+   }
+  ],
+  "modern": [
+   "[[섬#island",
+   "[[섬#seom"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1123
+   },
+   {
+    "work": null,
+    "year": 2013
+   }
+  ]
+ },
+ {
+  "headword": "셰",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "height, length"
+    ]
+   }
+  ],
+  "modern": [
+   "세로"
+  ]
+ },
+ {
+  "headword": "셰ᄃᆡ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "age, generation, era"
+    ],
+    "yale": "syeytoy"
+   }
+  ],
+  "modern": [
+   "세대"
+  ]
+ },
+ {
+  "headword": "셰다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to turn grey (for hair)"
+    ],
+    "yale": "syěyta",
+    "written": "셰〯다"
+   }
+  ],
+  "modern": [
+   "세다"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1586
+   }
+  ]
+ },
+ {
+  "headword": "소ᄅᆡ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "sound"
+    ],
+    "yale": "swoloy"
+   }
+  ],
+  "modern": [
+   "소리"
+  ]
+ },
+ {
+  "headword": "소곰",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "salt"
+    ],
+    "yale": "swòkwòm"
+   }
+  ],
+  "modern": [
+   "소금"
+  ]
+ },
+ {
+  "headword": "소얌",
+  "senses": [
+   {
+    "pos": "Pronoun",
+    "glosses": [
+     "(hapax)"
+    ],
+    "yale": "swoyam"
+   }
+  ]
+ },
+ {
+  "headword": "소옴",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "cotton"
+    ],
+    "yale": "swò(G)wòm"
+   }
+  ],
+  "modern": [
+   "솜"
+  ]
+ },
+ {
+  "headword": "손",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "hand"
+    ],
+    "written": "손〮"
+   },
+   {
+    "pos": "Noun",
+    "glosses": [
+     "guest"
+    ]
+   }
+  ],
+  "modern": [
+   "[[손#hand",
+   "[[손#guest"
+  ]
+ },
+ {
+  "headword": "솔",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "pine tree"
+    ],
+    "yale": "swól",
+    "written": "솔〮"
+   },
+   {
+    "pos": "Noun",
+    "glosses": [
+     "brush tool"
+    ],
+    "yale": "swǒl",
+    "written": "솔〯"
+   },
+   {
+    "pos": "Noun",
+    "glosses": [
+     "(archery) target"
+    ],
+    "yale": "swǒl",
+    "written": "솔〯"
+   }
+  ],
+  "modern": [
+   "[[솔#tree",
+   "[[솔#brush",
+   "[[솔#target"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1481
+   }
+  ]
+ },
+ {
+  "headword": "솝",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "the inside"
+    ],
+    "yale": "swop"
+   }
+  ],
+  "modern": [
+   "속"
+  ]
+ },
+ {
+  "headword": "솥",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "kettle; cauldron"
+    ]
+   }
+  ],
+  "modern": [
+   "솥"
+  ]
+ },
+ {
+  "headword": "솨줄",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "confining chains, fetters"
+    ],
+    "yale": "swàcwúl",
+    "written": "솨줄〮"
+   }
+  ]
+ },
+ {
+  "headword": "쇄ᅀᆞ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "a die / dice."
+    ]
+   }
+  ],
+  "modern": [
+   "주사위"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1527
+   }
+  ]
+ },
+ {
+  "headword": "쇠",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "metal"
+    ],
+    "yale": "swóy",
+    "written": "쇠〮"
+   }
+  ],
+  "modern": [
+   "쇠"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1459
+   }
+  ]
+ },
+ {
+  "headword": "쇼",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "cow"
+    ],
+    "written": "쇼〮"
+   }
+  ],
+  "modern": [
+   "소"
+  ]
+ },
+ {
+  "headword": "수ᇧ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "charcoal"
+    ],
+    "yale": "swusk"
+   }
+  ],
+  "modern": [
+   "숯"
+  ]
+ },
+ {
+  "headword": "수다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to cook (porridge, gruel, etc.)"
+    ],
+    "written": "수〮다〮"
+   }
+  ],
+  "modern": [
+   "쑤다"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1489
+   }
+  ]
+ },
+ {
+  "headword": "수울",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "수을의 다른 꼴"
+    ],
+    "yale": "swùwùl"
+   }
+  ]
+ },
+ {
+  "headword": "수을",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "liquor"
+    ],
+    "yale": "swùùl"
+   }
+  ],
+  "modern": [
+   "술"
+  ]
+ },
+ {
+  "headword": "술",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "spoon"
+    ],
+    "written": "술〮"
+   },
+   {
+    "pos": "Noun",
+    "glosses": [
+     "수을의 다른 꼴"
+    ],
+    "yale": "swùl"
+   }
+  ],
+  "modern": [
+   "술",
+   "숟가락"
+  ]
+ },
+ {
+  "headword": "술위",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "cart, carriage, wheelbarrow"
+    ],
+    "yale": "swùlGwúy",
+    "written": "술위〮"
+   }
+  ],
+  "modern": [
+   "수레"
+  ]
+ },
+ {
+  "headword": "숳",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "male"
+    ],
+    "yale": "swuh"
+   }
+  ],
+  "modern": [
+   "수"
+  ]
+ },
+ {
+  "headword": "쉰",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "fifty"
+    ],
+    "written": "쉰〯"
+   }
+  ],
+  "modern": [
+   "쉰"
+  ]
+ },
+ {
+  "headword": "슈룹",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "(possibly, archaic, or, dated) umbrella"
+    ],
+    "written": "슈룹〮"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 2015
+   },
+   {
+    "work": null,
+    "year": 1446
+   },
+   {
+    "work": null,
+    "year": 1998
+   }
+  ]
+ },
+ {
+  "headword": "슈신",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "penis"
+    ],
+    "yale": "syùsìn"
+   }
+  ]
+ },
+ {
+  "headword": "스스ᇰ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "teacher, master, mentor, instructor"
+    ],
+    "yale": "susung"
+   }
+  ],
+  "modern": [
+   "스승"
+  ]
+ },
+ {
+  "headword": "스싀로",
+  "senses": [
+   {
+    "pos": "Adverb",
+    "glosses": [
+     "by oneself, on one's own, without assistance"
+    ],
+    "yale": "sùsúy-lwó",
+    "written": "스싀〮로〮"
+   }
+  ],
+  "modern": [
+   "스스로"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1447
+   }
+  ]
+ },
+ {
+  "headword": "싀어버ᅀᅵ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "husband's family"
+    ],
+    "yale": "suy-epezi"
+   }
+  ]
+ },
+ {
+  "headword": "시긧벼ᇰ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "epidemic"
+    ],
+    "yale": "sìkùy-s pyěng",
+    "written": "시긧벼ᇰ〯"
+   }
+  ]
+ },
+ {
+  "headword": "시냏",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "a narrow stream"
+    ],
+    "yale": "sǐnǎyh",
+    "written": "시〯냏〯"
+   }
+  ],
+  "modern": [
+   "시내"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1459
+   },
+   {
+    "work": null,
+    "year": 2011
+   }
+  ]
+ },
+ {
+  "headword": "신",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "shoe; footgear"
+    ],
+    "yale": "sín",
+    "written": "신〮"
+   }
+  ],
+  "modern": [
+   "신#shoes"
+  ]
+ },
+ {
+  "headword": "실",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "thread, string"
+    ],
+    "yale": "sǐl",
+    "written": "실〯"
+   }
+  ],
+  "modern": [
+   "실"
+  ]
+ },
+ {
+  "headword": "심바ᇰ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "shaman; priest of Korean folk religion"
+    ],
+    "yale": "sìmpàng"
+   }
+  ],
+  "modern": [
+   "승방"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1980
+   }
+  ]
+ },
+ {
+  "headword": "아ᄃᆞᆯ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "son"
+    ],
+    "written": "아ᄃᆞᆯ〮"
+   }
+  ],
+  "modern": [
+   "아들"
+  ]
+ },
+ {
+  "headword": "아ᄅᆞᆷ답다",
+  "senses": [
+   {
+    "pos": "Adjective",
+    "glosses": [
+     "to be beautiful"
+    ],
+    "yale": "àlóm-tàptá",
+    "written": "아ᄅᆞᆷ〮답다〮"
+   }
+  ],
+  "modern": [
+   "아름답다"
+  ]
+ },
+ {
+  "headword": "아ᄎᆞᆫᄯᆞᆯ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "niece"
+    ],
+    "written": "아ᄎᆞᆫ〮ᄯᆞᆯ〮"
+   }
+  ]
+ },
+ {
+  "headword": "아ᄎᆞᆷ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "morning"
+    ],
+    "written": "아ᄎᆞᆷ〮"
+   }
+  ],
+  "modern": [
+   "아침"
+  ]
+ },
+ {
+  "headword": "아ᄒᆞᆫ",
+  "senses": [
+   {
+    "pos": "Numeral",
+    "glosses": [
+     "ninety"
+    ],
+    "yale": "ahon"
+   }
+  ],
+  "modern": [
+   "아흔"
+  ]
+ },
+ {
+  "headword": "아ᄒᆞ래",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "nine days"
+    ],
+    "yale": "aholay"
+   }
+  ],
+  "modern": [
+   "아흐레"
+  ]
+ },
+ {
+  "headword": "아ᄒᆡ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "child"
+    ],
+    "yale": "àhóy",
+    "written": "아ᄒᆡ〮"
+   }
+  ],
+  "modern": [
+   "아이"
+  ]
+ },
+ {
+  "headword": "아ᅀᆞ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "a man's younger brother"
+    ],
+    "yale": "àzò",
+    "written": "[[아ᅀᆞ"
+   }
+  ],
+  "modern": [
+   "아우"
+  ]
+ },
+ {
+  "headword": "아ᅀᆞᆷ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "kin, kinsmen, relatives"
+    ],
+    "yale": "azom"
+   }
+  ]
+ },
+ {
+  "headword": "아ᇡ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "female (non-human)"
+    ],
+    "yale": "amh"
+   }
+  ],
+  "modern": [
+   "암"
+  ]
+ },
+ {
+  "headword": "아기",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "baby"
+    ],
+    "yale": "ákì",
+    "written": "아〮기"
+   }
+  ],
+  "modern": [
+   "아기"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1466
+   }
+  ]
+ },
+ {
+  "headword": "아니",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "that which is not"
+    ],
+    "yale": "àní",
+    "written": "아니〮"
+   },
+   {
+    "pos": "Adverb",
+    "glosses": [
+     "not (negates the following verb)"
+    ],
+    "yale": "àní",
+    "written": "아니〮"
+   },
+   {
+    "pos": "Interjection",
+    "glosses": [
+     "no (interjection of negation)"
+    ],
+    "yale": "àní",
+    "written": "아니〮"
+   }
+  ],
+  "modern": [
+   "아니다",
+   "아니",
+   "안"
+  ]
+ },
+ {
+  "headword": "아니ᄒᆞ다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "not to do"
+    ],
+    "written": "아니〮ᄒᆞ〮다〮"
+   },
+   {
+    "pos": "Adjective",
+    "glosses": [
+     "(of some characteristic or quality) not to be"
+    ],
+    "written": "아니〮ᄒᆞ〮다〮"
+   }
+  ],
+  "modern": [
+   "아니하다",
+   "않다"
+  ]
+ },
+ {
+  "headword": "아옥",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "Chinese mallow () (plant and vegetable)"
+    ],
+    "written": "아옥〮"
+   }
+  ],
+  "modern": [
+   "아욱"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 2018
+   }
+  ]
+ },
+ {
+  "headword": "아으",
+  "senses": [
+   {
+    "pos": "Interjection",
+    "glosses": [
+     "(poetic) ah, o, alas; the most common exclamation or interjection in native Korean songs and poetry."
+    ],
+    "yale": "au"
+   }
+  ]
+ },
+ {
+  "headword": "아직",
+  "senses": [
+   {
+    "pos": "Adverb",
+    "glosses": [
+     "안직〮의 다른 꼴"
+    ],
+    "yale": "àcík",
+    "written": "아직〮"
+   }
+  ]
+ },
+ {
+  "headword": "아질게",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "a young animal"
+    ],
+    "yale": "acilkey"
+   }
+  ]
+ },
+ {
+  "headword": "아홉",
+  "senses": [
+   {
+    "pos": "Numeral",
+    "glosses": [
+     "nine"
+    ],
+    "written": "아홉〮"
+   }
+  ],
+  "modern": [
+   "아홉"
+  ]
+ },
+ {
+  "headword": "안도도다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to embrace and nurture, to nurture with embraces"
+    ],
+    "yale": "ǎntwòtwótá",
+    "written": "안〯도도〮다〮"
+   }
+  ]
+ },
+ {
+  "headword": "안직",
+  "senses": [
+   {
+    "pos": "Adverb",
+    "glosses": [
+     "still",
+     "(with explicit or implicit verbal negation) yet; not yet",
+     "for a while",
+     "from now on",
+     "for now, for the time being"
+    ],
+    "yale": "àncík",
+    "written": "안직〮"
+   },
+   {
+    "pos": "Adverb",
+    "glosses": [
+     "most, -est adds superlative meaning to adjectives",
+     "extremely, completely adds intensive meaning to verbs"
+    ],
+    "yale": "áncìk",
+    "written": "안〮직"
+   }
+  ],
+  "modern": [
+   "아직"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1998
+   }
+  ]
+ },
+ {
+  "headword": "안해",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "wife"
+    ],
+    "yale": "anhay"
+   }
+  ],
+  "modern": [
+   "아내"
+  ]
+ },
+ {
+  "headword": "않",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "inside; interior"
+    ],
+    "written": "않〮"
+   }
+  ],
+  "modern": [
+   "안"
+  ]
+ },
+ {
+  "headword": "앏",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "앒의 다른 표기 (isolated form)"
+    ],
+    "yale": "àlp"
+   }
+  ]
+ },
+ {
+  "headword": "앒",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "fore, front",
+     "south"
+    ]
+   }
+  ],
+  "modern": [
+   "앞"
+  ]
+ },
+ {
+  "headword": "앗다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to take away"
+    ],
+    "written": "앗〯다〮"
+   },
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to lead the way"
+    ],
+    "written": "앗〯다〮"
+   }
+  ],
+  "modern": [
+   "앗다"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1447
+   },
+   {
+    "work": null,
+    "year": 1481
+   }
+  ]
+ },
+ {
+  "headword": "애",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "the inner organs, in particular",
+     "(in figurative expressions) anxiety, impatience",
+     "(in figurative expressions) trouble; effort"
+    ],
+    "yale": "ǎy",
+    "written": "애〯"
+   }
+  ],
+  "modern": [
+   "애"
+  ]
+ },
+ {
+  "headword": "야ᇰ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "a standard way of doing things"
+    ],
+    "yale": "yang"
+   },
+   {
+    "pos": "Noun",
+    "glosses": [
+     "sheep"
+    ],
+    "yale": "yang"
+   }
+  ],
+  "modern": [
+   "양"
+  ]
+ },
+ {
+  "headword": "어ᅀᅵ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "parent; parents",
+     "mother"
+    ],
+    "yale": "èzí",
+    "written": "어ᅀᅵ〮"
+   }
+  ],
+  "modern": [
+   "어이"
+  ]
+ },
+ {
+  "headword": "어듸",
+  "senses": [
+   {
+    "pos": "Pronoun",
+    "glosses": [
+     "where"
+    ],
+    "written": "어듸〮"
+   }
+  ],
+  "modern": [
+   "어디"
+  ]
+ },
+ {
+  "headword": "어려ᄫᅮᆷ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "difficulty"
+    ],
+    "yale": "elyeWwum"
+   }
+  ],
+  "modern": [
+   "어려움"
+  ]
+ },
+ {
+  "headword": "어른",
+  "senses": [
+   {
+    "pos": "Adverb",
+    "glosses": [
+     "quickly, at once"
+    ],
+    "yale": "èlùn"
+   }
+  ],
+  "modern": [
+   "얼른"
+  ]
+ },
+ {
+  "headword": "어버ᅀᅵ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "parents"
+    ],
+    "yale": "èpèzí",
+    "written": "어버ᅀᅵ〮"
+   }
+  ],
+  "modern": [
+   "어버이"
+  ]
+ },
+ {
+  "headword": "어비ᄆᆞᆮ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "(uncommon) nobleman, lord"
+    ],
+    "yale": "èpímòt",
+    "written": "어비〮ᄆᆞᆮ"
+   }
+  ]
+ },
+ {
+  "headword": "언",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "dike, bank"
+    ],
+    "yale": "en"
+   }
+  ],
+  "modern": [
+   "언덕"
+  ]
+ },
+ {
+  "headword": "언마",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "how much, how many"
+    ],
+    "yale": "enma"
+   }
+  ],
+  "modern": [
+   "얼마"
+  ]
+ },
+ {
+  "headword": "얻다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to obtain"
+    ],
+    "written": "얻〯다〮"
+   },
+   {
+    "pos": "Verb",
+    "glosses": [
+     "(transitive) to wed",
+     "to copulate, to mate"
+    ],
+    "written": "얻〯다〮"
+   }
+  ]
+ },
+ {
+  "headword": "얼우다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "(transitive) to cause to freeze"
+    ],
+    "yale": "elGwuta",
+    "written": "얼다"
+   }
+  ]
+ },
+ {
+  "headword": "얼운",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "grownup, adult, elder, senior"
+    ],
+    "yale": "ělGwún",
+    "written": "얼〯운〮"
+   }
+  ],
+  "modern": [
+   "어른"
+  ]
+ },
+ {
+  "headword": "얼이다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "(transitive) to marry someone to"
+    ],
+    "yale": "èlGítá",
+    "written": "얼이〮다〮"
+   }
+  ]
+ },
+ {
+  "headword": "업시",
+  "senses": [
+   {
+    "pos": "Adverb",
+    "glosses": [
+     "without, lacking"
+    ],
+    "yale": "ěpsí",
+    "written": "업〯시〮"
+   }
+  ],
+  "modern": [
+   "없이"
+  ]
+ },
+ {
+  "headword": "에ᇰ",
+  "senses": [
+   {
+    "pos": "Interjection",
+    "glosses": [
+     "yes (affirmative interjection)"
+    ],
+    "yale": "èyng"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 2020
+   }
+  ]
+ },
+ {
+  "headword": "에우다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to encircle",
+     "to cross out (on a list, etc.)",
+     "(chiefly of food) to make do for"
+    ],
+    "yale": "èyGwútá",
+    "written": "에〯다〮"
+   }
+  ]
+ },
+ {
+  "headword": "여ᄃᆞ래",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "eight days"
+    ]
+   }
+  ],
+  "modern": [
+   "여드레"
+  ]
+ },
+ {
+  "headword": "여ᄉᆔᆫ",
+  "senses": [
+   {
+    "pos": "Numeral",
+    "glosses": [
+     "sixty"
+    ],
+    "written": "여ᄉᆔᆫ〯"
+   }
+  ],
+  "modern": [
+   "예순"
+  ]
+ },
+ {
+  "headword": "여ᅀᅳ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "여ᅀᆞ의 다른 꼴"
+    ],
+    "yale": "yèzù"
+   }
+  ]
+ },
+ {
+  "headword": "여ᅀᆞ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "fox, vixen"
+    ],
+    "yale": "yèzò",
+    "written": "[[여ᅀᆞ"
+   }
+  ],
+  "modern": [
+   "여우"
+  ]
+ },
+ {
+  "headword": "여다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "(ergative) to open",
+     "(intransitive, of fruits) to ripen"
+    ],
+    "written": "여〯다〮"
+   }
+  ],
+  "modern": [
+   "열다"
+  ]
+ },
+ {
+  "headword": "여듧",
+  "senses": [
+   {
+    "pos": "Numeral",
+    "glosses": [
+     "eight"
+    ],
+    "yale": "yetulp"
+   }
+  ],
+  "modern": [
+   "여덟"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 2011
+   }
+  ]
+ },
+ {
+  "headword": "여름",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "fruit"
+    ],
+    "yale": "yèlúm",
+    "written": "여름〮"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1447
+   }
+  ]
+ },
+ {
+  "headword": "여슷",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "six"
+    ],
+    "yale": "yesus"
+   }
+  ],
+  "modern": [
+   "여섯"
+  ]
+ },
+ {
+  "headword": "여희다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to leave; to depart from; to bid farewell to",
+     "to lose a loved one (by death or departure)"
+    ],
+    "yale": "yèhúytá",
+    "written": "여희〮다〮"
+   }
+  ],
+  "modern": [
+   "여의다",
+   "bereaved",
+   "widowed",
+   "parent",
+   "pass away"
+  ]
+ },
+ {
+  "headword": "엳ᄌᆞᆸ다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to humbly ask"
+    ],
+    "written": "엳〯ᄌᆞᆸ다〮"
+   }
+  ],
+  "modern": [
+   "여쭙다"
+  ]
+ },
+ {
+  "headword": "열다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "여〯다〮의 다른 표기 (phonemically faithful) (rarely or never used in actual Middle Korean)"
+    ],
+    "yale": "yěl-tá",
+    "written": "열〯다〮"
+   }
+  ]
+ },
+ {
+  "headword": "엷다",
+  "senses": [
+   {
+    "pos": "Adjective",
+    "glosses": [
+     "(to be) thin"
+    ]
+   }
+  ],
+  "modern": [
+   "얇다"
+  ]
+ },
+ {
+  "headword": "엻",
+  "senses": [
+   {
+    "pos": "Numeral",
+    "glosses": [
+     "ten"
+    ],
+    "written": "엻〮"
+   },
+   {
+    "pos": "Noun",
+    "glosses": [
+     "hemp"
+    ]
+   }
+  ],
+  "modern": [
+   "열"
+  ]
+ },
+ {
+  "headword": "염",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "goat"
+    ],
+    "written": "염〮"
+   }
+  ],
+  "modern": [
+   "염소"
+  ]
+ },
+ {
+  "headword": "엿쇄",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "six days"
+    ],
+    "yale": "yetsway"
+   }
+  ],
+  "modern": [
+   "엿새"
+  ]
+ },
+ {
+  "headword": "예",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "the Japanese"
+    ],
+    "yale": "Yěy",
+    "written": "예〯"
+   }
+  ]
+ },
+ {
+  "headword": "오곰",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "the inside of the curved part of the knee"
+    ],
+    "written": "오곰〮"
+   }
+  ],
+  "modern": [
+   "오금"
+  ]
+ },
+ {
+  "headword": "오다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to come"
+    ],
+    "yale": "wò-tá",
+    "written": "오다〮"
+   }
+  ],
+  "modern": [
+   "오다"
+  ]
+ },
+ {
+  "headword": "오라비",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "brother of a female"
+    ],
+    "yale": "wólàpí",
+    "written": "오〮라비〮"
+   }
+  ],
+  "modern": [
+   "오라비"
+  ]
+ },
+ {
+  "headword": "오래",
+  "senses": [
+   {
+    "pos": "Adverb",
+    "glosses": [
+     "long, for a long time or while"
+    ],
+    "yale": "wòláy",
+    "written": "오래〮"
+   },
+   {
+    "pos": "Noun",
+    "glosses": [
+     "door, gate"
+    ]
+   }
+  ],
+  "modern": [
+   "오래"
+  ]
+ },
+ {
+  "headword": "온",
+  "senses": [
+   {
+    "pos": "Numeral",
+    "glosses": [
+     "(one) hundred"
+    ],
+    "yale": "wón",
+    "written": "온〮"
+   }
+  ]
+ },
+ {
+  "headword": "올ᄒᆡ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "this year"
+    ],
+    "yale": "wòlhóy",
+    "written": "올ᄒᆡ〮"
+   }
+  ],
+  "modern": [
+   "올해"
+  ]
+ },
+ {
+  "headword": "올히",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "duck (in general), duck (domesticated)"
+    ],
+    "written": "올〮히"
+   }
+  ],
+  "modern": [
+   "오리"
+  ]
+ },
+ {
+  "headword": "옷",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "clothing; clothes"
+    ],
+    "yale": "wós",
+    "written": "옷〮"
+   },
+   {
+    "pos": "Noun",
+    "glosses": [
+     "lacquer"
+    ],
+    "yale": "wòs"
+   }
+  ],
+  "modern": [
+   "옷",
+   "옻"
+  ]
+ },
+ {
+  "headword": "옷긔",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "fright seizure"
+    ],
+    "written": "옷〯긔〮"
+   }
+  ]
+ },
+ {
+  "headword": "외",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "cucumber"
+    ],
+    "yale": "wǒy",
+    "written": "외〯"
+   }
+  ],
+  "modern": [
+   "오이"
+  ]
+ },
+ {
+  "headword": "요ᄉᆞᅀᅵ",
+  "senses": [
+   {
+    "pos": "Adverb",
+    "glosses": [
+     "recently"
+    ],
+    "yale": "yosozi"
+   }
+  ],
+  "modern": [
+   "요사이"
+  ]
+ },
+ {
+  "headword": "요조ᅀᆞᆷ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "today; the present"
+    ],
+    "yale": "yócwòzóm",
+    "written": "요〮조ᅀᆞᆷ〮"
+   }
+  ],
+  "modern": [
+   "요즈음"
+  ]
+ },
+ {
+  "headword": "우ᄇᆡᄌᆞ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "(TCM) gallnut, Chinese gall"
+    ],
+    "yale": "wǒ.boj.có",
+    "written": "우〯ᄇᆡᄌᆞ〮"
+   }
+  ]
+ },
+ {
+  "headword": "우ᇠ다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to shrink back"
+    ],
+    "written": "우ᇠ다〮"
+   }
+  ],
+  "modern": [
+   "움츠리다"
+  ]
+ },
+ {
+  "headword": "우다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to cry; to weep"
+    ],
+    "yale": "wǔtá",
+    "written": "우〯다〮"
+   }
+  ],
+  "modern": [
+   "울다"
+  ]
+ },
+ {
+  "headword": "우르다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "(of an animal or bird) to roar, to bellow, to cry, to make a large sound",
+     "(of a person) to shout",
+     "(figurative, of a natural object) to roar, to rage"
+    ],
+    "written": "우르다〮"
+   }
+  ],
+  "modern": [
+   "으르다",
+   "우레",
+   "으르렁",
+   "우렁차다"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1481
+   },
+   {
+    "work": null,
+    "year": 1511
+   },
+   {
+    "work": null,
+    "year": 2009
+   }
+  ]
+ },
+ {
+  "headword": "우리",
+  "senses": [
+   {
+    "pos": "Pronoun",
+    "glosses": [
+     "we; us"
+    ],
+    "written": "우〮리〮"
+   },
+   {
+    "pos": "Noun",
+    "glosses": [
+     "cage, pen, coop"
+    ],
+    "written": "우리〮"
+   }
+  ],
+  "modern": [
+   "우리"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1586
+   }
+  ]
+ },
+ {
+  "headword": "우산",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "umbrella"
+    ],
+    "written": "우〮산〮"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1517
+   },
+   {
+    "work": null,
+    "year": 1576
+   }
+  ]
+ },
+ {
+  "headword": "우워ᇰ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "burdock"
+    ],
+    "yale": "wuweng"
+   }
+  ],
+  "modern": [
+   "우엉"
+  ]
+ },
+ {
+  "headword": "울다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "우〯다〮의 다른 표기 (Modern phonemically faithful), not actually used during the Middle Korean period."
+    ],
+    "yale": "wǔl-tá",
+    "written": "울〯다〮"
+   }
+  ]
+ },
+ {
+  "headword": "움즈기다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to move"
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "웋",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "above, upper, upside, top"
+    ]
+   }
+  ],
+  "modern": [
+   "우",
+   "[[위#above"
+  ]
+ },
+ {
+  "headword": "위",
+  "senses": [
+   {
+    "pos": "Interjection",
+    "glosses": [
+     "An interjection which appears in certain poems."
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "위ᄒᆞ다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "(transitive) to do (something) for the sake of"
+    ],
+    "written": "위〯ᄒᆞ다〮"
+   }
+  ],
+  "modern": [
+   "위하다"
+  ]
+ },
+ {
+  "headword": "음란",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "testicles; balls"
+    ],
+    "yale": "ùmlán",
+    "written": "음란〮"
+   }
+  ]
+ },
+ {
+  "headword": "읏듬",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "first, principal, main"
+    ]
+   }
+  ],
+  "modern": [
+   "으뜸"
+  ]
+ },
+ {
+  "headword": "이ᄅᆞ삶다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to manage"
+    ],
+    "yale": "ilosalmta"
+   }
+  ],
+  "modern": [
+   "이뤄삶다"
+  ]
+ },
+ {
+  "headword": "이ᅀᅵᇰ개",
+  "senses": [
+   {
+    "pos": "Proper noun",
+    "glosses": [
+     "a beach with white sand in , modern North Korea"
+    ],
+    "yale": "Ízìngkáy",
+    "written": "이〮ᅀᅵᇰ개〮"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 2006
+   }
+  ]
+ },
+ {
+  "headword": "이ᅌᅥ긔",
+  "senses": [
+   {
+    "pos": "Pronoun",
+    "glosses": [
+     "here"
+    ],
+    "yale": "ì.ngèkúy",
+    "written": "이ᅌᅥ긔〮"
+   }
+  ],
+  "modern": [
+   "여기"
+  ]
+ },
+ {
+  "headword": "이력ᄒᆞ다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to study"
+    ],
+    "yale": "ilyek.hota"
+   }
+  ]
+ },
+ {
+  "headword": "이바디",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "feast; party"
+    ]
+   }
+  ],
+  "modern": [
+   "이바지"
+  ]
+ },
+ {
+  "headword": "이시다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "잇다의 다른 꼴 (allomorph before vowels)"
+    ],
+    "yale": "isita"
+   }
+  ]
+ },
+ {
+  "headword": "이웆",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "neighbour"
+    ],
+    "written": "이웆〮"
+   }
+  ],
+  "modern": [
+   "이웃"
+  ]
+ },
+ {
+  "headword": "읻다",
+  "senses": [
+   {
+    "pos": "Adjective",
+    "glosses": [
+     "to be good; to be nice"
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "일",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "work, job"
+    ],
+    "yale": "ǐl",
+    "written": "일〯"
+   },
+   {
+    "pos": "Numeral",
+    "glosses": [
+     "one"
+    ],
+    "yale": "íl",
+    "written": "일〮"
+   }
+  ],
+  "modern": [
+   "[[일#work",
+   "[[일#一"
+  ]
+ },
+ {
+  "headword": "일벗다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "(transitive) to steal, to rob"
+    ],
+    "yale": "ìlpèstá",
+    "written": "일벗다〮"
+   }
+  ]
+ },
+ {
+  "headword": "일홈",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "name"
+    ],
+    "written": "일홈〮"
+   }
+  ],
+  "modern": [
+   "이름"
+  ]
+ },
+ {
+  "headword": "잇다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to be (at a place); to exist",
+     "to have",
+     "(auxiliary, used with -어) to be (in a state of having done the main verb)"
+    ],
+    "yale": "ìstá",
+    "written": "잇다〮"
+   }
+  ],
+  "modern": [
+   "있다",
+   "-었-"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1459
+   },
+   {
+    "work": null,
+    "year": 1517
+   },
+   {
+    "work": null,
+    "year": 2014
+   }
+  ]
+ },
+ {
+  "headword": "잇브다",
+  "senses": [
+   {
+    "pos": "Adjective",
+    "glosses": [
+     "to be tired, to be weary, to be exhausted"
+    ],
+    "yale": "ìspùtá",
+    "written": "잇브다〮"
+   }
+  ]
+ },
+ {
+  "headword": "자내",
+  "senses": [
+   {
+    "pos": "Pronoun",
+    "glosses": [
+     "oneself"
+    ],
+    "yale": "canay"
+   }
+  ],
+  "modern": [
+   "자네"
+  ]
+ },
+ {
+  "headword": "자최",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "mark; trace; legacy"
+    ],
+    "yale": "càchwóy",
+    "written": "자최〮"
+   }
+  ],
+  "modern": [
+   "자취"
+  ]
+ },
+ {
+  "headword": "잣",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "walled city, town, fortress"
+    ],
+    "written": "잣〮"
+   },
+   {
+    "pos": "Noun",
+    "glosses": [
+     "pine nut"
+    ],
+    "yale": "cǎs",
+    "written": "잣〯"
+   }
+  ],
+  "modern": [
+   "잣"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 2013
+   }
+  ]
+ },
+ {
+  "headword": "쟈ᇰᅀᅵᆫ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "craftsman, artisan"
+    ],
+    "yale": "cyangzin",
+    "written": "쟈ᇰ〯ᅀᅵᆫ"
+   }
+  ],
+  "modern": [
+   "장인"
+  ]
+ },
+ {
+  "headword": "쟈ᇰ긔",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "janggi; Korean chess"
+    ],
+    "yale": "cyǎngkùy",
+    "written": "쟈ᇰ〯긔"
+   }
+  ],
+  "modern": [
+   "장기"
+  ]
+ },
+ {
+  "headword": "저우룸",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "寅, the third of twelve earthly branches (十二支): \"Tiger\""
+    ],
+    "yale": "cewulwum"
+   }
+  ]
+ },
+ {
+  "headword": "저프다",
+  "senses": [
+   {
+    "pos": "Adjective",
+    "glosses": [
+     "to be fearful, to be frightening",
+     "to be fearful, to be in fear"
+    ],
+    "yale": "cèphùtá",
+    "written": "저프다〮"
+   }
+  ]
+ },
+ {
+  "headword": "적",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "time, occurrence (must be preceded by the adnominal suffix -은 or -으ᇙ)"
+    ],
+    "yale": "cèk",
+    "written": "저긔〮"
+   }
+  ],
+  "modern": [
+   "[[적#time"
+  ]
+ },
+ {
+  "headword": "제",
+  "senses": [
+   {
+    "pos": "Adverb",
+    "glosses": [
+     "적의 줄어든 꼴: [[when"
+    ],
+    "written": "제〮"
+   }
+  ],
+  "modern": [
+   "[[제#when"
+  ]
+ },
+ {
+  "headword": "져",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "chopstick(s)"
+    ],
+    "yale": "cye"
+   }
+  ],
+  "modern": [
+   "저"
+  ]
+ },
+ {
+  "headword": "져구리",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "jeogori Korean traditional jacket, upper garment of Korean traditional clothes"
+    ]
+   }
+  ],
+  "modern": [
+   "저고리"
+  ]
+ },
+ {
+  "headword": "져차다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "(rare) to remove"
+    ],
+    "yale": "cyechata",
+    "written": "져차"
+   }
+  ]
+ },
+ {
+  "headword": "젼툐",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "blanket"
+    ],
+    "yale": "cyentywo"
+   }
+  ]
+ },
+ {
+  "headword": "졋",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "졎의 다른 표기 (isolated form)"
+    ],
+    "yale": "cyes"
+   }
+  ]
+ },
+ {
+  "headword": "졎",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "breast",
+     "milk"
+    ],
+    "written": "졎〮"
+   }
+  ],
+  "modern": [
+   "젖"
+  ]
+ },
+ {
+  "headword": "조각",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "piece; sliver"
+    ]
+   }
+  ],
+  "modern": [
+   "조각"
+  ]
+ },
+ {
+  "headword": "죠ᄒᆡ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "paper"
+    ],
+    "yale": "cyòhóy",
+    "written": "죠ᄒᆡ〮"
+   }
+  ],
+  "modern": [
+   "종이"
+  ]
+ },
+ {
+  "headword": "죽다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "(intransitive) to die"
+    ],
+    "yale": "cwùktá",
+    "written": "주거〮"
+   }
+  ],
+  "modern": [
+   "죽다"
+  ]
+ },
+ {
+  "headword": "죽사리",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "life and death",
+     "(Buddhism) samsara; the cycle of birth and death"
+    ],
+    "yale": "cwùksàlí",
+    "written": "죽사리〮"
+   }
+  ],
+  "modern": [
+   "죽살이"
+  ]
+ },
+ {
+  "headword": "쥬련",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "towel"
+    ],
+    "yale": "cyulyen"
+   }
+  ]
+ },
+ {
+  "headword": "즈ᇫ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "visage; appearance; shape (e.g. of a person)",
+     "(by extension) situation; circumstances; behavior"
+    ],
+    "written": "즈ᇫ〯"
+   }
+  ],
+  "modern": [
+   "짓"
+  ]
+ },
+ {
+  "headword": "즈믄",
+  "senses": [
+   {
+    "pos": "Numeral",
+    "glosses": [
+     "thousand"
+    ],
+    "yale": "cumun"
+   }
+  ]
+ },
+ {
+  "headword": "즐겁다",
+  "senses": [
+   {
+    "pos": "Adjective",
+    "glosses": [
+     "to be pleasant, to be enjoyable"
+    ],
+    "yale": "cúlkèptá",
+    "written": "즐〮겁다〮"
+   }
+  ],
+  "modern": [
+   "즐겁다"
+  ]
+ },
+ {
+  "headword": "즘게",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "a big tree, a large tree"
+    ],
+    "yale": "cùmkéy",
+    "written": "즘게〮"
+   },
+   {
+    "pos": "Noun",
+    "glosses": [
+     "a distance of thirty li, around twelve kilometres"
+    ],
+    "yale": "cùmkéy",
+    "written": "즘게〮"
+   }
+  ],
+  "modern": [
+   "즘게"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1447
+   }
+  ]
+ },
+ {
+  "headword": "즛",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "즈ᇫ〯의 다른 표기 (isolated form)"
+    ],
+    "yale": "cǔs",
+    "written": "즛〯"
+   }
+  ]
+ },
+ {
+  "headword": "지극",
+  "senses": [
+   {
+    "pos": "Adverb",
+    "glosses": [
+     "very; extremely"
+    ],
+    "yale": "cíkúk",
+    "written": "지〮극〮"
+   }
+  ]
+ },
+ {
+  "headword": "지다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "(auxiliary) to want, to desire"
+    ],
+    "yale": "cita"
+   }
+  ]
+ },
+ {
+  "headword": "지즑",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "straw mat"
+    ],
+    "written": "지즑〮"
+   }
+  ],
+  "modern": [
+   "기직",
+   "기직자리"
+  ],
+  "attested": [
+   {
+    "work": "Ural-Altaische Jahrbücher",
+    "year": 1958
+   },
+   {
+    "work": "진단학보",
+    "year": 2018
+   }
+  ]
+ },
+ {
+  "headword": "지지",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "cape jasmine ()"
+    ],
+    "yale": "cǐ.ci",
+    "written": "지〯지"
+   }
+  ]
+ },
+ {
+  "headword": "지차리",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "house centipede"
+    ],
+    "written": "지〮차〮리〮"
+   }
+  ]
+ },
+ {
+  "headword": "진교",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "especially its root, which is used in traditional Chinese medicine"
+    ],
+    "yale": "cin.kywo"
+   }
+  ]
+ },
+ {
+  "headword": "진딧",
+  "senses": [
+   {
+    "pos": "Determiner",
+    "glosses": [
+     "true, real"
+    ],
+    "yale": "cìntís",
+    "written": "진딧〮"
+   },
+   {
+    "pos": "Adverb",
+    "glosses": [
+     "really"
+    ],
+    "yale": "cìntís",
+    "written": "진딧〮"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1991
+   }
+  ]
+ },
+ {
+  "headword": "집",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "house"
+    ]
+   }
+  ],
+  "modern": [
+   "집"
+  ]
+ },
+ {
+  "headword": "집웋",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "roof"
+    ],
+    "yale": "cipwuh"
+   }
+  ],
+  "modern": [
+   "지붕"
+  ]
+ },
+ {
+  "headword": "짓",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "짗〮의 다른 표기 (isolated form)"
+    ],
+    "yale": "cís",
+    "written": "짓〮"
+   }
+  ]
+ },
+ {
+  "headword": "짛다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "(transitive) to tie a packsaddle",
+     "(transitive) to string a bow for shooting",
+     "(transitive, with object 일훔〮) to give (a name), to christen, to name (a person, an object, etc.)"
+    ],
+    "written": "짛다〮"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 2011
+   }
+  ]
+ },
+ {
+  "headword": "처ᅀᅥᆷ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "the first time"
+    ],
+    "yale": "chézèm",
+    "written": "처〮ᅀᅥᆷ"
+   }
+  ],
+  "modern": [
+   "처음"
+  ]
+ },
+ {
+  "headword": "쳔",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "money"
+    ],
+    "yale": "chyěn",
+    "written": "쳔〯"
+   },
+   {
+    "pos": "Numeral",
+    "glosses": [
+     "thousand"
+    ],
+    "yale": "chyèn"
+   }
+  ],
+  "modern": [
+   "[[천#thousand"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1517
+   }
+  ]
+ },
+ {
+  "headword": "츩",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "arrowroot, kudzu"
+    ],
+    "yale": "chúlk",
+    "written": "츩〮"
+   }
+  ],
+  "modern": [
+   "칡"
+  ]
+ },
+ {
+  "headword": "칩다",
+  "senses": [
+   {
+    "pos": "Adjective",
+    "glosses": [
+     "(of weather, adjectivally) to be cold; (of weather, verbally) to become cold"
+    ],
+    "yale": "chíptá",
+    "written": "칩〮다〮"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1459
+   }
+  ]
+ },
+ {
+  "headword": "코ᇰ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "soybean"
+    ],
+    "yale": "khwòng"
+   }
+  ],
+  "modern": [
+   "콩"
+  ]
+ },
+ {
+  "headword": "코ᇰᄑᆞᆺ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "kidney"
+    ],
+    "yale": "khwong.phos"
+   }
+  ],
+  "modern": [
+   "콩팥"
+  ]
+ },
+ {
+  "headword": "쾅지",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "basket"
+    ],
+    "yale": "khwangci"
+   }
+  ]
+ },
+ {
+  "headword": "크다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to grow, to get bigger; to be big",
+     "to become great; to be great"
+    ],
+    "yale": "khútá",
+    "written": "크〮다〮"
+   }
+  ],
+  "modern": [
+   "크다"
+  ]
+ },
+ {
+  "headword": "큰림금",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "apple"
+    ],
+    "yale": "khunlimkum"
+   }
+  ]
+ },
+ {
+  "headword": "킈",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "size, height"
+    ]
+   }
+  ],
+  "modern": [
+   "키"
+  ]
+ },
+ {
+  "headword": "텬쳐ᇰ빛",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "sky blue (color)"
+    ],
+    "yale": "thyenchyengpich"
+   }
+  ]
+ },
+ {
+  "headword": "토ᇰᄉᆡ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "toilet"
+    ],
+    "yale": "thwongsoy"
+   }
+  ]
+ },
+ {
+  "headword": "톳기",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "hare"
+    ],
+    "written": "톳〮기"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 2003
+   },
+   {
+    "work": null,
+    "year": 2017
+   },
+   {
+    "work": null,
+    "year": 1463
+   }
+  ]
+ },
+ {
+  "headword": "투구",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "historical helmet (as part of military gear)"
+    ],
+    "written": "투〮구〮"
+   }
+  ]
+ },
+ {
+  "headword": "투먼가ᇰ",
+  "senses": [
+   {
+    "pos": "Proper noun",
+    "glosses": [
+     "border between Korea and the Tungusic peoples"
+    ],
+    "yale": "Thwùmén-kàng",
+    "written": "투먼〮가ᇰ"
+   }
+  ],
+  "modern": [
+   "^두만강(豆滿江)"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 2006
+   }
+  ]
+ },
+ {
+  "headword": "파",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "spring onion"
+    ],
+    "written": "파〮"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1466
+   }
+  ]
+ },
+ {
+  "headword": "파라ᄒᆞ다",
+  "senses": [
+   {
+    "pos": "Adjective",
+    "glosses": [
+     "to be blue",
+     "to be green"
+    ],
+    "yale": "phálàhòtá",
+    "written": "파〮라ᄒᆞ다〮"
+   }
+  ],
+  "modern": [
+   "파랗다"
+  ]
+ },
+ {
+  "headword": "펴다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to spread, lay out"
+    ],
+    "written": "펴다〮"
+   }
+  ]
+ },
+ {
+  "headword": "편지",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "small piece of paper",
+     "letter"
+    ],
+    "yale": "phyenci"
+   }
+  ],
+  "modern": [
+   "편지"
+  ]
+ },
+ {
+  "headword": "푸",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "store, shop"
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "푸ᇰ륫갓",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "musical instrument"
+    ],
+    "yale": "phwunglyuskas"
+   }
+  ]
+ },
+ {
+  "headword": "프ᅀᅥᇰ귀",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "greens, vegetables"
+    ],
+    "written": "프〮ᅀᅥᇰ귀〮"
+   }
+  ],
+  "modern": [
+   "푸성귀"
+  ]
+ },
+ {
+  "headword": "프르다",
+  "senses": [
+   {
+    "pos": "Adjective",
+    "glosses": [
+     "(to be) blue; (to be) green"
+    ],
+    "yale": "phuluta"
+   }
+  ],
+  "modern": [
+   "푸르다"
+  ]
+ },
+ {
+  "headword": "플",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "grass"
+    ],
+    "written": "플〮"
+   }
+  ],
+  "modern": [
+   "풀"
+  ]
+ },
+ {
+  "headword": "피",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "blood"
+    ],
+    "written": "피〮"
+   }
+  ],
+  "modern": [
+   "피"
+  ]
+ },
+ {
+  "headword": "피나모",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "()"
+    ],
+    "written": "피〮나모"
+   }
+  ],
+  "modern": [
+   "피나무"
+  ]
+ },
+ {
+  "headword": "피리",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "(woodwind instruments) A double reed woodwind instrument with a cylindrical bamboo body, used in the classical and folk music of Korea."
+    ],
+    "written": "피〮리"
+   }
+  ]
+ },
+ {
+  "headword": "하ᄂᆞᆳᄃᆞ래",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "Chinese snake gourd ()"
+    ],
+    "written": "하ᄂᆞᆳ〮ᄃᆞ〮래"
+   }
+  ],
+  "modern": [
+   "하눌타리"
+  ]
+ },
+ {
+  "headword": "하ᄂᆞᆳ아ᄃᆞᆯ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "Son of Heaven; Emperor of China"
+    ],
+    "written": "하---ᄂᆞᆳ〮-아ᄃᆞᆯ〮"
+   }
+  ]
+ },
+ {
+  "headword": "하ᄂᆞᆶ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "sky",
+     "heaven"
+    ],
+    "written": "하ᄂᆞᆶ〮"
+   }
+  ],
+  "modern": [
+   "하늘"
+  ]
+ },
+ {
+  "headword": "하ᇰ것",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "(especially of servants) master"
+    ],
+    "written": "항〮것"
+   }
+  ],
+  "modern": [
+   "항것"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1459
+   }
+  ]
+ },
+ {
+  "headword": "하ᇰ문",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "anus"
+    ],
+    "yale": "hàngmwùn"
+   }
+  ],
+  "modern": [
+   "항문"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1489
+   }
+  ]
+ },
+ {
+  "headword": "하나비",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "한〮아비〮의 다른 표기"
+    ],
+    "written": "하〮나비〮"
+   }
+  ]
+ },
+ {
+  "headword": "하다",
+  "senses": [
+   {
+    "pos": "Adjective",
+    "glosses": [
+     "to be big; to be many"
+    ],
+    "written": "하〮다〮"
+   }
+  ],
+  "modern": [
+   "한강(漢江)",
+   "한숨"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1459
+   }
+  ]
+ },
+ {
+  "headword": "하딕",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "下直의 다른 표기 (Hangul)"
+    ],
+    "written": "하〯딕〮"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1447
+   }
+  ]
+ },
+ {
+  "headword": "하딕ᄒᆞ다",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "下(하〯)直(딕〮)ᄒᆞ〮다〮의 다른 표기 (Hangul)"
+    ],
+    "written": "하〯딕〮ᄒᆞ〮다〮"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1459
+   }
+  ]
+ },
+ {
+  "headword": "하리",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "slander"
+    ],
+    "written": "하리〮"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1573
+   }
+  ]
+ },
+ {
+  "headword": "하야ᄒᆞ다",
+  "senses": [
+   {
+    "pos": "Adjective",
+    "glosses": [
+     "to be white"
+    ],
+    "written": "하〮야〮하〮다〮"
+   }
+  ]
+ },
+ {
+  "headword": "하야로비",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "black-crowned night heron, night heron ()"
+    ],
+    "written": "하〮야〮로비〮"
+   }
+  ],
+  "modern": [
+   "해오라기"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1459
+   }
+  ]
+ },
+ {
+  "headword": "하야믜다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to be worn out and torn"
+    ],
+    "written": "하〮야〮믜〮다〮"
+   }
+  ]
+ },
+ {
+  "headword": "하외욤",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "yawn"
+    ],
+    "written": "하외〮욤〮"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1466
+   }
+  ]
+ },
+ {
+  "headword": "하외욤ᄒᆞ다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to yawn"
+    ],
+    "written": "하외〮욤〮ᄒᆞ〮다〮"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1483
+   }
+  ]
+ },
+ {
+  "headword": "한ᅀᅮᆷ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "한〮숨〯의 다른 표기"
+    ],
+    "written": "한〮ᅀᅮᆷ〯"
+   }
+  ]
+ },
+ {
+  "headword": "한ᅀᅮᆷ딯다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "한〮숨〯딯다〮의 다른 표기"
+    ],
+    "written": "한〮ᅀᅮᆷ〯딯다〮"
+   }
+  ]
+ },
+ {
+  "headword": "한비",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "long, heavy rain"
+    ],
+    "written": "한비〮"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1459
+   }
+  ]
+ },
+ {
+  "headword": "한숨",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "sigh"
+    ],
+    "written": "한〮숨〯"
+   }
+  ],
+  "modern": [
+   "한숨"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1490
+   }
+  ]
+ },
+ {
+  "headword": "한숨딯다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to sigh"
+    ],
+    "written": "한〮숨〯딯다〮"
+   }
+  ]
+ },
+ {
+  "headword": "한아바님",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "grandfather"
+    ],
+    "written": "한〮아바〮님〯"
+   }
+  ]
+ },
+ {
+  "headword": "한아비",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "grandfather"
+    ],
+    "written": "한〮아비〮"
+   }
+  ],
+  "modern": [
+   "der2=1"
+  ]
+ },
+ {
+  "headword": "한어버ᅀᅵ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "grandparents"
+    ],
+    "yale": "han-epezi"
+   }
+  ]
+ },
+ {
+  "headword": "핟니블",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "cotton-padded blanket"
+    ],
+    "written": "핟〮니블〮"
+   }
+  ],
+  "modern": [
+   "핫이불"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1489
+   }
+  ]
+ },
+ {
+  "headword": "핟옷",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "cotton-padded clothes"
+    ],
+    "written": "핟〮옷〮"
+   }
+  ],
+  "modern": [
+   "핫옷"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1489
+   }
+  ]
+ },
+ {
+  "headword": "할다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to slander"
+    ],
+    "written": "할〯다〮"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1459
+   }
+  ]
+ },
+ {
+  "headword": "할미",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "grandmother, old lady"
+    ],
+    "written": "할〮미"
+   }
+  ],
+  "modern": [
+   "할미"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1459
+   }
+  ]
+ },
+ {
+  "headword": "할아다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to slander"
+    ],
+    "written": "할g아〮다〮"
+   }
+  ]
+ },
+ {
+  "headword": "핧다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to lick"
+    ],
+    "written": "핧다〮"
+   }
+  ],
+  "modern": [
+   "핥다"
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1466
+   }
+  ]
+ },
+ {
+  "headword": "해",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "(hapax) thing"
+    ],
+    "written": "해〮"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1459
+   }
+  ]
+ },
+ {
+  "headword": "해자",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "spending"
+    ],
+    "written": "해〯자"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1463
+   }
+  ]
+ },
+ {
+  "headword": "햐ᇰᄒᆞ다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "向(햐ᇰ〯)ᄒᆞ〮다〮의 다른 표기 (Hangul)"
+    ],
+    "written": "향〯ᄒᆞ〮다〮"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1481
+   }
+  ]
+ },
+ {
+  "headword": "햑다",
+  "senses": [
+   {
+    "pos": "Adjective",
+    "glosses": [
+     "small"
+    ],
+    "written": "햑다〮"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 1466
+   }
+  ]
+ },
+ {
+  "headword": "혀ᇰ",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "兄(혀ᇰ)의 다른 표기 (Hangul)"
+    ],
+    "yale": "hyèng"
+   }
+  ]
+ },
+ {
+  "headword": "혀ᇰ뎨",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "brothers"
+    ],
+    "yale": "hyengtyey"
+   }
+  ],
+  "modern": [
+   "형제"
+  ]
+ },
+ {
+  "headword": "혜다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to count",
+     "to reckon; to consider; to think"
+    ],
+    "yale": "hyěytá",
+    "written": "혜〯다〮"
+   }
+  ],
+  "modern": [
+   "세다"
+  ]
+ },
+ {
+  "headword": "화ᇰ뎨",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "emperor"
+    ],
+    "yale": "hwangtyey"
+   }
+  ],
+  "modern": [
+   "황제"
+  ]
+ },
+ {
+  "headword": "회화",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "flower of"
+    ],
+    "yale": "hwoj.hwa"
+   }
+  ]
+ },
+ {
+  "headword": "횩다",
+  "senses": [
+   {
+    "pos": "Adjective",
+    "glosses": [
+     "small; little"
+    ],
+    "yale": "hyokta"
+   }
+  ]
+ },
+ {
+  "headword": "훗기",
+  "senses": [
+   {
+    "pos": "Proper noun",
+    "glosses": [
+     "a town in modern"
+    ],
+    "yale": "Hwùskí",
+    "written": "훗기〮"
+   }
+  ],
+  "attested": [
+   {
+    "work": null,
+    "year": 2006
+   }
+  ]
+ },
+ {
+  "headword": "훠",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "clogs"
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "흐리눅다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "(hapax) to be murky and damp in the sole known use, apparently in relation to sexual intercourse"
+    ],
+    "yale": "hulinwukta",
+    "written": "흐리누거"
+   }
+  ]
+ },
+ {
+  "headword": "흘게",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "asthma"
+    ],
+    "yale": "hulkey"
+   }
+  ]
+ },
+ {
+  "headword": "힐후다",
+  "senses": [
+   {
+    "pos": "Verb",
+    "glosses": [
+     "to argue, to dispute",
+     "(with 숨 as subject) to pant",
+     "(in compounds) to repeat (frequentative auxiliary)",
+     "(in compounds)"
+    ],
+    "yale": "hilhwuta"
+   }
+  ]
+ },
+ {
+  "headword": "힘",
+  "senses": [
+   {
+    "pos": "Noun",
+    "glosses": [
+     "muscle"
+    ],
+    "written": "힘〮"
+   }
+  ],
+  "modern": [
+   "힘"
+  ]
+ }
+]
