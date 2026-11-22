@@ -1,0 +1,32 @@
+[
+ {
+  "work": "용비어천가",
+  "file": "용비어천가.json",
+  "year": 1447,
+  "units": 42,
+  "lines": 83,
+  "words": 693,
+  "with_modern": 28,
+  "tone_marks": 998
+ },
+ {
+  "work": "월인천강지곡",
+  "file": "월인천강지곡.json",
+  "year": 1447,
+  "units": 194,
+  "lines": 447,
+  "words": 3140,
+  "with_modern": 0,
+  "tone_marks": 5591
+ },
+ {
+  "work": "소학언해/권1",
+  "file": "소학언해_권1.json",
+  "year": 1587,
+  "units": 34,
+  "lines": 34,
+  "words": 939,
+  "with_modern": 0,
+  "tone_marks": 0
+ }
+]
