@@ -2,3 +2,4 @@ __pycache__/
 *.pyc
 fonts/
 corpus/.raw.json
+corpus/.urimal/
