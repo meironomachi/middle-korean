@@ -56,12 +56,13 @@ def items(d):
     return (it if isinstance(it, list) else [it]), int(ch.get("total") or 0)
 
 
-def sweep(q):
-    """'q 로 시작하는 옛말' 을 끝까지 훑는다. (총건수, 받은 것들)"""
+def sweep(q, extra=None):
+    """검색어 하나를 끝까지 훑는다. (총건수, 받은 것들)"""
     got, page, total = [], 1, None
+    base = {"method": "start", "advanced": "y", "type3": "ancient"}
+    base.update(extra or {})
     while page <= MAX_PAGE:
-        d = call({"q": q, "method": "start", "advanced": "y", "type3": "ancient",
-                  "num": NUM, "start": page})
+        d = call({**base, "q": q, "num": NUM, "start": page})
         if "error" in d:
             print(f"    '{q}' {page}쪽 오류: {str(d['error'])[:80]}", flush=True)
             break
@@ -74,21 +75,29 @@ def sweep(q):
     return total or 0, got
 
 
-# 훑을 검색어: 현대 한글 음절의 첫 자모 + 옛한글에 흔한 머리글자
-SEEDS = [chr(c) for c in range(0xAC00, 0xD7A4, 28 * 21)]      # 가 갸 거 겨 …  (초성 19 × 중성 21)
-SEEDS = sorted(set(SEEDS))
-SEEDS += ["ᄀ", "ᄂ", "ᄃ", "ᄅ", "ᄆ", "ᄇ", "ᄉ", "ᄋ", "ᄌ", "ᄎ", "ᄏ", "ᄐ", "ᄑ", "ᄒ",
-          "ᄠ", "ᄡ", "ᄢ", "ᄣ", "ᄭ", "ᄯ", "ᄲ", "ᄊ", "ᅀ", "ᅌ", "ᅙ", "ᄫ", "-"]
+# 훑는 방법 두 가지.
+#
+# (1) 뜻풀이로 찾기 — 이쪽이 본줄기.
+#     옛말 뜻풀이는 거의 "'…'의 옛말" 꼴이라, 뜻풀이에 '옛말'이 든 것을 찾으면 8,453건이 나온다.
+# (2) 머리글자로 찾기 — (1)이 놓친 것을 줍는다.
+#
+# 옛한글로는 못 찾는다. ᄀᆞ, ᄆᆞ 같은 완성 음절로 찾아도 0건이고 낱자도 0건이다.
+# 우리말샘이 옛말 표제어를 현대 표기(가각-다, 가닭)로 적어 두기 때문.
+DEFN_SEEDS = [("옛말", {"target": 9, "method": "include"}),
+              ("예전말", {"target": 9, "method": "include"}),
+              ("옛", {"target": 9, "method": "include"})]
+HEAD_SEEDS = [(chr(c), {}) for c in range(0xAC00, 0xD7A4, 28 * 21)] + [("-", {})]
+SEEDS = DEFN_SEEDS + HEAD_SEEDS
 
 
 def main():
     raw = json.load(open(RAW, encoding="utf-8")) if os.path.exists(RAW) else {}
     done = set(json.load(open(DONE, encoding="utf-8"))) if os.path.exists(DONE) else set()
-    todo = [s for s in SEEDS if s not in done]
-    print(f"훑을 머리글자 {len(todo)}개 (이미 {len(done)}개 끝남, 모은 항목 {len(raw)}개)")
+    todo = [(q, ex) for q, ex in SEEDS if f"{q}|{sorted((ex or {}).items())}" not in done]
+    print(f"훑을 검색어 {len(todo)}개 (이미 {len(done)}개 끝남, 모은 항목 {len(raw)}개)")
 
-    for i, q in enumerate(todo, 1):
-        total, got = sweep(q)
+    for i, (q, ex) in enumerate(todo, 1):
+        total, got = sweep(q, ex)
         new = 0
         for it in got:
             w = it.get("word")
@@ -102,7 +111,7 @@ def main():
                     raw[k] = {"word": w, **{x: s.get(x) for x in
                               ("definition", "pos", "type", "sense_no", "link", "cat") if s.get(x)}}
                     new += 1
-        done.add(q)
+        done.add(f"{q}|{sorted((ex or {}).items())}")
         json.dump(raw, open(RAW, "w", encoding="utf-8"), ensure_ascii=False)
         json.dump(sorted(done), open(DONE, "w", encoding="utf-8"), ensure_ascii=False)
         print(f"  [{i}/{len(todo)}] '{q}' 총 {total:>5} · 받음 {len(got):>4} · 새로 {new:>4} "
