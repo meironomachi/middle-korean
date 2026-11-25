@@ -28,5 +28,85 @@
   "words": 939,
   "with_modern": 0,
   "tone_marks": 0
+ },
+ {
+  "work": "석보상절/권23",
+  "file": "석보상절_권23.json",
+  "year": 1447,
+  "units": 113,
+  "lines": 113,
+  "words": 3806,
+  "with_modern": 0,
+  "tone_marks": 4925
+ },
+ {
+  "work": "석보상절/서문",
+  "file": "석보상절_서문.json",
+  "year": 1447,
+  "units": 34,
+  "lines": 34,
+  "words": 38,
+  "with_modern": 0,
+  "tone_marks": 598
+ },
+ {
+  "work": "월인석보/권25",
+  "file": "월인석보_권25.json",
+  "year": 1459,
+  "units": 370,
+  "lines": 370,
+  "words": 11185,
+  "with_modern": 0,
+  "tone_marks": 13816
+ },
+ {
+  "work": "내훈/권1",
+  "file": "내훈_권1.json",
+  "year": 1475,
+  "units": 113,
+  "lines": 113,
+  "words": 4589,
+  "with_modern": 0,
+  "tone_marks": 0
+ },
+ {
+  "work": "내훈/권3",
+  "file": "내훈_권3.json",
+  "year": 1475,
+  "units": 67,
+  "lines": 67,
+  "words": 3653,
+  "with_modern": 0,
+  "tone_marks": 0
+ },
+ {
+  "work": "훈민정음언해",
+  "file": "훈민정음언해.json",
+  "year": 1459,
+  "units": 66,
+  "lines": 66,
+  "words": 67,
+  "with_modern": 0,
+  "tone_marks": 679
+ },
+ {
+  "work": "용비어천가/순치본/권1-2",
+  "file": "용비어천가_순치본_권1-2.json",
+  "year": 1447,
+  "units": 23,
+  "lines": 23,
+  "words": 65,
+  "with_modern": 0,
+  "tone_marks": 54
+ },
+ {
+  "work": "용비어천가/순치본/권3-4",
+  "file": "용비어천가_순치본_권3-4.json",
+  "year": 1447,
+  "units": 6,
+  "lines": 6,
+  "words": 10,
+  "with_modern": 0,
+  "tone_marks": 69
  }
 ]

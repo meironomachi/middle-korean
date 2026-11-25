@@ -25,6 +25,15 @@ WORKS = {
     "용비어천가": {"year": 1447, "note": "한글로 간행된 최초의 문헌. 125장"},
     "월인천강지곡": {"year": 1447, "note": "세종이 지은 찬불가. 상권"},
     "소학언해/권1": {"year": 1587, "note": "소학을 우리말로 옮긴 책. 권1"},
+    # 아래는 본문이 <pages> 로 쪽 문서에서 전치되는 것들 (expand_pages 가 펼침)
+    "석보상절/권23": {"year": 1447, "note": "석가의 일대기를 우리말로 옮긴 책"},
+    "석보상절/서문": {"year": 1447, "note": "석보상절 서문"},
+    "월인석보/권25": {"year": 1459, "note": "월인천강지곡과 석보상절을 합친 책"},
+    "내훈/권1": {"year": 1475, "note": "소혜왕후가 엮은 여성 교훈서"},
+    "내훈/권3": {"year": 1475, "note": "내훈 권3"},
+    "훈민정음언해": {"year": 1459, "note": "훈민정음 서문과 예의를 우리말로 풀이"},
+    "용비어천가/순치본/권1-2": {"year": 1447, "note": "용비어천가 순치본"},
+    "용비어천가/순치본/권3-4": {"year": 1447, "note": "용비어천가 순치본"},
 }
 
 
@@ -90,7 +99,8 @@ def parse_yongbi(w):
     return units
 
 
-PAGES_TAG = re.compile(r'<pages\s+index="([^"]+)"\s+from=(\d+)\s+to=(\d+)')
+# from=11 과 from="11" 두 가지 표기가 섞여 있다 (내훈은 따옴표를 씀)
+PAGES_TAG = re.compile(r'<pages\s+index="([^"]+)"[^>]*?\bfrom="?(\d+)"?[^>]*?\bto="?(\d+)"?')
 
 
 def expand_pages(w, title):
@@ -161,6 +171,9 @@ def parse_sohak(w):
 
 
 PARSERS = {"용비어천가": parse_yongbi, "월인천강지곡": parse_worin, "소학언해/권1": parse_sohak}
+# 그 밖의 문헌은 줄글 파서(소학언해식)로 읽는다
+def parser_for(title):
+    return PARSERS.get(title, parse_sohak)
 
 
 def stats(doc):
@@ -196,7 +209,7 @@ def main():
                 raw[key] = expand_pages(src, title)
                 json.dump(raw, open(cache, "w", encoding="utf-8"), ensure_ascii=False)
             src = raw[key]
-        units = PARSERS[title](src)
+        units = parser_for(title)(src)
         doc = {
             "work": title, "year": meta["year"], "note": meta["note"],
             "source": f"https://ko.wikisource.org/wiki/{urllib.parse.quote(title)}",

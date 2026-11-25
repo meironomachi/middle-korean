@@ -129,6 +129,14 @@ def head_info(chunk):
     return form, yale
 
 
+def clean_desc(t):
+    """현대어 칸에 위키 문법이 묻어 들어오지 않게 다듬는다.
+    [[길#gil|길]] 같은 꼴에서 닻(#…)과 괄호를 떼어 낸다."""
+    t = t.replace("[[", "").replace("]]", "").replace("*", "").strip()
+    t = t.split("#")[0].split("|")[0].strip()
+    return t if re.fullmatch(r"[가-힣\u1100-\u11FF][가-힣\u1100-\u11FF\s-]*", t or "") else ""
+
+
 def descendants(body):
     out = []
     for line in body.splitlines():
@@ -136,7 +144,7 @@ def descendants(body):
             continue
         if "desc|ko|" in line or re.search(r"\*\s*Korean", line):
             for a, b in re.findall(r"\{\{desc\|ko\|([^|}]+)|\[\[([^\]|]+)", line):
-                t = (a or b).strip()
+                t = clean_desc(a or b)
                 if t and t != "Korean" and t not in out:
                     out.append(t)
     return out
