@@ -64,7 +64,7 @@ def collect_endings():
     def add(form, kind, name):
         f = detone(str(form)).strip("-")
         if f and f != "∅":
-            out.setdefault(f, (kind, name))
+            out.setdefault(f, []).append((kind, name))
 
     for p in GRAM["particles"]:
         for f in p["forms"]:
@@ -106,10 +106,19 @@ for e in LEX:
             STEMS.setdefault(k[:-1], (e["headword"], "어간"))
 
 
-def unlink(tok):
-    """연철을 되돌린 꼴들을 만든다. 끝 음절의 초성을 앞 음절 받침으로 옮겨 본다.
+# 중세국어의 불규칙 교체. 어간 끝소리가 모음 앞에서 바뀌어 적힌다.
+#   돕- + -아  →  도ᄫᅡ   (ㅂ → ㅸ)
+#   짓- + -어  →  지ᅀᅥ   (ㅅ → ㅿ)
+#   듣- + -어  →  드러   (ㄷ → ㄹ)
+# 사전에는 본디 꼴(돕다·짓다·듣다)이 실려 있으므로, 거꾸로 되돌려 찾는다.
+IRREGULAR = {"ᄫ": ("ᆸ", "ㅂ불규칙"), "ᅀ": ("ᆺ", "ㅅ불규칙"), "ᄅ": ("ᆮ", "ㄷ불규칙")}
 
-    말ᄊᆞ미 → [말ᄊᆞᆷ, 이]  (ᄆ 을 ᄊᆞ 의 받침으로 옮기고, 남은 ᅵ 앞에 ㅇ 을 붙임)
+
+def unlink(tok):
+    """연철과 불규칙 교체를 되돌린 꼴들을 만든다. (어간, 어미, 어떻게) 를 돌려준다.
+
+    말ᄊᆞ미 → (말ᄊᆞᆷ, 이, 연철)      끝 음절 초성을 앞 음절 받침으로 옮김
+    도ᄫᅡ   → (돕, 아, ㅂ불규칙)      ㅸ 을 ㅂ 받침으로 되돌림
     """
     out = []
     sy = syllables(jamo(tok))
@@ -123,13 +132,24 @@ def unlink(tok):
             continue
         prev = head[-1]
         if any(JONG_A <= c <= JONG_Z for c in prev):
-            continue                      # 앞 음절에 이미 받침이 있으면 내려온 게 아님
-        moved = PAIR.get(first[0])
-        if not moved:
+            # 앞 음절에 이미 받침이 있으면 연철이 아니다. 다만 ㅎ종성체언은 예외:
+            # 하ᄂᆞᆯㅎ + 이 → 하ᄂᆞᆯ히 처럼 받침 뒤에 ㅎ 이 한 번 더 붙는다
+            if first[0] == "ᄒ":
+                out.append((nfc("".join(head)),
+                            nfc("".join([IEUNG + first[1:]] + tail[1:])), "ㅎ종성체언"))
             continue
-        new_head = head[:-1] + [prev + moved]
-        new_tail = [IEUNG + first[1:]] + tail[1:]
-        out.append((nfc("".join(new_head)), nfc("".join(new_tail))))
+        cand = []
+        if first[0] in PAIR:
+            cand.append((PAIR[first[0]], "연철"))
+        if first[0] in IRREGULAR:
+            cand.append(IRREGULAR[first[0]])
+        for moved, how in cand:
+            new_head = head[:-1] + [prev + moved]
+            new_tail = [IEUNG + first[1:]] + tail[1:]
+            out.append((nfc("".join(new_head)), nfc("".join(new_tail)), how))
+            # ㅎ종성체언: 하ᄂᆞᆯㅎ + 이 → 하ᄂᆞᆯ히. 사전에는 ㅎ 없이 실린 것이 많다
+            if moved == "ᇂ":
+                out.append((nfc("".join(head)), nfc("".join(new_tail)), "ㅎ종성체언"))
     return out
 
 
@@ -151,29 +171,72 @@ def strip_coda(t):
     return nfc(j[:-1]), c
 
 
+def split_endings(rest, depth=0):
+    """남은 부분이 아는 어미들의 연쇄인지 본다. 되면 어미 목록, 아니면 None.
+
+    중세국어는 어미가 겹쳐 붙는다. ᄒᆞ시니 = ᄒᆞ + 시 + 니 처럼
+    선어말어미와 연결어미가 잇따르므로, 하나만 떼어서는 끝까지 못 간다.
+    """
+    if not rest:
+        return []
+    if depth > 4:                      # 너무 잘게 쪼개지 않도록
+        return None
+    for n in range(len(rest), 0, -1):  # 긴 어미부터
+        head = rest[:n]
+        if head in ENDINGS:
+            tail = split_endings(rest[n:], depth + 1)
+            if tail is not None:
+                return [head] + tail
+    return None
+
+
+def role(form, last):
+    """한 꼴이 여러 자리에 쓰일 때, 놓인 자리에 맞는 쪽을 고른다.
+    니 는 선어말어미도 되고 연결어미도 되는데, 맨 끝이면 연결어미로 읽는 것이 맞다."""
+    opts = ENDINGS[form]
+    if last:
+        for k, n in opts:
+            if k != "선어말어미":
+                return (k, n)
+    else:
+        for k, n in opts:
+            if k == "선어말어미":
+                return (k, n)
+    return opts[0]
+
+
+def describe(ends):
+    parts = [role(e, i == len(ends) - 1) for i, e in enumerate(ends)]
+    return " + ".join(ends), " · ".join(f"{k} {n}" for k, n in parts)
+
+
 def analyze(tok):
     """한 어절을 쪼갠다. 못 쪼개면 None."""
     t = detone(tok)
-    # 1) 글자 그대로 쪼개기
+    def made(stem, ends, how):
+        txt, kinds = describe(ends)
+        return {"token": tok, "stem": stem, "head": STEMS[stem][0], "stem_kind": STEMS[stem][1],
+                "ending": txt, "endings": ends, "ending_kind": kinds, "ending_name": "",
+                "via": how if len(ends) < 2 else f"{how}+연쇄"}
+
+    # 1) 글자 그대로 쪼개기 (어미가 여럿 붙어 있어도 됨)
     for i in range(len(t) - 1, 0, -1):
-        stem, end = t[:i], t[i:]
-        if stem in STEMS and end in ENDINGS:
-            k, w = ENDINGS[end]
-            return {"token": tok, "stem": stem, "head": STEMS[stem][0], "stem_kind": STEMS[stem][1],
-                    "ending": end, "ending_kind": k, "ending_name": w, "via": "직접"}
-    # 2) 연철 되돌려 쪼개기
-    for stem, end in unlink(t):
-        if stem in STEMS and end in ENDINGS:
-            k, w = ENDINGS[end]
-            return {"token": tok, "stem": stem, "head": STEMS[stem][0], "stem_kind": STEMS[stem][1],
-                    "ending": end, "ending_kind": k, "ending_name": w, "via": "연철"}
+        stem = t[:i]
+        if stem not in STEMS:
+            continue
+        ends = split_endings(t[i:])
+        if ends:
+            return made(stem, ends, "직접")
+    # 2) 연철·불규칙 되돌려 쪼개기
+    for stem, end, how in unlink(t):
+        if stem in STEMS:
+            ends = split_endings(end)
+            if ends:
+                return made(stem, ends, how)
     # 3) 받침으로 붙은 조사 떼기 (나랏 → 나라 + ㅅ)
     sc = strip_coda(t)
     if sc and sc[0] in STEMS:
-        stem, end = sc
-        k, w = ENDINGS[end]
-        return {"token": tok, "stem": stem, "head": STEMS[stem][0], "stem_kind": STEMS[stem][1],
-                "ending": end, "ending_kind": k, "ending_name": w, "via": "받침조사"}
+        return made(sc[0], [sc[1]], "받침조사")
     # 4) 어미 없이 표제어 자체
     if t in STEMS:
         return {"token": tok, "stem": t, "head": STEMS[t][0], "stem_kind": STEMS[t][1],
@@ -193,7 +256,7 @@ def run(text):
             print(f"  {tok:<12} —")
         elif a["ending"]:
             print(f"  {tok:<12} {a['stem']} + {a['ending']}"
-                  f"   [{a['stem_kind']} {a['head']} / {a['ending_kind']} {a['ending_name']} · {a['via']}]")
+                  f"   [{a['stem_kind']} {a['head']} / {a['ending_kind']} · {a['via']}]")
         else:
             print(f"  {tok:<12} {a['stem']}   [{a['stem_kind']} {a['head']} · 그대로]")
 
@@ -225,11 +288,11 @@ def evaluate():
             continue
         d = detone(t)
         cand = [(d[:i], d[i:]) for i in range(len(d) - 1, 0, -1)]
-        cand += unlink(d)
+        cand += [(a, b) for a, b, _ in unlink(d)]
         sc = strip_coda(d)
         if sc:
             cand.append(sc)
-        if any(e in ENDINGS for _, e in cand):
+        if any(split_endings(e) for _, e in cand):
             why["어미는 아는데 어간을 모름"] += 1
         else:
             why["어미도 어간도 모름"] += 1
