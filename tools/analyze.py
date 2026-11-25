@@ -17,6 +17,11 @@ ROOT = os.path.join(HERE, "..")
 GRAM = json.load(open(os.path.join(ROOT, "data", "grammar.json"), encoding="utf-8"))
 LEX = json.load(open(os.path.join(ROOT, "data", "lexicon.json"), encoding="utf-8"))
 
+# 우리말샘 쪽 사전도 함께 본다. 출처와 라이선스가 달라 파일은 나눠 두되, 찾을 때는 같이 쓴다.
+_UR = os.path.join(ROOT, "data", "lexicon-urimal.json")
+if os.path.exists(_UR):
+    LEX = LEX + json.load(open(_UR, encoding="utf-8"))["entries"]
+
 TONE = "〮〯"
 detone = lambda s: "".join(c for c in s if c not in TONE)
 

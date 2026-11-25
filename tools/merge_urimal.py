@@ -13,6 +13,30 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.join(HERE, "..")
 RAW = os.path.join(ROOT, "corpus", ".urimal", "raw.json")
 OUT = os.path.join(ROOT, "data", "lexicon-urimal.json")
+PUA_TABLE = os.path.join(ROOT, "data", "hanyang-pua.csv")
+
+# 우리말샘은 옛한글을 유니코드 첫가끝이 아니라 '한양 PUA'(U+E0BC~U+F8F7)로 적어 둔다.
+# 그대로 두면 다른 데서 네모로 보이고 검색도 안 되므로 첫가끝으로 바꾼다.
+#   U+F537 → ᄒᆞ (U+1112 U+119E)
+def load_pua():
+    tbl = {}
+    if not os.path.exists(PUA_TABLE):
+        return tbl
+    for line in open(PUA_TABLE, encoding="utf-8"):
+        line = line.strip()
+        if not line or line.startswith("#") or "," not in line:
+            continue
+        k, v = line.split(",", 1)
+        try:
+            tbl[chr(int(k, 16))] = "".join(chr(int(x, 16)) for x in v.split("&"))
+        except ValueError:
+            continue
+    return tbl
+
+
+PUA = load_pua()
+PUA_RANGE = re.compile(r"[-]")
+unpua = lambda s: "".join(PUA.get(c, c) for c in s or "")
 
 # "'급하다'의 옛말", "‘뜻’의 옛말" 등에서 현대어를 뽑음
 MODERN = re.compile(r"[‘'\"“]([^’'\"”]+)[’'\"”]\s*의\s*옛말")
@@ -30,10 +54,12 @@ def main():
         return 1
     raw = json.load(open(RAW, encoding="utf-8"))
 
-    entries, skipped = {}, 0
+    entries, skipped, left = {}, 0, 0
     for rec in raw.values():
-        word = (rec.get("word") or "").strip()
-        defn = (rec.get("definition") or "").strip()
+        word = unpua((rec.get("word") or "").strip())
+        defn = unpua((rec.get("definition") or "").strip())
+        if PUA_RANGE.search(word + defn):
+            left += 1
         if not word:
             skipped += 1
             continue
@@ -80,6 +106,9 @@ def main():
 
     pos = Counter(s["pos"] for e in out for s in e["senses"])
     print(f"항목 {len(out)}개 (뜻풀이 {sum(len(e['senses']) for e in out)}개, 건너뜀 {skipped}개)")
+    print(f"한양 PUA 를 첫가끝으로 바꾼 표 {len(PUA)}자 · 아직 PUA 가 남은 자료 {left}개")
+    oldh = sum(1 for e in out if re.search(r"[\u1100-\u11FF]", e["headword"]))
+    print(f"표제어에 옛한글이 들어간 항목 {oldh}개")
     print(f"현대어 대응이 붙은 항목 {sum(1 for e in out if e.get('modern'))}개")
     print(f"붙임표 표기가 있는 항목 {sum(1 for e in out if e.get('written'))}개")
     print("품사:", ", ".join(f"{k} {v}" for k, v in pos.most_common(10)))
