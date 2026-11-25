@@ -23,7 +23,8 @@ if os.path.exists(_UR):
     LEX = LEX + json.load(open(_UR, encoding="utf-8"))["entries"]
 
 TONE = "〮〯"
-detone = lambda s: "".join(c for c in s if c not in TONE)
+# 조합형/분해형이 섞여 있어 NFC 로 맞춘 뒤 다룬다 (가 U+AC00 과 가 U+1100 U+1161 은 다른 바이트)
+detone = lambda s: unicodedata.normalize("NFC", "".join(c for c in (s or "") if c not in TONE))
 
 CHO_A, CHO_Z = "ᄀ", "ᅟ"
 JUNG_A, JUNG_Z = "ᅠ", "ᆧ"
