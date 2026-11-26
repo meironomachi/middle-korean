@@ -62,6 +62,19 @@
   //   돕- + -아 → 도ᄫᅡ (ㅂ→ㅸ) · 짓- + -어 → 지ᅀᅥ (ㅅ→ㅿ) · 듣- + -어 → 드러 (ㄷ→ㄹ)
   var IRREGULAR = { "ᄫ": ["ᆸ", "ㅂ불규칙"], "ᅀ": ["ᆺ", "ㅅ불규칙"], "ᄅ": ["ᆮ", "ㄷ불규칙"] };
 
+  // 받침 둘이 겹쳐 한 글자가 되는 것. 겹받침 어간의 연철을 되돌릴 때 쓴다
+  // (파이썬 쪽 analyze.py 의 DOUBLE_CODA 와 같아야 한다)
+  var DOUBLE_CODA = {};
+  (function () {
+    var rows = [["\u11A8", "\u11BA", "\u11AA"], ["\u11AB", "\u11BD", "\u11AC"],
+                ["\u11AB", "\u11C2", "\u11AD"], ["\u11AF", "\u11A8", "\u11B0"],
+                ["\u11AF", "\u11B7", "\u11B1"], ["\u11AF", "\u11B8", "\u11B2"],
+                ["\u11AF", "\u11BA", "\u11B3"], ["\u11AF", "\u11C0", "\u11B4"],
+                ["\u11AF", "\u11C1", "\u11B5"], ["\u11AF", "\u11C2", "\u11B6"],
+                ["\u11B8", "\u11BA", "\u11B9"]];
+    rows.forEach(function (r) { DOUBLE_CODA[r[0] + r[1]] = r[2]; });
+  })();
+
   var VERBAL = { Verb: 1, Adjective: 1 };
   // 어간 끝 음절이 이 꼴이면 선어말어미를 삼킨 어간일 수 있다
   var PREFINAL_SYL = { "시": 1, "샤": 1, "니": 1, "리": 1, "오": 1, "우": 1, "더": 1, "거": 1, "ᄂᆞ": 1, "ᅌᅵ": 1 };
@@ -181,8 +194,17 @@
         for (var c = 0; c < prev.length; c++) if (inRange(prev[c], JONG_A, JONG_Z)) hasCoda = true;
         var newTail = [IEUNG + first.slice(1)].concat(tail.slice(1));
         if (hasCoda) {
-          // 앞 음절에 이미 받침이 있으면 연철이 아니다. 다만 ㅎ종성체언은 예외:
-          // 하ᄂᆞᆯㅎ + 이 → 하ᄂᆞᆯ히 처럼 받침 뒤에 ㅎ 이 한 번 더 붙는다
+          // 앞 음절에 이미 받침이 있으면 연철이 아니다. 다만 두 가지가 예외다.
+          // 하ᄂᆞᆯㅎ + 이 → 하ᄂᆞᆯ히 처럼 받침 뒤에 ㅎ 이 한 번 더 붙는 ㅎ종성체언,
+          // 그리고 겹받침 어간이 뒤엣것만 내려 적는 것 (없- + -으니 → 업스니)
+          // 겹받침 쪽을 먼저 본다. 안해 는 (안 + 애) 보다 (않 + 애) 가 맞고,
+          // 하ᄂᆞᆯ히 도 사전에 하ᄂᆞᆶ 으로 실려 있다. (파이썬 쪽 차례와 같아야 한다)
+          var mb = PAIR[first[0]];
+          var both = mb ? DOUBLE_CODA[prev[prev.length - 1] + mb] : null;
+          if (both) {
+            out.push([nfc(head.slice(0, -1).concat([prev.slice(0, -1) + both]).join("")),
+                      nfc(newTail.join("")), "겹받침연철"]);
+          }
           if (first[0] === "ᄒ") out.push([nfc(head.join("")), nfc(newTail.join("")), "ㅎ종성체언"]);
           continue;
         }

@@ -912,6 +912,66 @@
    "form": "-ᄃᆞᆰ",
    "meaning": "까닭",
    "modern": "-므로"
+  },
+  {
+   "form": "-ᄋᆞ니",
+   "meaning": "까닭·잇달음",
+   "modern": "-니",
+   "env": "양성 모음 + 자음으로 끝나는 어간 뒤 — 매개모음",
+   "rule": {
+    "harmony": "yang",
+    "ends": "consonant"
+   }
+  },
+  {
+   "form": "-으니",
+   "meaning": "까닭·잇달음",
+   "modern": "-니",
+   "env": "음성 모음 + 자음으로 끝나는 어간 뒤 — 매개모음",
+   "rule": {
+    "harmony": "yin",
+    "ends": "consonant"
+   }
+  },
+  {
+   "form": "-ᄋᆞ며",
+   "meaning": "나란함",
+   "modern": "-며",
+   "env": "양성 모음 + 자음으로 끝나는 어간 뒤 — 매개모음",
+   "rule": {
+    "harmony": "yang",
+    "ends": "consonant"
+   }
+  },
+  {
+   "form": "-으며",
+   "meaning": "나란함",
+   "modern": "-며",
+   "env": "음성 모음 + 자음으로 끝나는 어간 뒤 — 매개모음",
+   "rule": {
+    "harmony": "yin",
+    "ends": "consonant"
+   }
+  },
+  {
+   "form": "-ᄋᆞ면",
+   "meaning": "가정",
+   "modern": "-면",
+   "env": "양성 모음 + 자음으로 끝나는 어간 뒤 — 매개모음",
+   "rule": {
+    "harmony": "yang",
+    "ends": "consonant"
+   }
+  },
+  {
+   "form": "-으면",
+   "meaning": "가정",
+   "modern": "-면",
+   "env": "음성 모음 + 자음으로 끝나는 어간 뒤 — 매개모음",
+   "rule": {
+    "harmony": "yin",
+    "ends": "consonant"
+   }
   }
  ],
  "transformative_endings": {
@@ -955,6 +1015,46 @@
     "form": "-던",
     "meaning": "회상",
     "modern": "-던"
+   },
+   {
+    "form": "-ᄋᆞᆫ",
+    "meaning": "과거·완료",
+    "modern": "-은",
+    "env": "양성 모음 + 자음으로 끝나는 어간 뒤",
+    "rule": {
+     "harmony": "yang",
+     "ends": "consonant"
+    }
+   },
+   {
+    "form": "-은",
+    "meaning": "과거·완료",
+    "modern": "-은",
+    "env": "음성 모음 + 자음으로 끝나는 어간 뒤",
+    "rule": {
+     "harmony": "yin",
+     "ends": "consonant"
+    }
+   },
+   {
+    "form": "-ᄋᆞᆯ",
+    "meaning": "미래",
+    "modern": "-을",
+    "env": "양성 모음 + 자음으로 끝나는 어간 뒤",
+    "rule": {
+     "harmony": "yang",
+     "ends": "consonant"
+    }
+   },
+   {
+    "form": "-을",
+    "meaning": "미래",
+    "modern": "-을",
+    "env": "음성 모음 + 자음으로 끝나는 어간 뒤",
+    "rule": {
+     "harmony": "yin",
+     "ends": "consonant"
+    }
    }
   ]
  },

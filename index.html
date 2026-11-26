@@ -150,6 +150,8 @@ footer a{color:var(--accent)}
 const $ = (s) => document.querySelector(s);
 const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 let LEX = [], GRAM = null, HANJA = {};
+// 사전에 실린 현대어 표기 모음. '현대 한글로 치셨네요' 를 가릴 때만 쓴다
+const MODERNSET = new Set();
 
 // 옛한글은 조합형(가 U+AC00)과 분해형(가 U+1100 U+1161)이 섞여 있다.
 // 눈에는 같아 보여도 바이트가 달라 그냥 비교하면 안 맞으므로 NFC 로 맞춘 뒤 견준다.
@@ -322,7 +324,9 @@ function drawParse() {
   box.innerHTML = rows.map(({ token, result: a }) => {
     if (!a) {
       // 중세어는 첫가끝 자모(U+1100~)로 적혀 있다. 현대 한글로 치면 하나도 안 맞는다.
-      const modernSpelling = !/[\u1100-\u11FF]/.test(token) && /[가-힣]/.test(token);
+      // 첫가끝 자모가 없다고 다 현대어는 아니다. 업스니·기픈 도 자모를 안 쓴다.
+      // 사전의 현대어 칸에 그 말이 실제로 있을 때만 현대 표기로 본다.
+      const modernSpelling = !/[\u1100-\u11FF]/.test(token) && MODERNSET.has(token.normalize("NFC"));
       const why = modernSpelling
         ? `현대 한글로 적으신 것 같습니다. 이 사전은 <b class="mk">ᄒᆞ시니ᅌᅵᆺ고</b> 처럼
            중세 표기(첫가끝 자모)로만 찾습니다. 아래 예문 단추를 눌러 보세요.`
@@ -375,11 +379,14 @@ Promise.all([
   fetch("data/grammar.json").then((r) => r.json()),
   fetch("data/lexicon-urimal.json").then((r) => r.json()).catch(() => null),
   fetch("data/hanja.json").then((r) => r.json()).catch(() => null),
-]).then(([lex, gram, ur, hj]) => {
+  fetch("data/lexicon-etym.json").then((r) => r.json()).catch(() => null),
+]).then(([lex, gram, ur, hj, et]) => {
   LEX = lex.map((e) => ({ ...e, source: e.source || "위키낱말사전" }));
   if (ur?.entries) LEX = LEX.concat(ur.entries);
+  if (et?.entries) LEX = LEX.concat(et.entries);
   GRAM = gram;
   HANJA = (hj && hj.readings) || {};
+  for (const e of LEX) for (const m of e.modern || []) MODERNSET.add(String(m).normalize("NFC"));
   PARSER = MKAnalyze.build(GRAM, LEX, HANJA);
   draw(); drawGram(); drawParse();
 }).catch((e) => {

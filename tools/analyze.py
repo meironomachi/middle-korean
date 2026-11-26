@@ -21,6 +21,10 @@ LEX = json.load(open(os.path.join(ROOT, "data", "lexicon.json"), encoding="utf-8
 _UR = os.path.join(ROOT, "data", "lexicon-urimal.json")
 if os.path.exists(_UR):
     LEX = LEX + json.load(open(_UR, encoding="utf-8"))["entries"]
+# 현대어 어원란에서 거둔 것. '깊다·없다·듣다' 같은 기본 용언이 여기 있다
+_ET = os.path.join(ROOT, "data", "lexicon-etym.json")
+if os.path.exists(_ET):
+    LEX = LEX + json.load(open(_ET, encoding="utf-8"))["entries"]
 
 # 한자는 체언처럼 쓰인다. 王ᄋᆞᆫ = 王 + ᄋᆞᆫ. 음독만 알면 쪼갤 수 있다.
 # 말뭉치 어절의 29%에 한자가 들어 있어서, 이걸 모르면 그만큼이 통째로 막힌다.
@@ -141,6 +145,22 @@ for e in LEX:
 # 사전에는 본디 꼴(돕다·짓다·듣다)이 실려 있으므로, 거꾸로 되돌려 찾는다.
 IRREGULAR = {"ᄫ": ("ᆸ", "ㅂ불규칙"), "ᅀ": ("ᆺ", "ㅅ불규칙"), "ᄅ": ("ᆮ", "ㄷ불규칙")}
 
+# 받침 둘이 겹쳐 한 글자가 되는 것. 겹받침 어간의 연철을 되돌릴 때 쓴다
+#   없- + -으니 → 업스니 이므로, 업(ᆸ) + 스(ᄉ) 를 보고 없(ᆹ) 으로 되돌린다
+DOUBLE_CODA = {
+    ("\u11A8", "\u11BA"): "\u11AA",   # ᆨ + ᆺ → ᆪ
+    ("\u11AB", "\u11BD"): "\u11AC",   # ᆫ + ᆽ → ᆬ
+    ("\u11AB", "\u11C2"): "\u11AD",   # ᆫ + ᇂ → ᆭ
+    ("\u11AF", "\u11A8"): "\u11B0",   # ᆯ + ᆨ → ᆰ
+    ("\u11AF", "\u11B7"): "\u11B1",   # ᆯ + ᆷ → ᆱ
+    ("\u11AF", "\u11B8"): "\u11B2",   # ᆯ + ᆸ → ᆲ
+    ("\u11AF", "\u11BA"): "\u11B3",   # ᆯ + ᆺ → ᆳ
+    ("\u11AF", "\u11C0"): "\u11B4",   # ᆯ + ᇀ → ᆴ
+    ("\u11AF", "\u11C1"): "\u11B5",   # ᆯ + ᇁ → ᆵ
+    ("\u11AF", "\u11C2"): "\u11B6",   # ᆯ + ᇂ → ᆶ
+    ("\u11B8", "\u11BA"): "\u11B9",   # ᆸ + ᆺ → ᆹ
+}
+
 
 def unlink(tok):
     """연철과 불규칙 교체를 되돌린 꼴들을 만든다. (어간, 어미, 어떻게) 를 돌려준다.
@@ -160,6 +180,13 @@ def unlink(tok):
             continue
         prev = head[-1]
         if any(JONG_A <= c <= JONG_Z for c in prev):
+            # 겹받침 체언·어간은 뒤엣것만 내려 적는다. 없- + -으니 → 업스니
+            # 앞 음절 받침과 뒤 음절 첫소리를 겹받침 한 글자로 되돌린다.
+            moved_back = PAIR.get(first[0])
+            both = DOUBLE_CODA.get((prev[-1], moved_back)) if moved_back else None
+            if both:
+                out.append((nfc("".join(head[:-1] + [prev[:-1] + both])),
+                            nfc("".join([IEUNG + first[1:]] + tail[1:])), "겹받침연철"))
             # 앞 음절에 이미 받침이 있으면 연철이 아니다. 다만 ㅎ종성체언은 예외:
             # 하ᄂᆞᆯㅎ + 이 → 하ᄂᆞᆯ히 처럼 받침 뒤에 ㅎ 이 한 번 더 붙는다
             if first[0] == "ᄒ":

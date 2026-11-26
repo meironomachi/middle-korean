@@ -25,6 +25,9 @@ LEX = json.load(open(os.path.join(ROOT, "data", "lexicon.json"), encoding="utf-8
 _UR = os.path.join(ROOT, "data", "lexicon-urimal.json")
 if os.path.exists(_UR):
     LEX = LEX + json.load(open(_UR, encoding="utf-8"))["entries"]
+_ET = os.path.join(ROOT, "data", "lexicon-etym.json")
+if os.path.exists(_ET):
+    LEX = LEX + json.load(open(_ET, encoding="utf-8"))["entries"]
 
 TONE = "〮〯"
 detone = lambda s: unicodedata.normalize("NFC", "".join(c for c in (s or "") if c not in TONE))
@@ -123,7 +126,10 @@ def build_reverse():
         if not hw or hw.startswith("-"):      # 접사는 통째로 쓸 수 없다
             continue
         # 위키낱말사전 쪽이 사람 손을 탄 것이라 먼저 본다
-        pri = 0 if (e.get("source") or "위키낱말사전") == "위키낱말사전" else 1
+        src = e.get("source") or "위키낱말사전"
+        # 어원란에서 온 것은 현대어와 짝이 또렷해 가장 먼저 본다.
+        # 그 다음이 손을 탄 위키낱말사전 표제어, 마지막이 우리말샘.
+        pri = {"위키낱말사전 어원란": 0, "위키낱말사전": 1}.get(src, 2)
         for m in e.get("modern") or []:
             m = detone(m).strip()
             if m:
