@@ -61,6 +61,10 @@ mark{background:#ffe8a3;color:inherit;border-radius:3px;padding:0 1px}
 :root[data-theme="dark"] mark,@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) mark{background:#6b5a1f;color:#fff}}
 h2{font-size:21px;margin:26px 0 8px;font-weight:800}
 h3{font-size:17px;margin:20px 0 6px;font-weight:800;color:var(--accent)}
+table.matrix{display:block;overflow-x:auto;white-space:nowrap}
+table.matrix td,table.matrix th{vertical-align:top;white-space:normal;min-width:5.5em}
+table.matrix th.lv{text-align:left;font-weight:700;white-space:nowrap}
+td.dim{color:var(--muted)}
 table{width:100%;border-collapse:collapse;background:var(--paper);font-size:14.5px;
   border:1px solid var(--line);border-radius:12px;overflow:hidden;margin:8px 0 16px}
 th,td{padding:8px 12px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
@@ -190,6 +194,34 @@ function drawGram() {
   const sl = g.speech_levels;
   if (sl) {
     h += `<h2>상대 높임 등급</h2><p class="ex">${esc(sl.note)}</p>`;
+
+    // 등급을 세로, 갈래를 가로로 놓은 한눈 표. 아래에 등급별 자세한 표가 또 있다.
+    const COLS = [["평서형", "평서"], ["의문형 — 판정", "의문 · 판정"],
+                  ["의문형 — 설명", "의문 · 설명"], ["명령형", "명령"], ["청유형", "청유"]];
+    const cell = (lv, mood) => {
+      const f = lv.forms.find((x) => x.mood === mood);
+      if (!f) return `<td class="dim">—</td>`;
+      const n = f.corpus_count;
+      return `<td><b class="mk">${esc(f.form)}</b>`
+        + (f.modern ? `<div class="yale">${esc(f.modern)}</div>` : "")
+        + (n == null ? "" : `<div class="yale">${n ? esc(String(n)) + "회" : "말뭉치에 없음"}</div>`)
+        + `</td>`;
+    };
+    h += `<table class="matrix"><thead><tr><th>등급</th><th>현대어</th>`
+      + COLS.map(([, label]) => `<th>${esc(label)}</th>`).join("") + `</tr></thead><tbody>`
+      + sl.levels.map((lv) => {
+          const only = lv.forms.length === 1 && !COLS.some(([m]) => lv.forms[0].mood === m);
+          return `<tr><th class="lv">${esc(lv.name)}</th><td class="yale">${esc(lv.modern || "")}</td>`
+            + (only
+                ? `<td colspan="${COLS.length}"><b class="mk">${esc(lv.forms[0].form)}</b>`
+                  + `<div class="yale">${esc(lv.forms[0].mood)}</div></td>`
+                : COLS.map(([m]) => cell(lv, m)).join(""))
+            + `</tr>`;
+        }).join("")
+      + `</tbody></table>`
+      + `<p class="ex">ᄒᆞ라체에는 주어가 2인칭일 때 쓰는 의문형 <b class="mk">-ㄴ다</b> 가 더 있습니다. `
+      + `세로로 내려갈수록 듣는 사람을 덜 높입니다. 횟수는 아래 말뭉치 기준입니다. `
+      + `${esc(sl.modern_note || "")}</p>`;
     for (const lv of sl.levels) {
       h += `<h3>${esc(lv.name)}${lv.modern ? ` <span class="yale">현대어 ${esc(lv.modern)}</span>` : ""}</h3>`;
       if (lv.meaning) h += `<p class="ex">${esc(lv.meaning)}</p>`;
@@ -204,6 +236,8 @@ function drawGram() {
     }
     h += `<p class="ex">${esc(sl.corpus_note)}</p>`;
     if (sl.limits) h += `<p class="ex">아직 못 하는 것: ${sl.limits.map(esc).join(" ")}</p>`;
+    if (sl.source_scope) h += `<p class="ex">${esc(sl.source_scope)}</p>`;
+    if (sl.source_scope) h += `<p class="ex">${esc(sl.source_scope)}</p>`;
     h += `<p class="note">출처: ${esc(sl.source)}</p>`;
   }
   const fe = g.final_endings;
