@@ -149,7 +149,7 @@ footer a{color:var(--accent)}
 <script>
 const $ = (s) => document.querySelector(s);
 const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
-let LEX = [], GRAM = null;
+let LEX = [], GRAM = null, HANJA = {};
 
 // 옛한글은 조합형(가 U+AC00)과 분해형(가 U+1100 U+1161)이 섞여 있다.
 // 눈에는 같아 보여도 바이트가 달라 그냥 비교하면 안 맞으므로 NFC 로 맞춘 뒤 견준다.
@@ -337,11 +337,17 @@ function drawParse() {
     const pieces = [bit(a.stem, a.stem_kind)]
       .concat(a.parts.map((p, i) => bit(a.endings[i], label(p))));
 
-    const modern = (a.entry && a.entry.modern || []).slice(0, 3).join(", ");
-    const gloss = (a.entry && a.entry.senses || [])
-      .map((x) => x.definition).filter(Boolean)[0] || "";
+    // 한자는 사전 표제어가 아니라 음독으로 읽는다. 王 → 왕
+    const isHanja = a.stem_kind === "한자";
+    // 글자 뜻을 이어 붙이면 엉터리가 된다. 舍利弗(사리불)은 음역어라
+    // 'house · gains · not' 이 되어 버린다. 한 글자일 때만 뜻을 보인다.
+    const hjGloss = (isHanja && [...a.stem].length === 1 && HANJA[a.stem])
+      ? (HANJA[a.stem]["뜻"] || "") : "";
+    const modern = isHanja ? "" : (a.entry && a.entry.modern || []).slice(0, 3).join(", ");
+    const gloss = isHanja ? hjGloss : ((a.entry && a.entry.senses || [])
+      .map((x) => x.definition).filter(Boolean)[0] || "");
     const meta = [
-      `표제어 <b class="mk">${esc(a.head)}</b>`,
+      isHanja ? `음독 <b>${esc(a.head)}</b>` : `표제어 <b class="mk">${esc(a.head)}</b>`,
       modern ? `현대어 <b>${esc(modern)}</b>` : "",
       gloss ? esc(gloss.length > 70 ? gloss.slice(0, 70) + "…" : gloss) : "",
       a.via,
@@ -368,11 +374,13 @@ Promise.all([
   fetch("data/lexicon.json").then((r) => r.json()),
   fetch("data/grammar.json").then((r) => r.json()),
   fetch("data/lexicon-urimal.json").then((r) => r.json()).catch(() => null),
-]).then(([lex, gram, ur]) => {
+  fetch("data/hanja.json").then((r) => r.json()).catch(() => null),
+]).then(([lex, gram, ur, hj]) => {
   LEX = lex.map((e) => ({ ...e, source: e.source || "위키낱말사전" }));
   if (ur?.entries) LEX = LEX.concat(ur.entries);
   GRAM = gram;
-  PARSER = MKAnalyze.build(GRAM, LEX);
+  HANJA = (hj && hj.readings) || {};
+  PARSER = MKAnalyze.build(GRAM, LEX, HANJA);
   draw(); drawGram(); drawParse();
 }).catch((e) => {
   $("#list").innerHTML = `<p class="note">사전을 불러오지 못했습니다. (${esc(e.message)})</p>`;

@@ -76,6 +76,8 @@
   var PREF_NOUN = ["조사", "어말어미", "연결어미", "전성어미", "선어말어미"];
 
   var PUNCT = /[\s.,·:;!?()[\]{}「」『』〈〉《》"']+/;
+  // 한자는 체언처럼 쓰인다. 王ᄋᆞᆫ = 王 + ᄋᆞᆫ. 음독만 알면 쪼갤 수 있다.
+  var HAN_RUN = /^[\u3400-\u4DBF\u4E00-\u9FFF\uF900-\uFAFF]+/;
 
   function collectEndings(GRAM) {
     var out = new Map();
@@ -156,9 +158,10 @@
     return stems;
   }
 
-  function build(GRAM, LEX) {
+  function build(GRAM, LEX, HANJA) {
     var ENDINGS = collectEndings(GRAM);
     var STEMS = collectStems(LEX);
+    HANJA = HANJA || {};
 
     function sylTail(stem) {
       var sy = syllables(jamo(stem));
@@ -265,15 +268,39 @@
     function analyze(tok) {
       var t = detone(tok), i;
 
-      function made(stem, ends, how) {
-        var rec = STEMS.get(stem);
-        var parts = describe(ends, rec[1] === "어간");
+      function made(stem, ends, how, head, kind, entry) {
+        var rec = STEMS.get(stem) || [head, kind, null];
+        head = head != null ? head : rec[0];
+        kind = kind != null ? kind : rec[1];
+        var parts = describe(ends, kind === "어간");
         return {
-          token: tok, stem: stem, head: rec[0], stem_kind: rec[1], entry: rec[2],
+          token: tok, stem: stem, head: head, stem_kind: kind,
+          entry: entry !== undefined ? entry : rec[2],
           ending: ends.join(" + "), endings: ends, parts: parts,
           ending_kind: parts.map(function (p) { return p[0] + " " + p[1]; }).join(" · "),
           via: ends.length < 2 ? how : how + "+연쇄"
         };
+      }
+
+      // 0) 한자로 시작하면 한자 덩어리를 체언으로 본다. 王ᄋᆞᆫ → 王 + ᄋᆞᆫ
+      var hm = HAN_RUN.exec(t);
+      if (hm) {
+        var run = hm[0], ok = true, reading = "";
+        for (i = 0; i < run.length; i++) {
+          if (!HANJA[run[i]]) { ok = false; break; }
+          reading += HANJA[run[i]]["음"][0];
+        }
+        if (ok) {
+          var rest = t.slice(run.length);
+          var he = rest ? splitEndings(rest) : [];
+          if (he !== null) {
+            if (!he.length) {
+              return { token: tok, stem: run, head: reading, stem_kind: "한자", entry: null,
+                       ending: null, endings: [], parts: [], ending_kind: "", via: "한자" };
+            }
+            return made(run, he, "한자", reading, "한자", null);
+          }
+        }
       }
 
       // 1) 글자 그대로 쪼개기. 긴 어간부터 보되, 어간 끝 음절이 선어말어미와 같은

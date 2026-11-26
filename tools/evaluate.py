@@ -47,14 +47,17 @@ def render(tok):
     a = A.analyze(tok)
     if a:
         stem = a["stem"]
-        base = MODERN.get(stem) or MODERN.get(a["head"]) or stem
+        # 한자는 사전에 없다. 음독(head)이 곧 현대어 표기다. 王 → 왕
+        base = MODERN.get(stem) or MODERN.get(a["head"]) \
+            or (a["head"] if a.get("stem_kind") == "한자" else stem)
         # 용언이면 '-다' 를 떼고 어미를 붙여 둔다 (아직 활용은 못 함)
         if a.get("endings"):
             if base.endswith("다") and len(base) > 1:
                 base = base[:-1]
             return base + "".join(a["endings"]), "분석"
         return base, "분석"
-    return tok, "그대로"
+    # 못 옮긴 것도 방점은 떼고 내보낸다. 현대어에는 방점이 없으므로 그대로 두면 틀린 글자가 된다
+    return t, "그대로"
 
 
 def chars(s):

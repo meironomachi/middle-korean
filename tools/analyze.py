@@ -22,6 +22,12 @@ _UR = os.path.join(ROOT, "data", "lexicon-urimal.json")
 if os.path.exists(_UR):
     LEX = LEX + json.load(open(_UR, encoding="utf-8"))["entries"]
 
+# 한자는 체언처럼 쓰인다. 王ᄋᆞᆫ = 王 + ᄋᆞᆫ. 음독만 알면 쪼갤 수 있다.
+# 말뭉치 어절의 29%에 한자가 들어 있어서, 이걸 모르면 그만큼이 통째로 막힌다.
+_HJ = os.path.join(ROOT, "data", "hanja.json")
+HANJA = json.load(open(_HJ, encoding="utf-8"))["readings"] if os.path.exists(_HJ) else {}
+HAN_RUN = re.compile(r"^[\u3400-\u4DBF\u4E00-\u9FFF\uF900-\uFAFF]+")
+
 TONE = "〮〯"
 # 조합형/분해형이 섞여 있어 NFC 로 맞춘 뒤 다룬다 (가 U+AC00 과 가 U+1100 U+1161 은 다른 바이트)
 detone = lambda s: unicodedata.normalize("NFC", "".join(c for c in (s or "") if c not in TONE))
@@ -282,11 +288,27 @@ def describe(ends, verbal=True):
 def analyze(tok):
     """한 어절을 쪼갠다. 못 쪼개면 None."""
     t = detone(tok)
-    def made(stem, ends, how):
-        txt, kinds = describe(ends, STEMS[stem][1] == "어간")
-        return {"token": tok, "stem": stem, "head": STEMS[stem][0], "stem_kind": STEMS[stem][1],
+    def made(stem, ends, how, head=None, kind=None):
+        head = head if head is not None else STEMS[stem][0]
+        kind = kind if kind is not None else STEMS[stem][1]
+        txt, kinds = describe(ends, kind == "어간")
+        return {"token": tok, "stem": stem, "head": head, "stem_kind": kind,
                 "ending": txt, "endings": ends, "ending_kind": kinds, "ending_name": "",
                 "via": how if len(ends) < 2 else f"{how}+연쇄"}
+
+    # 0) 한자로 시작하면 한자 덩어리를 체언으로 본다. 王ᄋᆞᆫ → 王 + ᄋᆞᆫ
+    m = HAN_RUN.match(t)
+    if m:
+        run = m.group()
+        if all(c in HANJA for c in run):
+            reading = "".join(HANJA[c]["음"][0] for c in run)
+            rest = t[len(run):]
+            ends = split_endings(rest) if rest else []
+            if ends is not None:
+                if not ends:
+                    return {"token": tok, "stem": run, "head": reading, "stem_kind": "한자",
+                            "ending": None, "endings": [], "ending_kind": "", "via": "한자"}
+                return made(run, ends, "한자", head=reading, kind="한자")
 
     # 1) 글자 그대로 쪼개기 (어미가 여럿 붙어 있어도 됨)
     #
