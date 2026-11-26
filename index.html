@@ -64,6 +64,22 @@ mark{background:#ffe8a3;color:inherit;border-radius:3px;padding:0 1px}
 :root[data-theme="dark"] mark,@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) mark{background:#6b5a1f;color:#fff}}
 h2{font-size:21px;margin:26px 0 8px;font-weight:800}
 h3{font-size:17px;margin:20px 0 6px;font-weight:800;color:var(--accent)}
+.samples{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 14px}
+.samples button{border:1px solid var(--line);background:var(--paper);color:var(--muted);
+  border-radius:999px;padding:5px 11px;font-size:13px;cursor:pointer;font-family:inherit}
+.samples button:hover{border-color:var(--ink);color:var(--ink)}
+.pw{background:var(--paper);border:1px solid var(--line);border-radius:10px;
+  padding:12px 14px;margin-bottom:9px}
+.pw.miss{background:var(--soft);border-style:dashed}
+.ptok{font-size:20px;font-weight:600}
+.psplit{font-size:19px;margin:5px 0 7px;display:flex;flex-wrap:wrap;
+  align-items:flex-start;column-gap:9px;row-gap:4px}
+.psplit .plus{color:var(--muted);font-size:15px;line-height:1.45}
+.pbit{display:inline-block}
+.pbit .lab{display:block;font-size:11.5px;color:var(--muted);font-family:ui-sans-serif,sans-serif;
+  letter-spacing:-.2px;margin-top:2px;white-space:nowrap}
+.pmeta{font-size:13px;color:var(--muted)}
+.pmeta b{color:var(--ink);font-weight:600}
 table.matrix{display:block;overflow-x:auto;white-space:nowrap}
 table.matrix td,table.matrix th{vertical-align:top;white-space:normal;min-width:5.5em}
 table.matrix th.lv{text-align:left;font-weight:700;white-space:nowrap}
@@ -93,6 +109,7 @@ footer a{color:var(--accent)}
   <div class="tabs" role="tablist">
     <button class="tab" role="tab" data-tab="lex" aria-selected="true">어휘</button>
     <button class="tab" role="tab" data-tab="gram" aria-selected="false">조사·어미</button>
+    <button class="tab" role="tab" data-tab="parse" aria-selected="false">어절 분석</button>
   </div>
 
   <section id="lex">
@@ -105,6 +122,18 @@ footer a{color:var(--accent)}
 
   <section id="gram" class="hidden"></section>
 
+  <section id="parse" class="hidden">
+    <p class="ex">어절을 '어간·체언 + 조사·어미'로 쪼갭니다. 중세국어는 앞 글자 받침을 뒤 글자
+    첫소리로 내려 적는 <b>연철</b>이라 글자 그대로는 사전에서 못 찾습니다. 받침을 제자리로
+    돌려놓고 찾습니다. 설치한 글꼴이 없어 네모로 보이면 아래 예문 단추를 눌러 보세요.</p>
+    <div class="search">
+      <input id="pq" type="search" placeholder="중세국어 문장이나 어절 (예: 나랏 말ᄊᆞ미 中國에 달아)" autocomplete="off">
+      <span class="count" id="pcount"></span>
+    </div>
+    <div class="samples" id="psamples"></div>
+    <div id="presult"></div>
+  </section>
+
   <footer>
     <p>어휘는 <a href="https://en.wiktionary.org/wiki/Category:Middle_Korean_lemmas" target="_blank" rel="noopener">영어 위키낱말사전</a>(CC BY-SA 4.0)과
     <a href="https://opendict.korean.go.kr" target="_blank" rel="noopener">우리말샘</a>(국립국어원, CC BY-SA 2.0 KR),
@@ -116,6 +145,7 @@ footer a{color:var(--accent)}
   </footer>
 </div>
 
+<script src="analyze.js?v=1"></script>
 <script>
 const $ = (s) => document.querySelector(s);
 const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
@@ -257,12 +287,81 @@ function drawGram() {
   $("#gram").innerHTML = h;
 }
 
+// ── 어절 분석 ───────────────────────────────────────────────────────────
+// 규칙은 tools/analyze.py 와 같다. analyze.js 가 그 포팅이고, 말뭉치 13,922어절에서
+// 두 쪽 결과가 똑같은 것을 확인했다. 한쪽을 고치면 다른 쪽도 고쳐야 한다.
+let PARSER = null;
+
+const SAMPLES = [
+  ["훈민정음", "나랏 말ᄊᆞ미 中國에 달아"],
+  ["용비어천가", "불휘 기픈 남ᄀᆞᆫ ᄇᆞᄅᆞ매 아니 뮐ᄊᆡ"],
+  ["ᄒᆞ쇼셔체 의문", "許ᄒᆞ시니ᅌᅵᆺ가"],
+  ["등급 견주기", "ᄒᆞᄂᆞ다 ᄒᆞᄂᆞᅌᅵ다 ᄒᆞ쇼셔 ᄒᆞ라"],
+  ["판정 · 설명 의문", "ᄒᆞᄂᆞᆫ가 ᄒᆞᄂᆞᆫ고 ᄒᆞ녀 ᄒᆞ뇨"],
+];
+
+function drawSamples() {
+  $("#psamples").innerHTML = SAMPLES
+    .map((x, i) => `<button type="button" data-i="${i}">${esc(x[0])}</button>`).join("");
+  $("#psamples").querySelectorAll("button").forEach((b) => b.onclick = () => {
+    $("#pq").value = SAMPLES[b.dataset.i][1];
+    drawParse();
+  });
+}
+
+function drawParse() {
+  const box = $("#presult");
+  if (!PARSER) { box.innerHTML = `<p class="note">사전을 읽는 중입니다…</p>`; return; }
+  const text = $("#pq").value.trim();
+  if (!text) { box.innerHTML = ""; $("#pcount").textContent = ""; return; }
+
+  const rows = PARSER.analyzeText(text);
+  const done = rows.filter((r) => r.result).length;
+  $("#pcount").textContent = `${done}/${rows.length}개 쪼갬`;
+
+  box.innerHTML = rows.map(({ token, result: a }) => {
+    if (!a) {
+      // 중세어는 첫가끝 자모(U+1100~)로 적혀 있다. 현대 한글로 치면 하나도 안 맞는다.
+      const modernSpelling = !/[\u1100-\u11FF]/.test(token) && /[가-힣]/.test(token);
+      const why = modernSpelling
+        ? `현대 한글로 적으신 것 같습니다. 이 사전은 <b class="mk">ᄒᆞ시니ᅌᅵᆺ고</b> 처럼
+           중세 표기(첫가끝 자모)로만 찾습니다. 아래 예문 단추를 눌러 보세요.`
+        : `사전에 없는 말이라 쪼개지 못했습니다.`;
+      return `<div class="pw miss"><div class="ptok mk">${esc(token)}</div>`
+        + `<div class="pmeta">${why}</div></div>`;
+    }
+    const bit = (txt, lab) => `<span class="pbit"><span class="mk">${esc(txt)}</span>`
+      + `<span class="lab">${esc(lab)}</span></span>`;
+    // 라벨에 '선어말어미 주체 높임 선어말어미' 처럼 같은 말이 겹치면 하나만 쓴다
+    const label = ([kind, name]) => (name && name.includes(kind)) ? name : (kind + " " + name).trim();
+    const pieces = [bit(a.stem, a.stem_kind)]
+      .concat(a.parts.map((p, i) => bit(a.endings[i], label(p))));
+
+    const modern = (a.entry && a.entry.modern || []).slice(0, 3).join(", ");
+    const gloss = (a.entry && a.entry.senses || [])
+      .map((x) => x.definition).filter(Boolean)[0] || "";
+    const meta = [
+      `표제어 <b class="mk">${esc(a.head)}</b>`,
+      modern ? `현대어 <b>${esc(modern)}</b>` : "",
+      gloss ? esc(gloss.length > 70 ? gloss.slice(0, 70) + "…" : gloss) : "",
+      a.via,
+    ].filter(Boolean).join(" · ");
+
+    return `<div class="pw"><div class="ptok mk">${esc(token)}</div>`
+      + `<div class="psplit">${pieces.join('<span class="plus">+</span>')}</div>`
+      + `<div class="pmeta">${meta}</div></div>`;
+  }).join("");
+}
+
 document.querySelectorAll(".tab").forEach((b) => b.onclick = () => {
   document.querySelectorAll(".tab").forEach((x) => x.setAttribute("aria-selected", String(x === b)));
   $("#lex").classList.toggle("hidden", b.dataset.tab !== "lex");
   $("#gram").classList.toggle("hidden", b.dataset.tab !== "gram");
+  $("#parse").classList.toggle("hidden", b.dataset.tab !== "parse");
 });
 $("#q").addEventListener("input", draw);
+$("#pq").addEventListener("input", drawParse);
+drawSamples();
 
 // 사전이 둘이다. 출처도 라이선스도 달라 파일은 나눠 두고, 찾을 때만 합친다.
 Promise.all([
@@ -273,7 +372,8 @@ Promise.all([
   LEX = lex.map((e) => ({ ...e, source: e.source || "위키낱말사전" }));
   if (ur?.entries) LEX = LEX.concat(ur.entries);
   GRAM = gram;
-  draw(); drawGram();
+  PARSER = MKAnalyze.build(GRAM, LEX);
+  draw(); drawGram(); drawParse();
 }).catch((e) => {
   $("#list").innerHTML = `<p class="note">사전을 불러오지 못했습니다. (${esc(e.message)})</p>`;
 });
