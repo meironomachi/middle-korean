@@ -187,13 +187,32 @@ function drawGram() {
     if (it.later_forms) h += `<p class="ex">${esc(it.later_forms.note)}</p>` + tbl(it.later_forms.forms);
     if (it.note) h += `<p class="ex">${esc(it.note)}</p>`;
   }
+  const sl = g.speech_levels;
+  if (sl) {
+    h += `<h2>상대 높임 등급</h2><p class="ex">${esc(sl.note)}</p>`;
+    for (const lv of sl.levels) {
+      h += `<h3>${esc(lv.name)}${lv.modern ? ` <span class="yale">현대어 ${esc(lv.modern)}</span>` : ""}</h3>`;
+      if (lv.meaning) h += `<p class="ex">${esc(lv.meaning)}</p>`;
+      if (lv.prefinal && lv.prefinal.length) h += `<p class="ex">상대 높임 선어말어미: <b class="mk">${lv.prefinal.map(esc).join("</b> · <b class=\"mk\">")}</b></p>`;
+      h += `<table><thead><tr><th>갈래</th><th>꼴</th><th>말뭉치</th><th>보기</th></tr></thead><tbody>`
+        + lv.forms.map((f) => `<tr><td>${esc(f.mood)}</td><td><b class="mk">${esc(f.form)}</b>${f.modern ? `<div class="yale">현대어 ${esc(f.modern)}</div>` : ""}</td>`
+            + `<td>${f.corpus_count == null ? "—" : esc(String(f.corpus_count)) + "회"}</td>`
+            + `<td>${(f.examples || []).map((x) => `<div class="ex"><b class="mk">${esc(x.mk)}</b> <i>${esc(x.src || "")}</i></div>`).join("")
+                 || (f.note ? `<div class="ex">${esc(f.note)}</div>` : (f.example ? `<div class="ex"><b class="mk">${esc(f.example)}</b></div>` : ""))}</td></tr>`).join("")
+        + `</tbody></table>`;
+      if (lv.note) h += `<p class="ex">${esc(lv.note)}</p>`;
+    }
+    h += `<p class="ex">${esc(sl.corpus_note)}</p>`;
+    if (sl.limits) h += `<p class="ex">아직 못 하는 것: ${sl.limits.map(esc).join(" ")}</p>`;
+    h += `<p class="note">출처: ${esc(sl.source)}</p>`;
+  }
   const fe = g.final_endings;
   h += `<h2>어말어미</h2>`;
   for (const [key, label] of [["declarative", "평서"], ["imperative", "명령"], ["propositive", "청유"], ["exclamatory", "감탄"]]) {
     h += `<h3>${label}형</h3>` + tbl(fe[key].map((x) => ({ form: x.form, env: [x.env, x.modern ? `현대어 ${x.modern}` : "", x.note].filter(Boolean).join(" · ") })));
   }
   h += `<h3>의문형</h3><p class="ex">${esc(fe.interrogative.note)}</p>`
-    + tbl(fe.interrogative.items.map((x) => ({ form: x.form, env: [x.type, x.env, x.note].filter(Boolean).join(" · "), examples: x.examples })));
+    + tbl(fe.interrogative.items.map((x) => ({ form: x.form, env: [x.kind, x.level, x.env, x.modern ? `현대어 ${x.modern}` : "", x.note].filter(Boolean).join(" · "), examples: x.examples })));
   h += `<h2>연결어미</h2>` + tbl(g.connective_endings.map((x) => ({ form: x.form, env: [x.meaning, x.modern ? `현대어 ${x.modern}` : ""].filter(Boolean).join(" · "), examples: x.examples })));
   h += `<h2>전성어미</h2><h3>명사형</h3>` + tbl(g.transformative_endings.nominal.map((x) => ({ form: x.form, env: [x.modern ? `현대어 ${x.modern}` : "", x.env, x.note].filter(Boolean).join(" · ") })));
   h += `<h3>관형사형</h3>` + tbl(g.transformative_endings.adnominal.map((x) => ({ form: x.form, env: [x.meaning, x.modern ? `현대어 ${x.modern}` : ""].filter(Boolean).join(" · ") })));

@@ -61,10 +61,13 @@ def nfc(j):
 def collect_endings():
     out = {}
 
-    def add(form, kind, name):
-        f = detone(str(form)).strip("-")
-        if f and f != "∅":
-            out.setdefault(f, []).append((kind, name))
+    def add(form, kind, name, needs_prev=False):
+        # '-녀/-니아' 처럼 한 칸에 두 꼴이 적힌 것이 있다. 갈라서 따로 등록한다.
+        # (이걸 안 갈라서 '녀/니아' 라는 없는 꼴이 등록되어 ᄒᆞ녀 가 안 쪼개지고 있었다)
+        for part in str(form).split("/"):
+            f = detone(part).strip("-").strip()
+            if f and f != "∅":
+                out.setdefault(f, []).append((kind, name, needs_prev))
 
     for p in GRAM["particles"]:
         for f in p["forms"]:
@@ -76,12 +79,31 @@ def collect_endings():
         for f in it.get("later_forms", {}).get("forms", []):
             add(f["form"], "선어말어미", it["name"])
     fe = GRAM["final_endings"]
+
+    def tag(label, *bits):
+        """평서형 + (ᄒᆞ쇼셔체) → '평서형(ᄒᆞ쇼셔체)' 처럼 꾸민다."""
+        bits = [b for b in bits if b]
+        return f"{label}({'·'.join(bits)})" if bits else label
+
     for key, label in [("declarative", "평서형"), ("imperative", "명령형"),
                        ("propositive", "청유형"), ("exclamatory", "감탄형")]:
         for x in fe[key]:
-            add(x["form"], "어말어미", label)
+            # 평서형 '-라' 는 '-오/우-·-니-'·서술격 뒤에서만 쓰인다. 앞에 아무것도
+            # 없는 'ᄒᆞ라' 는 명령형이므로, 조건을 달아 두고 role 에서 가린다.
+            add(x["form"], "어말어미", tag(label, x.get("level")),
+                needs_prev=bool(x.get("env")) and key == "declarative")
     for x in fe["interrogative"]["items"]:
-        add(x["form"], "어말어미", "의문형")
+        add(x["form"], "어말어미", tag("의문형", x.get("kind"), x.get("level")))
+
+    # 상대 높임 선어말어미는 어느 등급에 쓰이는지 적어 둔다
+    # '-니-·-리-' 는 문장을 끝맺을 때만 반말 등분이고 중간에서는 그냥 시제·서법이므로 뺀다
+    lv = {f: l["name"] for l in GRAM.get("speech_levels", {}).get("levels", [])
+          if l["id"] != "halyeo"
+          for f in l.get("prefinal", [])}
+    for f, name in lv.items():
+        k = detone(f).strip("-")
+        if k in out:
+            out[k] = [(kind, n if name in n else f"{n}({name})", q) for kind, n, q in out[k]]
     for x in GRAM["connective_endings"]:
         add(x["form"], "연결어미", x.get("meaning", ""))
     for k, label in [("nominal", "명사형"), ("adnominal", "관형사형")]:
@@ -190,23 +212,70 @@ def split_endings(rest, depth=0):
     return None
 
 
-def role(form, last):
+# 어간 끝 음절이 이 꼴이면 선어말어미를 삼킨 어간일 수 있다
+PREFINAL_SYL = {"시", "샤", "니", "리", "오", "우", "더", "거", "ᄂᆞ", "ᅌᅵ"}
+
+
+def syl_tail(stem):
+    """어간의 마지막 음절 하나."""
+    sy = syllables(jamo(stem))
+    return nfc(sy[-1]) if sy else ""
+
+
+# 어느 자리에서 어떤 갈래로 읽을지 — 앞쪽이 먼저
+PREF_VERB_LAST = ["어말어미", "연결어미", "전성어미", "선어말어미", "조사"]
+PREF_VERB_MID = ["선어말어미", "전성어미", "연결어미", "어말어미", "조사"]
+PREF_NOUN = ["조사", "어말어미", "연결어미", "전성어미", "선어말어미"]
+
+
+# 관형사형 어미. 이 뒤에 오는 '가·고' 는 의문 보조사다
+ADNOM = {"ᄂᆞᆫ", "는", "ㄴ", "ᄋᆞᆫ", "은", "ㄹ", "ᄋᆞᆯ", "을", "던"}
+# 평서형 '-라' 는 이 선어말어미들 뒤에서만 쓰인다
+DECL_RA_PREV = {"니", "리", "오", "우", "더", "거", "ᄉᆞᆸ", "ᄉᆞᇦ", "ᅀᆞᆸ", "ᅀᆞᇦ"}
+
+
+def role(form, last, verbal=True, prev=None):
     """한 꼴이 여러 자리에 쓰일 때, 놓인 자리에 맞는 쪽을 고른다.
-    니 는 선어말어미도 되고 연결어미도 되는데, 맨 끝이면 연결어미로 읽는 것이 맞다."""
+
+    '니' 는 선어말어미도 연결어미도 되는데, 맨 끝이면 연결어미로 읽는 것이 맞다.
+    또 'ᄒᆞ라' 의 '라' 는 서술격 조사가 아니라 명령형 어미다. 용언 어간 뒤에서는
+    조사를 맨 뒤로 미뤄야 이런 오인을 막을 수 있다.
+    """
     opts = ENDINGS[form]
-    if last:
-        for k, n in opts:
-            if k != "선어말어미":
+
+    # '가·고' 는 의문 보조사이기도 하고 연결어미·주격조사이기도 하다. 앞에 무엇이
+    # 왔는지로 가린다. ᄒᆞ고 의 '고' 는 연결어미, ᄒᆞᄂᆞᆫ고 의 '고' 는 설명의문이다.
+    if form in ("가", "고"):
+        asks = prev in ADNOM or (prev or "").endswith(("ᅌᅵᆺ", "ᅵᆺ"))
+        if not asks:
+            for k, n, _ in opts:
+                if k in ("연결어미", "조사"):
+                    return (k, n)
+        else:
+            for k, n, _ in opts:
+                if k == "어말어미":
+                    return (k, n)
+
+    # 평서형 '-라' 는 '-오/우-·-니-'·서술격 뒤에서만. 그 밖에서는 명령형이다.
+    if form == "라":
+        want = "어말어미"
+        pick = "평서" if prev in DECL_RA_PREV else "명령"
+        for k, n, _ in opts:
+            if k == want and n.startswith(pick):
                 return (k, n)
-    else:
-        for k, n in opts:
-            if k == "선어말어미":
+
+    opts = [o for o in opts if prev is not None or not o[2]] or ENDINGS[form]
+    order = PREF_NOUN if not verbal else (PREF_VERB_LAST if last else PREF_VERB_MID)
+    for want in order:
+        for k, n, _ in opts:
+            if k == want:
                 return (k, n)
-    return opts[0]
+    return opts[0][:2]
 
 
-def describe(ends):
-    parts = [role(e, i == len(ends) - 1) for i, e in enumerate(ends)]
+def describe(ends, verbal=True):
+    parts = [role(e, i == len(ends) - 1, verbal, ends[i - 1] if i else None)
+             for i, e in enumerate(ends)]
     return " + ".join(ends), " · ".join(f"{k} {n}" for k, n in parts)
 
 
@@ -214,19 +283,27 @@ def analyze(tok):
     """한 어절을 쪼갠다. 못 쪼개면 None."""
     t = detone(tok)
     def made(stem, ends, how):
-        txt, kinds = describe(ends)
+        txt, kinds = describe(ends, STEMS[stem][1] == "어간")
         return {"token": tok, "stem": stem, "head": STEMS[stem][0], "stem_kind": STEMS[stem][1],
                 "ending": txt, "endings": ends, "ending_kind": kinds, "ending_name": "",
                 "via": how if len(ends) < 2 else f"{how}+연쇄"}
 
     # 1) 글자 그대로 쪼개기 (어미가 여럿 붙어 있어도 됨)
+    #
+    # 긴 어간부터 보되, 어간 끝 음절이 선어말어미와 같은 꼴이면 뒤로 미룬다.
+    # 사전에 'ᄒᆞ니다·ᄒᆞ리다' 같은 표제어가 있어서 ᄒᆞ니라 가 (ᄒᆞ니 + 라) 로 잡히는데,
+    # 이건 (ᄒᆞ + 니 + 라) 로 읽어야 '라' 가 평서형임을 알 수 있다.
+    cands = []
     for i in range(len(t) - 1, 0, -1):
         stem = t[:i]
         if stem not in STEMS:
             continue
         ends = split_endings(t[i:])
         if ends:
-            return made(stem, ends, "직접")
+            cands.append((1 if syl_tail(stem) in PREFINAL_SYL else 0, -len(stem), stem, ends))
+    if cands:
+        _, _, stem, ends = min(cands)
+        return made(stem, ends, "직접")
     # 2) 연철·불규칙 되돌려 쪼개기
     for stem, end, how in unlink(t):
         if stem in STEMS:
